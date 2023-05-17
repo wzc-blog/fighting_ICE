@@ -1,0 +1,659 @@
+# 1.This file shows the parsed IR info when graph evaluating failed to help find the problem.
+# 2.You can search the last `------------------------>` to the node which is inferred failed.
+# 3.Refer to https://www.mindspore.cn/search?inputValue=analyze_fail.dat to get more instructions.
+# ===============================================================================
+
+# [No.1] train_one_episode_wrapper.1
+# In file /app/src/dqn_trainer.py(101)/    def train_one_episode(self):/
+funcgraph fg_1(
+        %para1 : Ref[Tensor(Bool)][1]    # init_flag
+        , %para2 : Ref[Tensor(I32)][1]    # steps
+        , %para3 : Ref[Tensor(F32)][20000, 144]    # actors.replay_buffer.buffer_0
+        , %para4 : Ref[Tensor(I32)][20000, 1]    # actors.replay_buffer.buffer_1
+        , %para5 : Ref[Tensor(F32)][20000, 1]    # actors.replay_buffer.buffer_2
+        , %para6 : Ref[Tensor(F32)][20000, 144]    # actors.replay_buffer.buffer_3
+        , %para7 : Ref[Tensor(I32)][]    # actors.replay_buffer.count
+        , %para8 : Ref[Tensor(I32)][]    # actors.replay_buffer.head
+        , %para9 : Ref[Tensor(F32)][128, 144]    # learner.actors.collect_policy._input_network.linear1.weight
+        , %para10 : Ref[Tensor(F32)][128]    # learner.actors.collect_policy._input_network.linear1.bias
+        , %para11 : Ref[Tensor(F32)][128, 128]    # learner.actors.collect_policy._input_network.linear2.weight
+        , %para12 : Ref[Tensor(F32)][128]    # learner.actors.collect_policy._input_network.linear2.bias
+        , %para13 : Ref[Tensor(F32)][1, 128]    # learner.actors.collect_policy._input_network.V_linear.weight
+        , %para14 : Ref[Tensor(F32)][1]    # learner.actors.collect_policy._input_network.V_linear.bias
+        , %para15 : Ref[Tensor(F32)][40, 128]    # learner.actors.collect_policy._input_network.A_linear.weight
+        , %para16 : Ref[Tensor(F32)][40]    # learner.actors.collect_policy._input_network.A_linear.bias
+        , %para17 : Ref[Tensor(F32)][128, 144]    # learner.linear1.weight
+        , %para18 : Ref[Tensor(F32)][128]    # learner.linear1.bias
+        , %para19 : Ref[Tensor(F32)][128, 128]    # learner.linear2.weight
+        , %para20 : Ref[Tensor(F32)][128]    # learner.linear2.bias
+        , %para21 : Ref[Tensor(F32)][1, 128]    # learner.V_linear.weight
+        , %para22 : Ref[Tensor(F32)][1]    # learner.V_linear.bias
+        , %para23 : Ref[Tensor(F32)][40, 128]    # learner.A_linear.weight
+        , %para24 : Ref[Tensor(F32)][40]    # learner.A_linear.bias
+        , %para25 : Ref[Tensor(I32)][]    # actors.step
+        , %para26 : Ref[Tensor(F32)][128, 144]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear1.weight
+        , %para27 : Ref[Tensor(F32)][128]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear1.bias
+        , %para28 : Ref[Tensor(F32)][128, 128]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear2.weight
+        , %para29 : Ref[Tensor(F32)][128]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear2.bias
+        , %para30 : Ref[Tensor(F32)][1, 128]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.V_linear.weight
+        , %para31 : Ref[Tensor(F32)][1]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.V_linear.bias
+        , %para32 : Ref[Tensor(F32)][40, 128]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.A_linear.weight
+        , %para33 : Ref[Tensor(F32)][40]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.A_linear.bias
+        , %para34 : Ref[Tensor(F32)][128, 144]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear1.weight
+        , %para35 : Ref[Tensor(F32)][128]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear1.bias
+        , %para36 : Ref[Tensor(F32)][128, 128]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear2.weight
+        , %para37 : Ref[Tensor(F32)][128]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear2.bias
+        , %para38 : Ref[Tensor(F32)][1, 128]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.V_linear.weight
+        , %para39 : Ref[Tensor(F32)][1]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.V_linear.bias
+        , %para40 : Ref[Tensor(F32)][40, 128]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.A_linear.weight
+        , %para41 : Ref[Tensor(F32)][40]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.A_linear.bias
+        , %para42 : Ref[Tensor(F32)][]    # learner.policy_network_train.optimizer.learning_rate
+        , %para43 : Ref[Tensor(I32)][1]    # learner.policy_network_train.optimizer.global_step
+    ) {
+
+#------------------------> 0
+    %1 = FuncGraph::fg_18()    # fg_18=train_one_episode.18 #scope: Default
+#[CNode]37
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]38
+}
+# order:
+#   1: train_one_episode_wrapper.1:[CNode]37{[0]: ValueNode<FuncGraph> train_one_episode.18}
+#   2: train_one_episode_wrapper.1:[CNode]38{[0]: ValueNode<Primitive> Return, [1]: [CNode]37}
+
+
+# [No.2] train_one_episode.18
+# In file /app/src/dqn_trainer.py(101)/    def train_one_episode(self):/
+funcgraph fg_18[fg_1](
+) {
+    %1 : Tensor(Bool)[1] = DoSignaturePrimitive::S-Prim-logical_not{prim_type=1}(%para1)    #(Ref[Tensor(Bool)][1]) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]39
+    %2 : Tensor(Bool)[1] = FuncGraph::fg_7(%1)    #(Tensor(Bool)[1])    # fg_7=bool_.7 #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]40
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_4, FuncGraph::fg_6)    #(Tensor(Bool)[1], Func, Func)    # fg_4=✓train_one_episode.4, fg_6=✗train_one_episode.6 #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]41
+
+#------------------------> 1
+    %4 = %3() #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]42
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]43
+}
+# order:
+#   1: train_one_episode.18:[CNode]39{[0]: ValueNode<DoSignaturePrimitive> S-Prim-logical_not, [1]: init_flag}
+#   2: train_one_episode.18:[CNode]40{[0]: ValueNode<FuncGraph> bool_.7, [1]: [CNode]39}
+#   3: train_one_episode.18:[CNode]41{[0]: ValueNode<Primitive> Switch, [1]: [CNode]40, [2]: ValueNode<FuncGraph> ✓train_one_episode.4, [3]: ValueNode<FuncGraph> ✗train_one_episode.6}
+#   4: train_one_episode.18:[CNode]42{[0]: [CNode]41}
+#   5: train_one_episode.18:[CNode]43{[0]: ValueNode<Primitive> Return, [1]: [CNode]42}
+
+
+# [No.3] ✗train_one_episode.6
+# In file /app/src/dqn_trainer.py(103)/        if not self.inited:/
+funcgraph fg_6[fg_1](
+) {
+
+#------------------------> 2
+    %1 = FuncGraph::fg_19()    # fg_19=↓train_one_episode.19 #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]44
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]45
+}
+# order:
+#   1: ✗train_one_episode.6:[CNode]44{[0]: ValueNode<FuncGraph> ↓train_one_episode.19}
+#   2: ✗train_one_episode.6:[CNode]45{[0]: ValueNode<Primitive> Return, [1]: [CNode]44}
+
+
+# [No.4] ↓train_one_episode.19
+# In file /app/src/dqn_trainer.py(103)/        if not self.inited:/
+funcgraph fg_19[fg_1](
+) {
+    %1 : Tensor(F32)[144] = FuncGraph::fg_46()    # fg_46=reset.46 #scope: Default
+      # In file /app/src/dqn_trainer.py(106)/        state = self.msrl.collect_environment.reset()/#state
+
+#------------------------> 3
+    %2 = FuncGraph::fg_20(Tensor(30)[1], %1, Tensor(43)[], Tensor(43)[], Tensor(43)[])    #(Tensor(Bool)[1], Tensor(F32)[144], Tensor(F32)[], Tensor(F32)[], Tensor(F32)[])    # fg_20=⤾↓train_one_episode.20 #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]47
+    Primitive::Return{prim_type=1}(%2)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]48
+}
+# order:
+#   1: ↓train_one_episode.19:state{[0]: ValueNode<FuncGraph> reset.46}
+#   2: ↓train_one_episode.19:[CNode]47{[0]: ValueNode<FuncGraph> ⤾↓train_one_episode.20, [1]: ValueNode<Tensor> Tensor(shape=[1], dtype=Bool, value=[False]), [2]: state, [3]: ValueNode<Tensor> Tensor(shape=[], dtype=Float32, value=0), [4]: ValueNode<Tensor> Tensor(shape=[], dtype=Float32, value=0), [5]: ValueNode<Tensor> Tensor(shape=[], dtype=Float32, value=0)}
+#   3: ↓train_one_episode.19:[CNode]48{[0]: ValueNode<Primitive> Return, [1]: [CNode]47}
+
+
+# [No.5] ⤾↓train_one_episode.20
+# In file /app/src/dqn_trainer.py(111)/        while not done:/
+funcgraph fg_20[fg_1](
+        %para44 : Tensor(Bool)[1]    # Φdone
+        , %para45 : Tensor(F32)[144]    # Φstate
+        , %para46 : Tensor(F32)[]    # Φtotal_reward
+        , %para47 : Tensor(F32)[]    # Φsteps
+        , %para48 : Tensor(F32)[]    # Φloss
+    ) {
+    %1 : Bool = DoSignaturePrimitive::S-Prim-logical_not{prim_type=1}(%para44)    #(Tensor(Bool)[1]) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]49
+    %2 : Bool = FuncGraph::fg_50(%1)    #(Bool)    # fg_50=while_cond.50 #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]49
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_21, FuncGraph::fg_51)    #(Bool, Func, Func)    # fg_21=⥁↓train_one_episode.21, fg_51=↓↓train_one_episode.51 #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]52
+
+#------------------------> 4
+    %4 = %3() #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]53
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]54
+}
+# order:
+#   1: ⤾↓train_one_episode.20:[CNode]49{[0]: ValueNode<DoSignaturePrimitive> S-Prim-logical_not, [1]: Φdone}
+#   2: ⤾↓train_one_episode.20:[CNode]49{[0]: ValueNode<FuncGraph> while_cond.50, [1]: [CNode]49}
+#   3: ⤾↓train_one_episode.20:[CNode]52{[0]: ValueNode<Primitive> Switch, [1]: [CNode]49, [2]: ValueNode<FuncGraph> ⥁↓train_one_episode.21, [3]: ValueNode<FuncGraph> ↓↓train_one_episode.51}
+#   4: ⤾↓train_one_episode.20:[CNode]53{[0]: [CNode]52}
+#   5: ⤾↓train_one_episode.20:[CNode]54{[0]: ValueNode<Primitive> Return, [1]: [CNode]53}
+
+
+# [No.6] ⥁↓train_one_episode.21
+# In file /app/src/dqn_trainer.py(111)/        while not done:/
+funcgraph fg_21[fg_20](
+) {
+
+#------------------------> 5
+    %1 = FuncGraph::fg_22(I64(2), %para45)    #(I64, Tensor(F32)[144])    # fg_22=act.22 #scope: Default
+      # In file /app/src/dqn_trainer.py(112)/            done, r, new_state, action, my_reward = self.msrl.agent_act(/#[CNode]55
+    %2 = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}(%1, I64(0))    #(Undefined, Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#Φdone
+    %3 = FuncGraph::fg_7(%2)    #(Undefined)    # fg_7=bool_.7 #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]56
+    %4 = Primitive::Switch{prim_type=1}(%3, FuncGraph::fg_57, FuncGraph::fg_58)    #(Undefined, Undefined, Undefined)    # fg_57=✓⥁↓train_one_episode.57, fg_58=✗⥁↓train_one_episode.58 #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]59
+    %5 = %4() #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]60
+    Primitive::Return{prim_type=1}(%5)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]61
+}
+# order:
+#   1: ⥁↓train_one_episode.21:[CNode]55{[0]: ValueNode<FuncGraph> act.22, [1]: ValueNode<Int64Imm> 2, [2]: Φstate}
+#   2: ⥁↓train_one_episode.21:Φdone{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]55, [2]: ValueNode<Int64Imm> 0}
+#   3: ⥁↓train_one_episode.21:r{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]55, [2]: ValueNode<Int64Imm> 1}
+#   4: ⥁↓train_one_episode.21:Φstate{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]55, [2]: ValueNode<Int64Imm> 2}
+#   5: ⥁↓train_one_episode.21:action{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]55, [2]: ValueNode<Int64Imm> 3}
+#   6: ⥁↓train_one_episode.21:my_reward{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]55, [2]: ValueNode<Int64Imm> 4}
+#   7: ⥁↓train_one_episode.21:[CNode]56{[0]: ValueNode<FuncGraph> bool_.7, [1]: Φdone}
+#   8: ⥁↓train_one_episode.21:[CNode]59{[0]: ValueNode<Primitive> Switch, [1]: [CNode]56, [2]: ValueNode<FuncGraph> ✓⥁↓train_one_episode.57, [3]: ValueNode<FuncGraph> ✗⥁↓train_one_episode.58}
+#   9: ⥁↓train_one_episode.21:[CNode]60{[0]: [CNode]59}
+#  10: ⥁↓train_one_episode.21:[CNode]61{[0]: ValueNode<Primitive> Return, [1]: [CNode]60}
+
+
+# [No.7] act.22
+# In file /app/src/dqn.py(199)/    def act(self, phase, params):/
+funcgraph fg_22[fg_1](
+        %para49 : I64    # phase
+        , %para50 : Tensor(F32)[144]    # params
+    ) {
+    %1 : Bool = DoSignaturePrimitive::S-Prim-equal{prim_type=1}(%para49, I64(1))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]62
+    %2 : Bool = FuncGraph::fg_7(%1)    #(Bool)    # fg_7=bool_.7 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]63
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_64, FuncGraph::fg_23)    #(Bool, Func, Func)    # fg_64=✓act.64, fg_23=✗act.23 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]65
+
+#------------------------> 6
+    %4 = %3() #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]66
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]67
+}
+# order:
+#   1: act.22:[CNode]62{[0]: ValueNode<DoSignaturePrimitive> S-Prim-equal, [1]: phase, [2]: ValueNode<Int64Imm> 1}
+#   2: act.22:[CNode]63{[0]: ValueNode<FuncGraph> bool_.7, [1]: [CNode]62}
+#   3: act.22:[CNode]65{[0]: ValueNode<Primitive> Switch, [1]: [CNode]63, [2]: ValueNode<FuncGraph> ✓act.64, [3]: ValueNode<FuncGraph> ✗act.23}
+#   4: act.22:[CNode]66{[0]: [CNode]65}
+#   5: act.22:[CNode]67{[0]: ValueNode<Primitive> Return, [1]: [CNode]66}
+
+
+# [No.8] ✗act.23
+# In file /app/src/dqn.py(200)/        if phase == 1:/
+funcgraph fg_23[fg_22](
+) {
+
+#------------------------> 7
+    %1 = FuncGraph::fg_24()    # fg_24=↓act.24 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]68
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(200)/        if phase == 1:/#[CNode]69
+}
+# order:
+#   1: ✗act.23:[CNode]68{[0]: ValueNode<FuncGraph> ↓act.24}
+#   2: ✗act.23:[CNode]69{[0]: ValueNode<Primitive> Return, [1]: [CNode]68}
+
+
+# [No.9] ↓act.24
+# In file /app/src/dqn.py(200)/        if phase == 1:/
+funcgraph fg_24[fg_22](
+) {
+    %1 : Bool = DoSignaturePrimitive::S-Prim-equal{prim_type=1}(%para49, I64(2))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(208)/        if phase == 2:/#[CNode]70
+    %2 : Bool = FuncGraph::fg_7(%1)    #(Bool)    # fg_7=bool_.7 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(208)/        if phase == 2:/#[CNode]71
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_25, FuncGraph::fg_72)    #(Bool, Func, Func)    # fg_25=✓↓act.25, fg_72=✗↓act.72 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(208)/        if phase == 2:/#[CNode]73
+
+#------------------------> 8
+    %4 = %3() #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(208)/        if phase == 2:/#[CNode]74
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(208)/        if phase == 2:/#[CNode]75
+}
+# order:
+#   1: ↓act.24:[CNode]70{[0]: ValueNode<DoSignaturePrimitive> S-Prim-equal, [1]: phase, [2]: ValueNode<Int64Imm> 2}
+#   2: ↓act.24:[CNode]71{[0]: ValueNode<FuncGraph> bool_.7, [1]: [CNode]70}
+#   3: ↓act.24:[CNode]73{[0]: ValueNode<Primitive> Switch, [1]: [CNode]71, [2]: ValueNode<FuncGraph> ✓↓act.25, [3]: ValueNode<FuncGraph> ✗↓act.72}
+#   4: ↓act.24:[CNode]74{[0]: [CNode]73}
+#   5: ↓act.24:[CNode]75{[0]: ValueNode<Primitive> Return, [1]: [CNode]74}
+
+
+# [No.10] ✓↓act.25
+# In file /app/src/dqn.py(208)/        if phase == 2:/
+funcgraph fg_25[fg_22](
+) {
+    %1 : Tensor(I32)[] = DoSignaturePrimitive::S-Prim-add{prim_type=1}(%para25, I64(1))    #(Ref[Tensor(I32)][], I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(210)/            self.step += 1/#[CNode]76
+    %2 : Tensor(I32)[] = FuncGraph::fg_77(%para25, %1)    #(Ref[Tensor(I32)][], Tensor(I32)[])    # fg_77=assign.77 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(210)/            self.step += 1/#[CNode]78
+    %3 : Tensor(I32)[] = Primitive::stop_gradient{prim_type=1}(%2)    #(Tensor(I32)[]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn_trainer.py(112)/            done, r, new_state, action, my_reward = self.msrl.agent_act(/#[CNode]79
+    %4 : Tuple[String] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}("ms")    #(String) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(222)/            i = Tensor([1], ms.int32)/#[CNode]80
+    %5 : Tuple[ExternalType] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}(NameSpace::Module)    #(ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(222)/            i = Tensor([1], ms.int32)/#[CNode]81
+    %6 : Dictionary[[ms,],[External]] = DoSignaturePrimitive::S-Prim-make_dict{prim_type=1}(%4, %5)    #(Tuple[String], Tuple[ExternalType]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(222)/            i = Tensor([1], ms.int32)/#[CNode]82
+    %7 : Tensor(I32)[1] = Primitive::PyInterpret{prim_type=1}(Script['Tensor([1], ms.int32)'], {"self": InterpretedObject, "ms": NameSpace::Module, "Tensor": ClassType}, %6)    #(String, Dictionary[[self,ms,Tensor,],[External*2,TypeType]], Dictionary[[ms,],[External]]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(222)/            i = Tensor([1], ms.int32)/#i
+    %8 : Tensor(F32)[1, 144] = DoSignaturePrimitive::S-Prim-ExpandDims{prim_type=1}[output_names=["output"], input_names=["x", "axis"]](%para50, I64(0))    #(Tensor(F32)[144], I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(211)/            ts0 = self.expand_dims(params, 0)/#ts0
+    %9 : Tuple[I64*2] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}(I64(1), I64(1))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(212)/            step_tensor = self.ones((1, 1), ms.float32) * self.step/#[CNode]83
+    %10 : Tensor(F32)[1, 1] = DoSignaturePrimitive::S-Prim-Ones{prim_type=1}(%9, F32)    #(Tuple[I64*2], TypeType) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(212)/            step_tensor = self.ones((1, 1), ms.float32) * self.step/#[CNode]84
+    %11 : Tensor(F32)[1, 1] = DoSignaturePrimitive::S-Prim-mul{prim_type=1}(%10, %para25)    #(Tensor(F32)[1, 1], Ref[Tensor(I32)][]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(227)/                action = self.collect_policy(ts0, step_tensor)/#Φstep_tensor
+
+#------------------------> 9
+    %12 = FuncGraph::fg_26(%8, %11)    #(Tensor(F32)[1, 144], Tensor(F32)[1, 1])    # fg_26=construct.26 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(233)/            action = self.reshape(first_action, (1,))/#Φfirst_action
+    %13 = FuncGraph::fg_85(%12)    #(Undefined)    # fg_85=step.85 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(218)/            new_state, reward, done = self._environment.step(action)/#[CNode]86
+    %14 = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}(%13, I64(2))    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(218)/            new_state, reward, done = self._environment.step(action)/#total_is_terminal
+    %15 = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}(%13, I64(0))    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(218)/            new_state, reward, done = self._environment.step(action)/#new_state
+    %16 = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}(%13, I64(1))    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(218)/            new_state, reward, done = self._environment.step(action)/#total_rewards
+    %17 = FuncGraph::fg_87(%7, %14, %15, %16, %14)    #(Tensor(I32)[1], Undefined, Undefined, Undefined, Undefined)    # fg_87=⤾✓↓act.87 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(223)/            while self.less(i, self.num_step):/#[CNode]88
+    %18 = Primitive::Depend{prim_type=1}[side_effect_propagate=I64(1)](%17, %3)    #(Undefined, Tensor(I32)[]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn_trainer.py(112)/            done, r, new_state, action, my_reward = self.msrl.agent_act(/#[CNode]89
+    Primitive::Return{prim_type=1}(%18)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(223)/            while self.less(i, self.num_step):/#[CNode]90
+}
+# order:
+#   1: ✓↓act.25:[CNode]76{[0]: ValueNode<DoSignaturePrimitive> S-Prim-add, [1]: actors.step, [2]: ValueNode<Int64Imm> 1}
+#   2: ✓↓act.25:[CNode]78{[0]: ValueNode<FuncGraph> assign.77, [1]: actors.step, [2]: [CNode]76}
+#   3: ✓↓act.25:ts0{[0]: ValueNode<DoSignaturePrimitive> S-Prim-ExpandDims, [1]: params, [2]: ValueNode<Int64Imm> 0}
+#   4: ✓↓act.25:[CNode]83{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<Int64Imm> 1, [2]: ValueNode<Int64Imm> 1}
+#   5: ✓↓act.25:[CNode]84{[0]: ValueNode<DoSignaturePrimitive> S-Prim-Ones, [1]: [CNode]83, [2]: ValueNode<Float> Float32}
+#   6: ✓↓act.25:Φstep_tensor{[0]: ValueNode<DoSignaturePrimitive> S-Prim-mul, [1]: [CNode]84, [2]: actors.step}
+#   7: ✓↓act.25:Φfirst_action{[0]: ValueNode<FuncGraph> construct.26, [1]: ts0, [2]: Φstep_tensor}
+#   8: ✓↓act.25:[CNode]86{[0]: ValueNode<FuncGraph> step.85, [1]: Φfirst_action}
+#   9: ✓↓act.25:new_state{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]86, [2]: ValueNode<Int64Imm> 0}
+#  10: ✓↓act.25:total_rewards{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]86, [2]: ValueNode<Int64Imm> 1}
+#  11: ✓↓act.25:total_is_terminal{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]86, [2]: ValueNode<Int64Imm> 2}
+#  12: ✓↓act.25:[CNode]80{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<StringImm> ms}
+#  13: ✓↓act.25:[CNode]81{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<NameSpace> Module: 'Namespace:mindspore'}
+#  14: ✓↓act.25:[CNode]82{[0]: ValueNode<DoSignaturePrimitive> S-Prim-make_dict, [1]: [CNode]80, [2]: [CNode]81}
+#  15: ✓↓act.25:i{[0]: ValueNode<Primitive> PyInterpret, [1]: ValueNode<Script> 'Tensor([1], ms.int32)', [2]: ValueNode<ValueDictionary> dict: {keys: (self, ms, Tensor), values: (InterpretedObject: 'Namespace:src.dqn..<DQNActor::140237881463168>', Module: 'Namespace:mindspore', class 'mindspore.common.tensor.Tensor')}, [3]: [CNode]82}
+#  16: ✓↓act.25:[CNode]88{[0]: ValueNode<FuncGraph> ⤾✓↓act.87, [1]: i, [2]: total_is_terminal, [3]: new_state, [4]: total_rewards, [5]: total_is_terminal}
+#  17: ✓↓act.25:[CNode]90{[0]: ValueNode<Primitive> Return, [1]: [CNode]89}
+
+
+# [No.11] construct.26
+# In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(91)/    def construct(self, state, step):/
+funcgraph fg_26[fg_1](
+        %para51 : Tensor(F32)[1, 144]    # state
+        , %para52 : Tensor(F32)[1, 1]    # step
+    ) {
+    %1 : Bool = FuncGraph::fg_7(Bool(1))    #(Bool)    # fg_7=bool_.7 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(105)/        if self.decay_epsilon:/#[CNode]91
+    %2 : Func = Primitive::Switch{prim_type=1}(%1, FuncGraph::fg_92, FuncGraph::fg_93)    #(Bool, Func, Func)    # fg_92=✓construct.92, fg_93=✗construct.93 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(105)/        if self.decay_epsilon:/#[CNode]94
+    %3 : Tensor(F32)[1] = %2() #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(105)/        if self.decay_epsilon:/#[CNode]95
+
+#------------------------> 10
+    %4 = FuncGraph::fg_27(%3)    #(Tensor(F32)[1])    # fg_27=↓construct.27 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(216)/            action = self.collect_policy(ts0, step_tensor)/#[CNode]96
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(105)/        if self.decay_epsilon:/#[CNode]97
+}
+# order:
+#   1: construct.26:Φgreedy_action{[0]: ValueNode<FuncGraph> construct.28, [1]: state}
+#   2: construct.26:Φrandom_action{[0]: ValueNode<FuncGraph> construct.98}
+#   3: construct.26:[CNode]91{[0]: ValueNode<FuncGraph> bool_.7, [1]: ValueNode<BoolImm> true}
+#   4: construct.26:[CNode]94{[0]: ValueNode<Primitive> Switch, [1]: [CNode]91, [2]: ValueNode<FuncGraph> ✓construct.92, [3]: ValueNode<FuncGraph> ✗construct.93}
+#   5: construct.26:[CNode]95{[0]: [CNode]94}
+#   6: construct.26:[CNode]96{[0]: ValueNode<FuncGraph> ↓construct.27, [1]: [CNode]95}
+#   7: construct.26:[CNode]97{[0]: ValueNode<Primitive> Return, [1]: [CNode]96}
+
+
+# [No.12] ↓construct.27
+# In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(105)/        if self.decay_epsilon:/
+funcgraph fg_27[fg_26](
+        %para53    # Φepsi
+    ) {
+    %1 = DoSignaturePrimitive::S-Prim-UniformReal{prim_type=1}[output_names=["output"], side_effect_hidden=Bool(1), seed2=I64(0), input_names=["shape"], seed=I64(0)]((I64(1)))    #(Tuple[I64]) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(120)/        cond = self.less(self.randreal(self._shape), epsi)/#[CNode]99
+    %2 = DoSignaturePrimitive::S-Prim-Less{prim_type=1}[output_names=["output"], input_names=["x", "y"]](%1, %para53)    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(120)/        cond = self.less(self.randreal(self._shape), epsi)/#cond
+    %3 : $(construct.26):Tensor(I32)[1] = FuncGraph::fg_98()    # fg_98=construct.98 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(121)/        output_action = self.select(cond, random_action, greedy_action)/#Φrandom_action
+
+#------------------------> 11
+    %4 = $(construct.26):FuncGraph::fg_28(%para51)    #(Tensor(F32)[1, 144])    # fg_28=construct.28 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(121)/        output_action = self.select(cond, random_action, greedy_action)/#Φgreedy_action
+    %5 = DoSignaturePrimitive::S-Prim-Select{prim_type=1}[output_names=["output"], input_names=["condition", "x", "y"]](%2, %3, %4)    #(Undefined, Tensor(I32)[1], Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(121)/        output_action = self.select(cond, random_action, greedy_action)/#output_action
+    Primitive::Return{prim_type=1}(%5)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/epsilon_greedy_policy.py(122)/        return output_action/#[CNode]100
+}
+# order:
+#   1: ↓construct.27:[CNode]99{[0]: ValueNode<DoSignaturePrimitive> S-Prim-UniformReal, [1]: ValueNode<ValueTuple> (1)}
+#   2: ↓construct.27:cond{[0]: ValueNode<DoSignaturePrimitive> S-Prim-Less, [1]: [CNode]99, [2]: Φepsi}
+#   3: ↓construct.27:output_action{[0]: ValueNode<DoSignaturePrimitive> S-Prim-Select, [1]: cond, [2]: Φrandom_action, [3]: Φgreedy_action}
+#   4: ↓construct.27:[CNode]100{[0]: ValueNode<Primitive> Return, [1]: output_action}
+
+
+# [No.13] construct.28
+# In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/greedy_policy.py(47)/    def construct(self, state):/
+funcgraph fg_28[fg_1](
+        %para54 : Tensor(F32)[1, 144]    # state
+    ) {
+
+#------------------------> 12
+    %1 = FuncGraph::fg_29(%para54)    #(Tensor(F32)[1, 144])    # fg_29=construct.29 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/greedy_policy-GreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/greedy_policy.py(58)/        actions = self._input_network(state)/#actions
+    %2 = DoSignaturePrimitive::S-Prim-Argmax{prim_type=1}[output_names=["output"], input_names=["x"], axis=I64(-1), output_type=I32](%1)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/greedy_policy-GreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/greedy_policy.py(59)/        action_max = self.argmax(actions)/#action_max
+    Primitive::Return{prim_type=1}(%2)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/greedy_policy-GreedyPolicy
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore_rl/policy/greedy_policy.py(60)/        return action_max/#[CNode]101
+}
+# order:
+#   1: construct.28:actions{[0]: ValueNode<FuncGraph> construct.29, [1]: state}
+#   2: construct.28:action_max{[0]: ValueNode<DoSignaturePrimitive> S-Prim-Argmax, [1]: actions}
+#   3: construct.28:[CNode]101{[0]: ValueNode<Primitive> Return, [1]: action_max}
+
+
+# [No.14] construct.29
+# In file /app/src/dqn.py(123)/    def construct(self, x):/
+funcgraph fg_29[fg_1](
+        %para55 : Tensor(F32)[1, 144]    # x
+    ) {
+    %1 : Tensor(F32)[1, 128] = FuncGraph::fg_102(%para55)    #(Tensor(F32)[1, 144])    # fg_102=construct.102 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(124)/        feature = self.relu(self.linear2(self.relu(self.linear1(x))))/#[CNode]103
+    %2 : Tensor(F32)[1, 128] = FuncGraph::fg_104(%1)    #(Tensor(F32)[1, 128])    # fg_104=construct.104 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(124)/        feature = self.relu(self.linear2(self.relu(self.linear1(x))))/#[CNode]105
+    %3 : Tensor(F32)[1, 128] = FuncGraph::fg_106(%2)    #(Tensor(F32)[1, 128])    # fg_106=construct.106 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(124)/        feature = self.relu(self.linear2(self.relu(self.linear1(x))))/#[CNode]107
+    %4 : Tensor(F32)[1, 128] = FuncGraph::fg_104(%3)    #(Tensor(F32)[1, 128])    # fg_104=construct.104 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(124)/        feature = self.relu(self.linear2(self.relu(self.linear1(x))))/#feature
+    %5 : Tensor(F32)[1, 1] = FuncGraph::fg_108(%4)    #(Tensor(F32)[1, 128])    # fg_108=construct.108 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(125)/        V = self.V_linear(feature)/#V
+    %6 : Tensor(F32)[1, 40] = FuncGraph::fg_109(%4)    #(Tensor(F32)[1, 128])    # fg_109=construct.109 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(126)/        A = self.A_linear(feature)/#A
+    %7 : Func = Primitive::getattr{prim_type=1}(%6, "max")    #(Tensor(F32)[1, 40], String) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]110
+    %8 : Tensor(F32)[] = %7() #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]111
+
+#------------------------> 13
+    %9 = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}(%8, I64(0))    #(Tensor(F32)[], I64) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]112
+    %10 = DoSignaturePrimitive::S-Prim-sub{prim_type=1}(%6, %9)    #(Tensor(F32)[1, 40], Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]113
+    %11 = DoSignaturePrimitive::S-Prim-add{prim_type=1}(%5, %10)    #(Tensor(F32)[1, 1], Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#output
+    %12 = DoSignaturePrimitive::S-Prim-Cast{prim_type=1}[output_names=["output"], input_names=["x", "dst_type"]](%11, F32)    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(128)/        output = self.cast(output, mstype.float32)/#output
+    Primitive::Return{prim_type=1}(%12)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(129)/        return output/#[CNode]114
+}
+# order:
+#   1: construct.29:[CNode]103{[0]: ValueNode<FuncGraph> construct.102, [1]: x}
+#   2: construct.29:[CNode]105{[0]: ValueNode<FuncGraph> construct.104, [1]: [CNode]103}
+#   3: construct.29:[CNode]107{[0]: ValueNode<FuncGraph> construct.106, [1]: [CNode]105}
+#   4: construct.29:feature{[0]: ValueNode<FuncGraph> construct.104, [1]: [CNode]107}
+#   5: construct.29:V{[0]: ValueNode<FuncGraph> construct.108, [1]: feature}
+#   6: construct.29:A{[0]: ValueNode<FuncGraph> construct.109, [1]: feature}
+#   7: construct.29:[CNode]110{[0]: ValueNode<Primitive> getattr, [1]: A, [2]: ValueNode<StringImm> max}
+#   8: construct.29:[CNode]111{[0]: [CNode]110}
+#   9: construct.29:[CNode]112{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]111, [2]: ValueNode<Int64Imm> 0}
+#  10: construct.29:[CNode]113{[0]: ValueNode<DoSignaturePrimitive> S-Prim-sub, [1]: A, [2]: [CNode]112}
+#  11: construct.29:output{[0]: ValueNode<DoSignaturePrimitive> S-Prim-add, [1]: V, [2]: [CNode]113}
+#  12: construct.29:output{[0]: ValueNode<DoSignaturePrimitive> S-Prim-Cast, [1]: output, [2]: ValueNode<Float> Float32}
+#  13: construct.29:[CNode]114{[0]: ValueNode<Primitive> Return, [1]: output}
+
+
+# [No.15] _tensor_getitem_by_number.30
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/getitem_impl.py(192)/def _tensor_getitem_by_number(data, number_index):/
+funcgraph fg_30(
+        %para56 : Tensor(F32)[]    # data
+        , %para57 : I64    # number_index
+    ) {
+    %1 : ExternalType = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, compile_utils)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]112
+    %2 : Func = Primitive::getattr{prim_type=1}(%1, "tensor_index_by_number")    #(ExternalType, String) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]112
+
+#------------------------> 14
+    %3 = %2(%para56, %para57)    #(Tensor(F32)[], I64) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]112
+    Primitive::Return{prim_type=1}(%3)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /app/src/dqn.py(127)/        output = V + (A - A.max()[0])/#[CNode]112
+}
+# order:
+#   1: _tensor_getitem_by_number.115:[CNode]116{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> CommonOPS: 'Namespace:mindspore._extends.parse.trope', [2]: ValueNode<Symbol> MakeTuple}
+#   2: _tensor_getitem_by_number.115:[CNode]117{[0]: [CNode]116, [1]: data, [2]: number_index}
+#   3: _tensor_getitem_by_number.30:[CNode]112{[0]: [CNode]112, [1]: data, [2]: number_index}
+#   4: _tensor_getitem_by_number.30:[CNode]112{[0]: ValueNode<Primitive> Return, [1]: [CNode]112}
+
+
+# [No.16] tensor_index_by_number.31
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(333)/def tensor_index_by_number(data, number_index):/
+funcgraph fg_31(
+        %para58 : Tensor(F32)[]    # data
+        , %para59 : I64    # number_index
+    ) {
+    %1 : Func = Primitive::resolve{prim_type=1}(NameSpace::CommonOPS, bool_)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]118
+    %2 : Func = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, isinstance)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]119
+    %3 : TypeType = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, bool)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]120
+    %4 : Bool = %2(%para59, %3)    #(I64, TypeType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]121
+    %5 : Bool = %1(%4)    #(Bool) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]122
+    %6 : Func = Primitive::Switch{prim_type=1}(%5, FuncGraph::fg_123, FuncGraph::fg_32)    #(Bool, Func, Func)    # fg_123=✓tensor_index_by_number.123, fg_32=✗tensor_index_by_number.32 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]124
+
+#------------------------> 15
+    %7 = %6() #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]125
+    Primitive::Return{prim_type=1}(%7)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]126
+}
+# order:
+#   1: tensor_index_by_number.31:[CNode]127{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> CommonOPS: 'Namespace:mindspore._extends.parse.trope', [2]: ValueNode<Symbol> MakeTuple}
+#   2: tensor_index_by_number.31:[CNode]128{[0]: [CNode]127, [1]: number_index, [2]: [CNode]120}
+#   3: tensor_index_by_number.31:[CNode]121{[0]: [CNode]119, [1]: number_index, [2]: [CNode]120}
+#   4: tensor_index_by_number.31:[CNode]122{[0]: [CNode]118, [1]: [CNode]121}
+#   5: tensor_index_by_number.31:[CNode]129{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> _tensor_index_by_bool}
+#   6: tensor_index_by_number.31:[CNode]124{[0]: ValueNode<Primitive> Switch, [1]: [CNode]122, [2]: ValueNode<FuncGraph> ✓tensor_index_by_number.123, [3]: ValueNode<FuncGraph> ✗tensor_index_by_number.32}
+#   7: tensor_index_by_number.31:[CNode]125{[0]: [CNode]124}
+#   8: tensor_index_by_number.31:[CNode]126{[0]: ValueNode<Primitive> Return, [1]: [CNode]125}
+#   9: tensor_index_by_number.31:[CNode]130{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> const_utils}
+
+
+# [No.17] ✗tensor_index_by_number.32
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/
+funcgraph fg_32[fg_31](
+) {
+
+#------------------------> 16
+    %1 = FuncGraph::fg_33()    # fg_33=↓tensor_index_by_number.33 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]131
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]132
+}
+# order:
+#   1: ✗tensor_index_by_number.32:[CNode]131{[0]: ValueNode<FuncGraph> ↓tensor_index_by_number.33}
+#   2: ✗tensor_index_by_number.32:[CNode]132{[0]: ValueNode<Primitive> Return, [1]: [CNode]131}
+
+
+# [No.18] ↓tensor_index_by_number.33
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/
+funcgraph fg_33[fg_31](
+) {
+    %1 : Func = Primitive::resolve{prim_type=1}(NameSpace::CommonOPS, bool_)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]133
+    %2 : $(tensor_index_by_number.31):Func = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, isinstance)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(335)/    if isinstance(number_index, bool):/#[CNode]119
+    %3 : $(tensor_index_by_number.31):TypeType = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, int)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]134
+    %4 : Bool = %2(%para59, %3)    #(I64, TypeType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]135
+    %5 : Bool = %1(%4)    #(Bool) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]136
+    %6 : Func = Primitive::Switch{prim_type=1}(%5, FuncGraph::fg_34, FuncGraph::fg_137)    #(Bool, Func, Func)    # fg_34=✓↓tensor_index_by_number.34, fg_137=✗↓tensor_index_by_number.137 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]138
+
+#------------------------> 17
+    %7 = %6() #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]139
+    Primitive::Return{prim_type=1}(%7)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/#[CNode]140
+}
+# order:
+#   1: ↓tensor_index_by_number.33:[CNode]141{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> CommonOPS: 'Namespace:mindspore._extends.parse.trope', [2]: ValueNode<Symbol> MakeTuple}
+#   2: ↓tensor_index_by_number.33:[CNode]142{[0]: [CNode]141, [1]: number_index, [2]: [CNode]134}
+#   3: ↓tensor_index_by_number.33:[CNode]135{[0]: [CNode]119, [1]: number_index, [2]: [CNode]134}
+#   4: ↓tensor_index_by_number.33:[CNode]136{[0]: [CNode]133, [1]: [CNode]135}
+#   5: ↓tensor_index_by_number.33:[CNode]138{[0]: ValueNode<Primitive> Switch, [1]: [CNode]136, [2]: ValueNode<FuncGraph> ✓↓tensor_index_by_number.34, [3]: ValueNode<FuncGraph> ✗↓tensor_index_by_number.137}
+#   6: ↓tensor_index_by_number.33:[CNode]139{[0]: [CNode]138}
+#   7: ↓tensor_index_by_number.33:[CNode]140{[0]: ValueNode<Primitive> Return, [1]: [CNode]139}
+
+
+# [No.19] ✓↓tensor_index_by_number.34
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(337)/    if isinstance(number_index, int):/
+funcgraph fg_34[fg_31](
+) {
+    %1 : $(tensor_index_by_number.31):Func = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, _tensor_index_by_integer)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(338)/        return _tensor_index_by_integer(data, number_index)/#[CNode]143
+
+#------------------------> 18
+    %2 = %1(%para58, %para59)    #(Tensor(F32)[], I64) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(338)/        return _tensor_index_by_integer(data, number_index)/#[CNode]144
+    Primitive::Return{prim_type=1}(%2)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(338)/        return _tensor_index_by_integer(data, number_index)/#[CNode]145
+}
+# order:
+#   1: ✓↓tensor_index_by_number.34:[CNode]146{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> CommonOPS: 'Namespace:mindspore._extends.parse.trope', [2]: ValueNode<Symbol> MakeTuple}
+#   2: ✓↓tensor_index_by_number.34:[CNode]147{[0]: [CNode]146, [1]: data, [2]: number_index}
+#   3: ✓↓tensor_index_by_number.34:[CNode]144{[0]: [CNode]143, [1]: data, [2]: number_index}
+#   4: ✓↓tensor_index_by_number.34:[CNode]145{[0]: ValueNode<Primitive> Return, [1]: [CNode]144}
+
+
+# [No.20] _tensor_index_by_integer.35
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(371)/def _tensor_index_by_integer(data, int_index):/
+funcgraph fg_35(
+        %para60 : Tensor(F32)[]    # Φdata
+        , %para61 : I64    # Φint_index
+    ) {
+    %1 : Func = Primitive::resolve{prim_type=1}(NameSpace::CommonOPS, bool_)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]148
+    %2 : Func = Primitive::resolve{prim_type=1}(NameSpace::CommonOPS, bool_)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]149
+    %3 : Func = Primitive::resolve{prim_type=1}(NameSpace::Ast, lt)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(0)/#[CNode]150
+    %4 : I64 = Primitive::getattr{prim_type=1}(%para60, "ndim")    #(Tensor(F32)[], String) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]151
+    %5 : Bool = %3(%4, I64(1))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]152
+    %6 : Bool = %2(%5)    #(Bool) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]153
+    %7 : Func = Primitive::Switch{prim_type=1}(%6, FuncGraph::fg_154, FuncGraph::fg_155)    #(Bool, Func, Func)    # fg_154=↰_tensor_index_by_integer.154, fg_155=↱_tensor_index_by_integer.155 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]156
+    %8 : Bool = %7() #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]157
+    %9 : Bool = %1(%8)    #(Bool) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]158
+    %10 : Func = Primitive::Switch{prim_type=1}(%9, FuncGraph::fg_36, FuncGraph::fg_159)    #(Bool, Func, Func)    # fg_36=✓_tensor_index_by_integer.36, fg_159=✗_tensor_index_by_integer.159 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]160
+
+#------------------------> 19
+    %11 = %10() #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]161
+    Primitive::Return{prim_type=1}(%11)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]162
+}
+# order:
+#   1: _tensor_index_by_integer.35:[CNode]151{[0]: ValueNode<Primitive> getattr, [1]: Φdata, [2]: ValueNode<StringImm> ndim}
+#   2: _tensor_index_by_integer.35:[CNode]152{[0]: [CNode]150, [1]: [CNode]151, [2]: ValueNode<Int64Imm> 1}
+#   3: _tensor_index_by_integer.35:[CNode]153{[0]: [CNode]149, [1]: [CNode]152}
+#   4: _tensor_index_by_integer.35:[CNode]156{[0]: ValueNode<Primitive> Switch, [1]: [CNode]153, [2]: ValueNode<FuncGraph> ↰_tensor_index_by_integer.154, [3]: ValueNode<FuncGraph> ↱_tensor_index_by_integer.155}
+#   5: _tensor_index_by_integer.35:[CNode]157{[0]: [CNode]156}
+#   6: _tensor_index_by_integer.35:[CNode]158{[0]: [CNode]148, [1]: [CNode]157}
+#   7: _tensor_index_by_integer.35:[CNode]160{[0]: ValueNode<Primitive> Switch, [1]: [CNode]158, [2]: ValueNode<FuncGraph> ✓_tensor_index_by_integer.36, [3]: ValueNode<FuncGraph> ✗_tensor_index_by_integer.159}
+#   8: _tensor_index_by_integer.35:[CNode]161{[0]: [CNode]160}
+#   9: _tensor_index_by_integer.35:[CNode]162{[0]: ValueNode<Primitive> Return, [1]: [CNode]161}
+#  10: _tensor_index_by_integer.35:ΦF{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> F}
+#  11: _tensor_index_by_integer.35:Φis_shape_unknown{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> is_shape_unknown}
+#  12: _tensor_index_by_integer.35:Φcheck_range{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> check_range}
+#  13: _tensor_index_by_integer.35:Φget_stride_info_from_integer{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> get_stride_info_from_integer}
+#  14: _tensor_index_by_integer.35:Φrange{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> range}
+#  15: _tensor_index_by_integer.35:Φlen{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> len}
+#  16: _tensor_index_by_integer.35:ΦP{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> SymbolStr: 'Namespace:mindspore.ops.composite.multitype_ops._compile_utils', [2]: ValueNode<Symbol> P}
+
+
+# [No.21] ✓_tensor_index_by_integer.36
+# In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/
+funcgraph fg_36[fg_35](
+) {
+    %1 : $(_tensor_index_by_integer.35):ExternalType = Primitive::resolve{prim_type=1}(NameSpace::SymbolStr, const_utils)    #(ExternalType, ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(382)/        transformed_number = const_utils.check_range(int_index, data_shape[0])/#Φconst_utils
+    %2 : Func = Primitive::getattr{prim_type=1}(%1, "raise_value_error")    #(ExternalType, String) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(374)/        const_utils.raise_value_error("Expect Tensor to have dimension between 1 and 8.")/#[CNode]163
+
+#------------------------> 20
+    %3 = %2("Expect Tensor to have dimension between 1 and 8.")    #(String) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(374)/        const_utils.raise_value_error("Expect Tensor to have dimension between 1 and 8.")/#[CNode]164
+    %4 = Primitive::stop_gradient{prim_type=1}(%3)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(338)/        return _tensor_index_by_integer(data, number_index)/#[CNode]165
+    %5 = FuncGraph::fg_166()    # fg_166=↓_tensor_index_by_integer.166 #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]167
+    %6 = Primitive::Depend{prim_type=1}[side_effect_propagate=I64(1)](%5, %4)    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(338)/        return _tensor_index_by_integer(data, number_index)/#[CNode]168
+    Primitive::Return{prim_type=1}(%6)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor/collect_policy-EpsilonGreedyPolicy/_input_network-DeulingNet
+      # In file /usr/local/lib/python3.8/dist-packages/mindspore/ops/composite/multitype_ops/_compile_utils.py(373)/    if data.ndim < 1 or data.ndim > 8:/#[CNode]169
+}
+# order:
+#   1: ✓_tensor_index_by_integer.36:[CNode]170{[0]: ValueNode<Primitive> resolve, [1]: ValueNode<NameSpace> CommonOPS: 'Namespace:mindspore._extends.parse.trope', [2]: ValueNode<Symbol> MakeTuple}
+#   2: ✓_tensor_index_by_integer.36:[CNode]171{[0]: [CNode]170, [1]: ValueNode<StringImm> Expect Tensor to have dimension between 1 and 8.}
+#   3: ✓_tensor_index_by_integer.36:[CNode]164{[0]: [CNode]163, [1]: ValueNode<StringImm> Expect Tensor to have dimension between 1 and 8.}
+#   4: ✓_tensor_index_by_integer.36:[CNode]167{[0]: ValueNode<FuncGraph> ↓_tensor_index_by_integer.166}
+#   5: ✓_tensor_index_by_integer.36:[CNode]169{[0]: ValueNode<Primitive> Return, [1]: [CNode]167}
+#   6: ✓_tensor_index_by_integer.36:[CNode]169{[0]: ValueNode<Primitive> Return, [1]: [CNode]168}
+
+
+#===============================================================================
+# num of function graphs in stack: 21/23 (Ignored 2 internal frames).
