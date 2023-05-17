@@ -1,0 +1,341 @@
+# 1.This file shows the parsed IR info when graph evaluating failed to help find the problem.
+# 2.You can search the last `------------------------>` to the node which is inferred failed.
+# 3.Refer to https://www.mindspore.cn/search?inputValue=analyze_fail.dat to get more instructions.
+# ===============================================================================
+
+# [No.1] train_one_episode_wrapper.1
+# In file /app/src/dqn_trainer.py(101)/    def train_one_episode(self):/
+funcgraph fg_1(
+        %para1 : Ref[Tensor(Bool)][1]    # init_flag
+        , %para2 : Ref[Tensor(I32)][1]    # steps
+        , %para3 : Ref[Tensor(F32)][20000, 4]    # actors.replay_buffer.buffer_0
+        , %para4 : Ref[Tensor(I32)][20000, 1]    # actors.replay_buffer.buffer_1
+        , %para5 : Ref[Tensor(F32)][20000, 1]    # actors.replay_buffer.buffer_2
+        , %para6 : Ref[Tensor(F32)][20000, 4]    # actors.replay_buffer.buffer_3
+        , %para7 : Ref[Tensor(I32)][]    # actors.replay_buffer.count
+        , %para8 : Ref[Tensor(I32)][]    # actors.replay_buffer.head
+        , %para9 : Ref[Tensor(F32)][100, 4]    # learner.actors.collect_policy._input_network.linear1.weight
+        , %para10 : Ref[Tensor(F32)][100]    # learner.actors.collect_policy._input_network.linear1.bias
+        , %para11 : Ref[Tensor(F32)][2, 100]    # learner.actors.collect_policy._input_network.linear2.weight
+        , %para12 : Ref[Tensor(F32)][2]    # learner.actors.collect_policy._input_network.linear2.bias
+        , %para13 : Ref[Tensor(F32)][100, 4]    # learner.linear1.weight
+        , %para14 : Ref[Tensor(F32)][100]    # learner.linear1.bias
+        , %para15 : Ref[Tensor(F32)][2, 100]    # learner.linear2.weight
+        , %para16 : Ref[Tensor(F32)][2]    # learner.linear2.bias
+        , %para17 : Ref[Tensor(I32)][]    # actors.step
+        , %para18 : Ref[Tensor(F32)][100, 4]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear1.weight
+        , %para19 : Ref[Tensor(F32)][100]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear1.bias
+        , %para20 : Ref[Tensor(F32)][2, 100]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear2.weight
+        , %para21 : Ref[Tensor(F32)][2]    # learner.policy_network_train.optimizer.mean_square.actors.collect_policy._input_network.linear2.bias
+        , %para22 : Ref[Tensor(F32)][100, 4]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear1.weight
+        , %para23 : Ref[Tensor(F32)][100]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear1.bias
+        , %para24 : Ref[Tensor(F32)][2, 100]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear2.weight
+        , %para25 : Ref[Tensor(F32)][2]    # learner.policy_network_train.optimizer.moment.actors.collect_policy._input_network.linear2.bias
+        , %para26 : Ref[Tensor(F32)][]    # learner.policy_network_train.optimizer.learning_rate
+        , %para27 : Ref[Tensor(I32)][1]    # learner.policy_network_train.optimizer.global_step
+    ) {
+
+#------------------------> 0
+    %1 = FuncGraph::fg_14()    # fg_14=train_one_episode.14 #scope: Default
+#[CNode]24
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]25
+}
+# order:
+#   1: train_one_episode_wrapper.1:[CNode]24{[0]: ValueNode<FuncGraph> train_one_episode.14}
+#   2: train_one_episode_wrapper.1:[CNode]25{[0]: ValueNode<Primitive> Return, [1]: [CNode]24}
+
+
+# [No.2] train_one_episode.14
+# In file /app/src/dqn_trainer.py(101)/    def train_one_episode(self):/
+funcgraph fg_14[fg_1](
+) {
+    %1 : Tensor(Bool)[1] = DoSignaturePrimitive::S-Prim-logical_not{prim_type=1}(%para1)    #(Ref[Tensor(Bool)][1]) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]26
+    %2 : Tensor(Bool)[1] = FuncGraph::fg_7(%1)    #(Tensor(Bool)[1])    # fg_7=bool_.7 #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]27
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_4, FuncGraph::fg_6)    #(Tensor(Bool)[1], Func, Func)    # fg_4=✓train_one_episode.4, fg_6=✗train_one_episode.6 #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]28
+
+#------------------------> 1
+    %4 = %3() #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]29
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]30
+}
+# order:
+#   1: train_one_episode.14:[CNode]26{[0]: ValueNode<DoSignaturePrimitive> S-Prim-logical_not, [1]: init_flag}
+#   2: train_one_episode.14:[CNode]27{[0]: ValueNode<FuncGraph> bool_.7, [1]: [CNode]26}
+#   3: train_one_episode.14:[CNode]28{[0]: ValueNode<Primitive> Switch, [1]: [CNode]27, [2]: ValueNode<FuncGraph> ✓train_one_episode.4, [3]: ValueNode<FuncGraph> ✗train_one_episode.6}
+#   4: train_one_episode.14:[CNode]29{[0]: [CNode]28}
+#   5: train_one_episode.14:[CNode]30{[0]: ValueNode<Primitive> Return, [1]: [CNode]29}
+
+
+# [No.3] ✗train_one_episode.6
+# In file /app/src/dqn_trainer.py(103)/        if not self.inited:/
+funcgraph fg_6[fg_1](
+) {
+
+#------------------------> 2
+    %1 = FuncGraph::fg_15()    # fg_15=↓train_one_episode.15 #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]31
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(103)/        if not self.inited:/#[CNode]32
+}
+# order:
+#   1: ✗train_one_episode.6:[CNode]31{[0]: ValueNode<FuncGraph> ↓train_one_episode.15}
+#   2: ✗train_one_episode.6:[CNode]32{[0]: ValueNode<Primitive> Return, [1]: [CNode]31}
+
+
+# [No.4] ↓train_one_episode.15
+# In file /app/src/dqn_trainer.py(103)/        if not self.inited:/
+funcgraph fg_15[fg_1](
+) {
+    %1 : Tensor(F32)[4] = FuncGraph::fg_33()    # fg_33=reset.33 #scope: Default
+      # In file /app/src/dqn_trainer.py(106)/        state = self.msrl.collect_environment.reset()/#state
+
+#------------------------> 3
+    %2 = FuncGraph::fg_16(Tensor(30)[1], %1, Tensor(43)[], Tensor(43)[], Tensor(43)[])    #(Tensor(Bool)[1], Tensor(F32)[4], Tensor(F32)[], Tensor(F32)[], Tensor(F32)[])    # fg_16=⤾↓train_one_episode.16 #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]34
+    Primitive::Return{prim_type=1}(%2)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]35
+}
+# order:
+#   1: ↓train_one_episode.15:state{[0]: ValueNode<FuncGraph> reset.33}
+#   2: ↓train_one_episode.15:[CNode]34{[0]: ValueNode<FuncGraph> ⤾↓train_one_episode.16, [1]: ValueNode<Tensor> Tensor(shape=[1], dtype=Bool, value=[False]), [2]: state, [3]: ValueNode<Tensor> Tensor(shape=[], dtype=Float32, value=0), [4]: ValueNode<Tensor> Tensor(shape=[], dtype=Float32, value=0), [5]: ValueNode<Tensor> Tensor(shape=[], dtype=Float32, value=0)}
+#   3: ↓train_one_episode.15:[CNode]35{[0]: ValueNode<Primitive> Return, [1]: [CNode]34}
+
+
+# [No.5] ⤾↓train_one_episode.16
+# In file /app/src/dqn_trainer.py(111)/        while not done:/
+funcgraph fg_16[fg_1](
+        %para28 : Tensor(Bool)[1]    # Φdone
+        , %para29 : Tensor(F32)[4]    # Φstate
+        , %para30 : Tensor(F32)[]    # Φtotal_reward
+        , %para31 : Tensor(F32)[]    # Φsteps
+        , %para32 : Tensor(F32)[]    # Φloss
+    ) {
+    %1 : Bool = DoSignaturePrimitive::S-Prim-logical_not{prim_type=1}(%para28)    #(Tensor(Bool)[1]) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]36
+    %2 : Bool = FuncGraph::fg_37(%1)    #(Bool)    # fg_37=while_cond.37 #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]36
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_17, FuncGraph::fg_38)    #(Bool, Func, Func)    # fg_17=⥁↓train_one_episode.17, fg_38=↓↓train_one_episode.38 #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]39
+
+#------------------------> 4
+    %4 = %3() #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]40
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#[CNode]41
+}
+# order:
+#   1: ⤾↓train_one_episode.16:[CNode]36{[0]: ValueNode<DoSignaturePrimitive> S-Prim-logical_not, [1]: Φdone}
+#   2: ⤾↓train_one_episode.16:[CNode]36{[0]: ValueNode<FuncGraph> while_cond.37, [1]: [CNode]36}
+#   3: ⤾↓train_one_episode.16:[CNode]39{[0]: ValueNode<Primitive> Switch, [1]: [CNode]36, [2]: ValueNode<FuncGraph> ⥁↓train_one_episode.17, [3]: ValueNode<FuncGraph> ↓↓train_one_episode.38}
+#   4: ⤾↓train_one_episode.16:[CNode]40{[0]: [CNode]39}
+#   5: ⤾↓train_one_episode.16:[CNode]41{[0]: ValueNode<Primitive> Return, [1]: [CNode]40}
+
+
+# [No.6] ⥁↓train_one_episode.17
+# In file /app/src/dqn_trainer.py(111)/        while not done:/
+funcgraph fg_17[fg_16](
+) {
+
+#------------------------> 5
+    %1 = FuncGraph::fg_18(I64(2), %para29)    #(I64, Tensor(F32)[4])    # fg_18=act.18 #scope: Default
+      # In file /app/src/dqn_trainer.py(112)/            done, r, new_state, action, my_reward = self.msrl.agent_act(/#[CNode]42
+    %2 = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}(%1, I64(0))    #(Undefined, Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(111)/        while not done:/#Φdone
+    %3 = FuncGraph::fg_7(%2)    #(Undefined)    # fg_7=bool_.7 #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]43
+    %4 = Primitive::Switch{prim_type=1}(%3, FuncGraph::fg_44, FuncGraph::fg_45)    #(Undefined, Undefined, Undefined)    # fg_44=✓⥁↓train_one_episode.44, fg_45=✗⥁↓train_one_episode.45 #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]46
+    %5 = %4() #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]47
+    Primitive::Return{prim_type=1}(%5)    #(Undefined) #scope: Default
+      # In file /app/src/dqn_trainer.py(114)/            if done:/#[CNode]48
+}
+# order:
+#   1: ⥁↓train_one_episode.17:[CNode]42{[0]: ValueNode<FuncGraph> act.18, [1]: ValueNode<Int64Imm> 2, [2]: Φstate}
+#   2: ⥁↓train_one_episode.17:Φdone{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]42, [2]: ValueNode<Int64Imm> 0}
+#   3: ⥁↓train_one_episode.17:r{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]42, [2]: ValueNode<Int64Imm> 1}
+#   4: ⥁↓train_one_episode.17:Φstate{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]42, [2]: ValueNode<Int64Imm> 2}
+#   5: ⥁↓train_one_episode.17:action{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]42, [2]: ValueNode<Int64Imm> 3}
+#   6: ⥁↓train_one_episode.17:my_reward{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: [CNode]42, [2]: ValueNode<Int64Imm> 4}
+#   7: ⥁↓train_one_episode.17:[CNode]43{[0]: ValueNode<FuncGraph> bool_.7, [1]: Φdone}
+#   8: ⥁↓train_one_episode.17:[CNode]46{[0]: ValueNode<Primitive> Switch, [1]: [CNode]43, [2]: ValueNode<FuncGraph> ✓⥁↓train_one_episode.44, [3]: ValueNode<FuncGraph> ✗⥁↓train_one_episode.45}
+#   9: ⥁↓train_one_episode.17:[CNode]47{[0]: [CNode]46}
+#  10: ⥁↓train_one_episode.17:[CNode]48{[0]: ValueNode<Primitive> Return, [1]: [CNode]47}
+
+
+# [No.7] act.18
+# In file /app/src/dqn.py(152)/    def act(self, phase, params):/
+funcgraph fg_18[fg_1](
+        %para33 : I64    # phase
+        , %para34 : Tensor(F32)[4]    # new_state
+    ) {
+    %1 : Bool = DoSignaturePrimitive::S-Prim-equal{prim_type=1}(%para33, I64(1))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]49
+    %2 : Bool = FuncGraph::fg_7(%1)    #(Bool)    # fg_7=bool_.7 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]50
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_51, FuncGraph::fg_19)    #(Bool, Func, Func)    # fg_51=✓act.51, fg_19=✗act.19 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]52
+
+#------------------------> 6
+    %4 = %3() #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]53
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]54
+}
+# order:
+#   1: act.18:[CNode]49{[0]: ValueNode<DoSignaturePrimitive> S-Prim-equal, [1]: phase, [2]: ValueNode<Int64Imm> 1}
+#   2: act.18:[CNode]50{[0]: ValueNode<FuncGraph> bool_.7, [1]: [CNode]49}
+#   3: act.18:[CNode]52{[0]: ValueNode<Primitive> Switch, [1]: [CNode]50, [2]: ValueNode<FuncGraph> ✓act.51, [3]: ValueNode<FuncGraph> ✗act.19}
+#   4: act.18:[CNode]53{[0]: [CNode]52}
+#   5: act.18:[CNode]54{[0]: ValueNode<Primitive> Return, [1]: [CNode]53}
+
+
+# [No.8] ✗act.19
+# In file /app/src/dqn.py(153)/        if phase == 1:/
+funcgraph fg_19[fg_18](
+) {
+
+#------------------------> 7
+    %1 = FuncGraph::fg_20()    # fg_20=↓act.20 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]55
+    Primitive::Return{prim_type=1}(%1)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(153)/        if phase == 1:/#[CNode]56
+}
+# order:
+#   1: ✗act.19:[CNode]55{[0]: ValueNode<FuncGraph> ↓act.20}
+#   2: ✗act.19:[CNode]56{[0]: ValueNode<Primitive> Return, [1]: [CNode]55}
+
+
+# [No.9] ↓act.20
+# In file /app/src/dqn.py(153)/        if phase == 1:/
+funcgraph fg_20[fg_18](
+) {
+    %1 : Bool = DoSignaturePrimitive::S-Prim-equal{prim_type=1}(%para33, I64(2))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(161)/        if phase == 2:/#[CNode]57
+    %2 : Bool = FuncGraph::fg_7(%1)    #(Bool)    # fg_7=bool_.7 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(161)/        if phase == 2:/#[CNode]58
+    %3 : Func = Primitive::Switch{prim_type=1}(%2, FuncGraph::fg_21, FuncGraph::fg_59)    #(Bool, Func, Func)    # fg_21=✓↓act.21, fg_59=✗↓act.59 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(161)/        if phase == 2:/#[CNode]60
+
+#------------------------> 8
+    %4 = %3() #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(161)/        if phase == 2:/#[CNode]61
+    Primitive::Return{prim_type=1}(%4)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(161)/        if phase == 2:/#[CNode]62
+}
+# order:
+#   1: ↓act.20:[CNode]57{[0]: ValueNode<DoSignaturePrimitive> S-Prim-equal, [1]: phase, [2]: ValueNode<Int64Imm> 2}
+#   2: ↓act.20:[CNode]58{[0]: ValueNode<FuncGraph> bool_.7, [1]: [CNode]57}
+#   3: ↓act.20:[CNode]60{[0]: ValueNode<Primitive> Switch, [1]: [CNode]58, [2]: ValueNode<FuncGraph> ✓↓act.21, [3]: ValueNode<FuncGraph> ✗↓act.59}
+#   4: ↓act.20:[CNode]61{[0]: [CNode]60}
+#   5: ↓act.20:[CNode]62{[0]: ValueNode<Primitive> Return, [1]: [CNode]61}
+
+
+# [No.10] ✓↓act.21
+# In file /app/src/dqn.py(161)/        if phase == 2:/
+funcgraph fg_21[fg_18](
+) {
+    %1 : Tensor(I32)[] = DoSignaturePrimitive::S-Prim-add{prim_type=1}(%para17, I64(1))    #(Ref[Tensor(I32)][], I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(163)/            self.step += 1/#[CNode]63
+    %2 : Tensor(I32)[] = FuncGraph::fg_64(%para17, %1)    #(Ref[Tensor(I32)][], Tensor(I32)[])    # fg_64=assign.64 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(163)/            self.step += 1/#[CNode]65
+    %3 : Tensor(I32)[] = Primitive::stop_gradient{prim_type=1}(%2)    #(Tensor(I32)[]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn_trainer.py(112)/            done, r, new_state, action, my_reward = self.msrl.agent_act(/#[CNode]66
+    %4 : Tensor(F32)[1, 4] = DoSignaturePrimitive::S-Prim-ExpandDims{prim_type=1}[output_names=["output"], input_names=["x", "axis"]](%para34, I64(0))    #(Tensor(F32)[4], I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(164)/            ts0 = self.expand_dims(params, 0)/#ts0
+    %5 : Tuple[I64*2] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}(I64(1), I64(1))    #(I64, I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(165)/            step_tensor = self.ones((1, 1), ms.float32) * self.step/#[CNode]67
+    %6 : Tensor(F32)[1, 1] = DoSignaturePrimitive::S-Prim-Ones{prim_type=1}(%5, F32)    #(Tuple[I64*2], TypeType) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(165)/            step_tensor = self.ones((1, 1), ms.float32) * self.step/#[CNode]68
+    %7 : Tensor(F32)[1, 1] = DoSignaturePrimitive::S-Prim-mul{prim_type=1}(%6, %para17)    #(Tensor(F32)[1, 1], Ref[Tensor(I32)][]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(179)/                action = self.collect_policy(ts0, step_tensor)/#Φstep_tensor
+    %8 : Tensor(I32)[1] = FuncGraph::fg_69(%4, %7)    #(Tensor(F32)[1, 4], Tensor(F32)[1, 1])    # fg_69=construct.69 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(181)/            action = self.reshape(first_action, (1,))/#Φfirst_action
+    %9 : Tuple[String] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}("ms")    #(String) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(166)/            total_rewards = Tensor([0], ms.float32)/#[CNode]70
+    %10 : Tuple[ExternalType] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}(NameSpace::Module)    #(ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(166)/            total_rewards = Tensor([0], ms.float32)/#[CNode]71
+    %11 : Dictionary[[ms,],[External]] = DoSignaturePrimitive::S-Prim-make_dict{prim_type=1}(%9, %10)    #(Tuple[String], Tuple[ExternalType]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(166)/            total_rewards = Tensor([0], ms.float32)/#[CNode]72
+    %12 : Tensor(F32)[1] = Primitive::PyInterpret{prim_type=1}(Script['Tensor([0], ms.float32)'], {"self": InterpretedObject, "ms": NameSpace::Module, "Tensor": ClassType}, %11)    #(String, Dictionary[[self,ms,Tensor,],[External*2,TypeType]], Dictionary[[ms,],[External]]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(166)/            total_rewards = Tensor([0], ms.float32)/#total_rewards
+    %13 : Tuple[String] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}("ms")    #(String) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(167)/            total_is_terminal = Tensor([0], ms.float32)/#[CNode]73
+    %14 : Tuple[ExternalType] = DoSignaturePrimitive::S-Prim-MakeTuple{prim_type=1}(NameSpace::Module)    #(ExternalType) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(167)/            total_is_terminal = Tensor([0], ms.float32)/#[CNode]74
+    %15 : Dictionary[[ms,],[External]] = DoSignaturePrimitive::S-Prim-make_dict{prim_type=1}(%13, %14)    #(Tuple[String], Tuple[ExternalType]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(167)/            total_is_terminal = Tensor([0], ms.float32)/#[CNode]75
+    %16 : Tensor(F32)[1] = Primitive::PyInterpret{prim_type=1}(Script['Tensor([0], ms.float32)'], {"self": InterpretedObject, "ms": NameSpace::Module, "Tensor": ClassType}, %15)    #(String, Dictionary[[self,ms,Tensor,],[External*2,TypeType]], Dictionary[[ms,],[External]]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(167)/            total_is_terminal = Tensor([0], ms.float32)/#total_is_terminal
+
+#------------------------> 9
+    %17 = FuncGraph::fg_22(I64(0), %8, %12, %16, %para34)    #(I64, Tensor(I32)[1], Tensor(F32)[1], Tensor(F32)[1], Tensor(F32)[4])    # fg_22=⤾✓↓act.22 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]76
+    %18 = Primitive::Depend{prim_type=1}[side_effect_propagate=I64(1)](%17, %3)    #(Undefined, Tensor(I32)[]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn_trainer.py(112)/            done, r, new_state, action, my_reward = self.msrl.agent_act(/#[CNode]77
+    Primitive::Return{prim_type=1}(%18)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]78
+}
+# order:
+#   1: ✓↓act.21:[CNode]63{[0]: ValueNode<DoSignaturePrimitive> S-Prim-add, [1]: actors.step, [2]: ValueNode<Int64Imm> 1}
+#   2: ✓↓act.21:[CNode]65{[0]: ValueNode<FuncGraph> assign.64, [1]: actors.step, [2]: [CNode]63}
+#   3: ✓↓act.21:ts0{[0]: ValueNode<DoSignaturePrimitive> S-Prim-ExpandDims, [1]: new_state, [2]: ValueNode<Int64Imm> 0}
+#   4: ✓↓act.21:[CNode]67{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<Int64Imm> 1, [2]: ValueNode<Int64Imm> 1}
+#   5: ✓↓act.21:[CNode]68{[0]: ValueNode<DoSignaturePrimitive> S-Prim-Ones, [1]: [CNode]67, [2]: ValueNode<Float> Float32}
+#   6: ✓↓act.21:Φstep_tensor{[0]: ValueNode<DoSignaturePrimitive> S-Prim-mul, [1]: [CNode]68, [2]: actors.step}
+#   7: ✓↓act.21:[CNode]70{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<StringImm> ms}
+#   8: ✓↓act.21:[CNode]71{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<NameSpace> Module: 'Namespace:mindspore'}
+#   9: ✓↓act.21:[CNode]72{[0]: ValueNode<DoSignaturePrimitive> S-Prim-make_dict, [1]: [CNode]70, [2]: [CNode]71}
+#  10: ✓↓act.21:total_rewards{[0]: ValueNode<Primitive> PyInterpret, [1]: ValueNode<Script> 'Tensor([0], ms.float32)', [2]: ValueNode<ValueDictionary> dict: {keys: (self, ms, Tensor), values: (InterpretedObject: 'Namespace:src.dqn..<DQNActor::140248711389072>', Module: 'Namespace:mindspore', class 'mindspore.common.tensor.Tensor')}, [3]: [CNode]72}
+#  11: ✓↓act.21:[CNode]73{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<StringImm> ms}
+#  12: ✓↓act.21:[CNode]74{[0]: ValueNode<DoSignaturePrimitive> S-Prim-MakeTuple, [1]: ValueNode<NameSpace> Module: 'Namespace:mindspore'}
+#  13: ✓↓act.21:[CNode]75{[0]: ValueNode<DoSignaturePrimitive> S-Prim-make_dict, [1]: [CNode]73, [2]: [CNode]74}
+#  14: ✓↓act.21:total_is_terminal{[0]: ValueNode<Primitive> PyInterpret, [1]: ValueNode<Script> 'Tensor([0], ms.float32)', [2]: ValueNode<ValueDictionary> dict: {keys: (self, ms, Tensor), values: (InterpretedObject: 'Namespace:src.dqn..<DQNActor::140248711389072>', Module: 'Namespace:mindspore', class 'mindspore.common.tensor.Tensor')}, [3]: [CNode]75}
+#  15: ✓↓act.21:Φfirst_action{[0]: ValueNode<FuncGraph> construct.69, [1]: ts0, [2]: Φstep_tensor}
+#  16: ✓↓act.21:[CNode]79{[0]: ValueNode<DoSignaturePrimitive> S-Prim-getitem, [1]: ValueNode<ValueTuple> (Tensor(shape=[], dtype=Int32, value=2)), [2]: ValueNode<Int64Imm> 0}
+#  17: ✓↓act.21:[CNode]80{[0]: ValueNode<DoSignaturePrimitive> S-Prim-make_range, [1]: [CNode]79}
+#  18: ✓↓act.21:[CNode]81{[0]: ValueNode<FuncGraph> ms_len.82, [1]: [CNode]80}
+#  19: ✓↓act.21:[CNode]76{[0]: ValueNode<FuncGraph> ⤾✓↓act.22, [1]: ValueNode<Int64Imm> 0, [2]: Φfirst_action, [3]: total_rewards, [4]: total_is_terminal, [5]: new_state}
+#  20: ✓↓act.21:[CNode]78{[0]: ValueNode<Primitive> Return, [1]: [CNode]77}
+
+
+# [No.11] ⤾✓↓act.22
+# In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/
+funcgraph fg_22[fg_21](
+        %para35    # @[CNode]23
+        , %para36    # Φaction
+        , %para37    # Φtotal_rewards
+        , %para38    # Φtotal_is_terminal
+        , %para39    # Φnew_state
+    ) {
+    %1 : $(✓↓act.21):Tensor(I32)[] = DoSignaturePrimitive::S-Prim-getitem{prim_type=1}((Tensor(34)[]), I64(0))    #(Tuple[Tensor(I32)], I64) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]79
+
+#------------------------> 10
+    %2 = $(✓↓act.21):DoSignaturePrimitive::S-Prim-make_range{prim_type=1}(%1)    #(Tensor(I32)[]) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]80
+    %3 = $(✓↓act.21):FuncGraph::fg_82(%2)    #(Undefined)    # fg_82=ms_len.82 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]81
+    %4 = MultitypeFuncGraph::less{(Tensor, Number), (Number, Tensor), (Tensor, Tensor), (Number, Number)}(%para35, %3)    #(Undefined, Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]83
+    %5 = Primitive::Switch{prim_type=1}(%4, FuncGraph::fg_84, FuncGraph::fg_85)    #(Undefined, Undefined, Undefined)    # fg_84=⥁✓↓act.84, fg_85=↓✓↓act.85 #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]86
+    %6 = %5() #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]87
+    Primitive::Return{prim_type=1}(%6)    #(Undefined) #scope: Default/msrl-MSRL/actors-DQNActor
+      # In file /app/src/dqn.py(172)/            for i in range(self.num_step[0]):/#[CNode]88
+}
+# order:
+#   1: ⤾✓↓act.22:[CNode]83{[0]: ValueNode<MultitypeFuncGraph> less.89, [1]: @[CNode]23, [2]: [CNode]81}
+#   2: ⤾✓↓act.22:[CNode]86{[0]: ValueNode<Primitive> Switch, [1]: [CNode]83, [2]: ValueNode<FuncGraph> ⥁✓↓act.84, [3]: ValueNode<FuncGraph> ↓✓↓act.85}
+#   3: ⤾✓↓act.22:[CNode]87{[0]: [CNode]86}
+#   4: ⤾✓↓act.22:[CNode]88{[0]: ValueNode<Primitive> Return, [1]: [CNode]87}
+
+
+#===============================================================================
+# num of function graphs in stack: 11/12 (Ignored 1 internal frames).

@@ -1,0 +1,18 @@
+
+>>>>>>>>>> group_filter_map <<<<<<<<<<
+
+>>>>>>>>>> dependences <<<<<<<<<<
+{  }
+
+>>>>>>>>>> constraints <<<<<<<<<<
+domain: "{ S_0[cc0] : 0 <= cc0 <= 31;"
+          "S_1[cc1] : 0 <= cc1 <= 31 }"
+
+>>>>>>>>>> time_records <<<<<<<<<<
+[ Polyhedral exec time ], InitSchedule spent 3.88434 ms
+[ Polyhedral exec time ], ConstrainSchedule spent 2.59844 ms
+[ Polyhedral exec time ], ComputeSchedule spent 0.125883 ms
+[ Polyhedral exec time ], AnalyzeSchedule spent 1.6233 ms
+[ Polyhedral exec time ], TileOuterBand spent 14.4484 ms
+[ Polyhedral exec time ], CpuMemoryManager spent 0.001421 ms
+[ Polyhedral exec time ], RealizeManager spent 0.031733 ms

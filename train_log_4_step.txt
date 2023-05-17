@@ -1,0 +1,2595 @@
+At the end, own_hp 165: opp_hp 134. you win.
+Episode 0: loss is 0.674, rewards is 3.359
+At the end, own_hp 210: opp_hp 135. you win.
+Episode 1: loss is 0.44, rewards is 7.888
+At the end, own_hp 205: opp_hp 161. you win.
+Episode 2: loss is 0.274, rewards is 3.851
+At the end, own_hp 175: opp_hp 112. you win.
+Episode 3: loss is 0.43, rewards is 3.865
+At the end, own_hp 293: opp_hp 163. you win.
+Episode 4: loss is 0.529, rewards is 8.783
+At the end, own_hp 0: opp_hp 322. you lose.
+Episode 5: loss is 0.587, rewards is -26.041
+At the end, own_hp 233: opp_hp 93. you win.
+Episode 6: loss is 0.649, rewards is 14.103
+At the end, own_hp 0: opp_hp 246. you lose.
+Episode 7: loss is 0.826, rewards is -20.662
+At the end, own_hp 161: opp_hp 120. you win.
+Episode 8: loss is 0.38, rewards is 3.85
+At the end, own_hp 207: opp_hp 135. you win.
+Episode 9: loss is 0.619, rewards is 7.874
+At the end, own_hp 265: opp_hp 17. you win.
+Episode 10: loss is 0.432, rewards is 18.105
+At the end, own_hp 233: opp_hp 87. you win.
+At the end, own_hp 182: opp_hp 27. you win.
+At the end, own_hp 0: opp_hp 295. you lose.
+-----------------------------------------
+Evaluate for episode 10 total rewards is 1.210
+-----------------------------------------
+At the end, own_hp 0: opp_hp 357. you lose.
+Episode 11: loss is 0.78, rewards is -31.611
+At the end, own_hp 0: opp_hp 273. you lose.
+Episode 12: loss is 1.471, rewards is -22.886
+At the end, own_hp 0: opp_hp 224. you lose.
+Episode 13: loss is 4.509, rewards is -18.173
+At the end, own_hp 203: opp_hp 143. you win.
+Episode 14: loss is 0.263, rewards is 6.179
+At the end, own_hp 256: opp_hp 95. you win.
+Episode 15: loss is 0.231, rewards is 12.363
+At the end, own_hp 0: opp_hp 325. you lose.
+Episode 16: loss is 0.668, rewards is -27.121
+At the end, own_hp 0: opp_hp 243. you lose.
+Episode 17: loss is 0.397, rewards is -22.264
+At the end, own_hp 225: opp_hp 161. you win.
+Episode 18: loss is 0.187, rewards is 4.202
+At the end, own_hp 0: opp_hp 328. you lose.
+Episode 19: loss is 0.272, rewards is -27.47
+At the end, own_hp 0: opp_hp 390. you lose.
+Episode 20: loss is 1.346, rewards is -32.791
+At the end, own_hp 0: opp_hp 355. you lose.
+At the end, own_hp 227: opp_hp 65. you win.
+At the end, own_hp 196: opp_hp 112. you win.
+-----------------------------------------
+Evaluate for episode 20 total rewards is -2.563
+-----------------------------------------
+At the end, own_hp 246: opp_hp 170. you win.
+Episode 21: loss is 0.68, rewards is 6.273
+At the end, own_hp 95: opp_hp 160. you lose.
+Episode 22: loss is 0.704, rewards is -5.823
+At the end, own_hp 0: opp_hp 358. you lose.
+Episode 23: loss is 2.347, rewards is -30.128
+At the end, own_hp 0: opp_hp 297. you lose.
+Episode 24: loss is 0.679, rewards is -24.792
+At the end, own_hp 255: opp_hp 135. you win.
+Episode 25: loss is 0.745, rewards is 9.472
+At the end, own_hp 272: opp_hp 80. you win.
+Episode 26: loss is 0.204, rewards is 16.872
+At the end, own_hp 0: opp_hp 254. you lose.
+Episode 27: loss is 1.465, rewards is -17.662
+At the end, own_hp 260: opp_hp 168. you win.
+Episode 28: loss is 1.004, rewards is 7.576
+At the end, own_hp 0: opp_hp 213. you lose.
+Episode 29: loss is 0.825, rewards is -18.144
+At the end, own_hp 232: opp_hp 125. you win.
+Episode 30: loss is 0.851, rewards is 9.79
+At the end, own_hp 291: opp_hp 210. you win.
+At the end, own_hp 297: opp_hp 123. you win.
+At the end, own_hp 268: opp_hp 202. you win.
+-----------------------------------------
+Evaluate for episode 30 total rewards is 10.710
+-----------------------------------------
+At the end, own_hp 147: opp_hp 214. you lose.
+Episode 31: loss is 0.274, rewards is -5.118
+At the end, own_hp 0: opp_hp 189. you lose.
+Episode 32: loss is 0.39, rewards is -16.616
+At the end, own_hp 0: opp_hp 295. you lose.
+Episode 33: loss is 0.453, rewards is -22.768
+At the end, own_hp 0: opp_hp 260. you lose.
+Episode 34: loss is 0.818, rewards is -19.465
+At the end, own_hp 0: opp_hp 284. you lose.
+Episode 35: loss is 0.813, rewards is -21.908
+At the end, own_hp 0: opp_hp 250. you lose.
+Episode 36: loss is 0.409, rewards is -13.299
+At the end, own_hp 0: opp_hp 259. you lose.
+Episode 37: loss is 0.287, rewards is -22.554
+At the end, own_hp 0: opp_hp 298. you lose.
+Episode 38: loss is 5.238, rewards is -26.361
+At the end, own_hp 0: opp_hp 208. you lose.
+Episode 39: loss is 0.644, rewards is -16.386
+At the end, own_hp 228: opp_hp 148. you win.
+Episode 40: loss is 1.185, rewards is 7.376
+At the end, own_hp 0: opp_hp 157. you lose.
+At the end, own_hp 225: opp_hp 72. you win.
+At the end, own_hp 0: opp_hp 257. you lose.
+-----------------------------------------
+Evaluate for episode 40 total rewards is -8.040
+-----------------------------------------
+At the end, own_hp 0: opp_hp 213. you lose.
+Episode 41: loss is 0.571, rewards is -18.424
+At the end, own_hp 0: opp_hp 242. you lose.
+Episode 42: loss is 3.961, rewards is -19.627
+At the end, own_hp 170: opp_hp 128. you win.
+Episode 43: loss is 1.175, rewards is 4.2
+At the end, own_hp 0: opp_hp 296. you lose.
+Episode 44: loss is 0.811, rewards is -23.273
+At the end, own_hp 0: opp_hp 167. you lose.
+Episode 45: loss is 0.395, rewards is -11.064
+At the end, own_hp 0: opp_hp 268. you lose.
+Episode 46: loss is 1.175, rewards is -21.74
+At the end, own_hp 0: opp_hp 143. you lose.
+Episode 47: loss is 2.476, rewards is -9.442
+At the end, own_hp 0: opp_hp 238. you lose.
+Episode 48: loss is 2.246, rewards is -13.25
+At the end, own_hp 205: opp_hp 76. you win.
+Episode 49: loss is 1.783, rewards is 11.932
+At the end, own_hp 0: opp_hp 218. you lose.
+Episode 50: loss is 0.805, rewards is -10.164
+At the end, own_hp 0: opp_hp 310. you lose.
+At the end, own_hp 0: opp_hp 311. you lose.
+At the end, own_hp 206: opp_hp 126. you win.
+-----------------------------------------
+Evaluate for episode 50 total rewards is -15.683
+-----------------------------------------
+At the end, own_hp 0: opp_hp 310. you lose.
+Episode 51: loss is 4.279, rewards is -22.252
+At the end, own_hp 0: opp_hp 184. you lose.
+Episode 52: loss is 0.633, rewards is -7.618
+At the end, own_hp 0: opp_hp 165. you lose.
+Episode 53: loss is 1.101, rewards is -2.892
+At the end, own_hp 154: opp_hp 85. you win.
+Episode 54: loss is 0.883, rewards is 6.272
+At the end, own_hp 0: opp_hp 153. you lose.
+Episode 55: loss is 1.172, rewards is -3.67
+At the end, own_hp 218: opp_hp 22. you win.
+Episode 56: loss is 0.814, rewards is 13.149
+At the end, own_hp 0: opp_hp 240. you lose.
+Episode 57: loss is 1.188, rewards is -22.451
+At the end, own_hp 202: opp_hp 147. you win.
+Episode 58: loss is 0.497, rewards is 4.963
+At the end, own_hp 0: opp_hp 134. you lose.
+Episode 59: loss is 0.691, rewards is -8.567
+At the end, own_hp 165: opp_hp 115. you win.
+Episode 60: loss is 1.558, rewards is 4.554
+At the end, own_hp 0: opp_hp 275. you lose.
+At the end, own_hp 270: opp_hp 44. you win.
+At the end, own_hp 273: opp_hp 205. you win.
+-----------------------------------------
+Evaluate for episode 60 total rewards is 2.643
+-----------------------------------------
+At the end, own_hp 215: opp_hp 0. you win.
+Episode 61: loss is 0.843, rewards is 16.646
+At the end, own_hp 232: opp_hp 142. you win.
+Episode 62: loss is 1.177, rewards is 7.663
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 63: loss is 0.645, rewards is -10.428
+At the end, own_hp 263: opp_hp 148. you win.
+Episode 64: loss is 1.01, rewards is 10.134
+At the end, own_hp 0: opp_hp 273. you lose.
+Episode 65: loss is 4.804, rewards is -25.855
+At the end, own_hp 37: opp_hp 110. you lose.
+Episode 66: loss is 0.926, rewards is -6.734
+At the end, own_hp 222: opp_hp 114. you win.
+Episode 67: loss is 0.49, rewards is 8.547
+At the end, own_hp 0: opp_hp 200. you lose.
+Episode 68: loss is 0.734, rewards is -9.904
+At the end, own_hp 0: opp_hp 155. you lose.
+Episode 69: loss is 0.618, rewards is -8.353
+At the end, own_hp 248: opp_hp 54. you win.
+Episode 70: loss is 0.545, rewards is 16.521
+At the end, own_hp 26: opp_hp 50. you lose.
+At the end, own_hp 100: opp_hp 55. you win.
+At the end, own_hp 0: opp_hp 56. you lose.
+-----------------------------------------
+Evaluate for episode 70 total rewards is -0.763
+-----------------------------------------
+At the end, own_hp 0: opp_hp 139. you lose.
+Episode 71: loss is 0.672, rewards is -11.232
+At the end, own_hp 250: opp_hp 180. you win.
+Episode 72: loss is 0.46, rewards is 6.159
+At the end, own_hp 196: opp_hp 30. you win.
+Episode 73: loss is 0.661, rewards is 13.367
+At the end, own_hp 248: opp_hp 191. you win.
+Episode 74: loss is 0.744, rewards is 5.042
+At the end, own_hp 0: opp_hp 225. you lose.
+Episode 75: loss is 0.594, rewards is -17.469
+At the end, own_hp 0: opp_hp 178. you lose.
+Episode 76: loss is 1.057, rewards is -15.853
+At the end, own_hp 0: opp_hp 245. you lose.
+Episode 77: loss is 0.796, rewards is -20.915
+At the end, own_hp 215: opp_hp 0. you win.
+Episode 78: loss is 0.504, rewards is 16.75
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 79: loss is 2.146, rewards is -12.249
+At the end, own_hp 0: opp_hp 208. you lose.
+Episode 80: loss is 4.722, rewards is -17.713
+At the end, own_hp 0: opp_hp 144. you lose.
+At the end, own_hp 0: opp_hp 195. you lose.
+At the end, own_hp 0: opp_hp 179. you lose.
+-----------------------------------------
+Evaluate for episode 80 total rewards is -15.443
+-----------------------------------------
+At the end, own_hp 0: opp_hp 305. you lose.
+Episode 81: loss is 1.023, rewards is -19.648
+At the end, own_hp 142: opp_hp 62. you win.
+Episode 82: loss is 5.585, rewards is 8.628
+At the end, own_hp 197: opp_hp 74. you win.
+Episode 83: loss is 0.449, rewards is 8.525
+At the end, own_hp 0: opp_hp 199. you lose.
+Episode 84: loss is 0.749, rewards is -16.608
+At the end, own_hp 242: opp_hp 125. you win.
+Episode 85: loss is 1.309, rewards is 11.037
+At the end, own_hp 0: opp_hp 300. you lose.
+Episode 86: loss is 1.346, rewards is -24.476
+At the end, own_hp 0: opp_hp 252. you lose.
+Episode 87: loss is 1.587, rewards is -22.819
+At the end, own_hp 210: opp_hp 128. you win.
+Episode 88: loss is 0.502, rewards is 7.346
+At the end, own_hp 0: opp_hp 246. you lose.
+Episode 89: loss is 0.531, rewards is -15.988
+At the end, own_hp 160: opp_hp 121. you win.
+Episode 90: loss is 0.393, rewards is 1.228
+At the end, own_hp 277: opp_hp 1. you win.
+At the end, own_hp 0: opp_hp 258. you lose.
+At the end, own_hp 0: opp_hp 106. you lose.
+-----------------------------------------
+Evaluate for episode 90 total rewards is -2.083
+-----------------------------------------
+At the end, own_hp 275: opp_hp 100. you win.
+Episode 91: loss is 0.269, rewards is 14.493
+At the end, own_hp 0: opp_hp 48. you lose.
+Episode 92: loss is 0.809, rewards is -3.49
+At the end, own_hp 0: opp_hp 21. you lose.
+Episode 93: loss is 1.279, rewards is -3.933
+At the end, own_hp 260: opp_hp 221. you win.
+Episode 94: loss is 1.155, rewards is 2.206
+At the end, own_hp 189: opp_hp 119. you win.
+Episode 95: loss is 3.681, rewards is 5.612
+At the end, own_hp 227: opp_hp 93. you win.
+Episode 96: loss is 0.639, rewards is 11.995
+At the end, own_hp 0: opp_hp 365. you lose.
+Episode 97: loss is 5.978, rewards is -21.733
+At the end, own_hp 0: opp_hp 157. you lose.
+Episode 98: loss is 1.359, rewards is -10.022
+At the end, own_hp 0: opp_hp 317. you lose.
+Episode 99: loss is 0.647, rewards is -27.765
+At the end, own_hp 160: opp_hp 0. you win.
+Episode 100: loss is 1.658, rewards is 13.032
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 204: opp_hp 21. you win.
+At the end, own_hp 278: opp_hp 132. you win.
+-----------------------------------------
+Evaluate for episode 100 total rewards is 11.100
+-----------------------------------------
+At the end, own_hp 253: opp_hp 47. you win.
+Episode 101: loss is 0.681, rewards is 17.442
+At the end, own_hp 205: opp_hp 148. you win.
+Episode 102: loss is 2.542, rewards is 5.488
+At the end, own_hp 57: opp_hp 222. you lose.
+Episode 103: loss is 1.344, rewards is -12.937
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 104: loss is 0.828, rewards is -5.544
+At the end, own_hp 0: opp_hp 180. you lose.
+Episode 105: loss is 2.499, rewards is -3.111
+At the end, own_hp 242: opp_hp 0. you win.
+Episode 106: loss is 1.143, rewards is 18.827
+At the end, own_hp 140: opp_hp 123. you win.
+Episode 107: loss is 0.453, rewards is 0.946
+At the end, own_hp 0: opp_hp 168. you lose.
+Episode 108: loss is 0.695, rewards is -12.725
+At the end, own_hp 247: opp_hp 117. you win.
+Episode 109: loss is 1.07, rewards is 9.416
+At the end, own_hp 0: opp_hp 190. you lose.
+Episode 110: loss is 0.661, rewards is -8.289
+At the end, own_hp 0: opp_hp 176. you lose.
+At the end, own_hp 209: opp_hp 81. you win.
+At the end, own_hp 0: opp_hp 209. you lose.
+-----------------------------------------
+Evaluate for episode 110 total rewards is -7.370
+-----------------------------------------
+At the end, own_hp 165: opp_hp 0. you win.
+Episode 111: loss is 0.525, rewards is 15.554
+At the end, own_hp 221: opp_hp 161. you win.
+Episode 112: loss is 0.995, rewards is 4.578
+At the end, own_hp 0: opp_hp 188. you lose.
+Episode 113: loss is 3.277, rewards is -9.691
+At the end, own_hp 0: opp_hp 223. you lose.
+Episode 114: loss is 0.838, rewards is -5.828
+At the end, own_hp 220: opp_hp 120. you win.
+Episode 115: loss is 0.864, rewards is 6.924
+At the end, own_hp 0: opp_hp 278. you lose.
+Episode 116: loss is 1.191, rewards is -15.488
+At the end, own_hp 0: opp_hp 172. you lose.
+Episode 117: loss is 0.48, rewards is -9.679
+At the end, own_hp 0: opp_hp 262. you lose.
+Episode 118: loss is 1.177, rewards is -21.477
+At the end, own_hp 222: opp_hp 75. you win.
+Episode 119: loss is 0.335, rewards is 14.674
+At the end, own_hp 0: opp_hp 272. you lose.
+Episode 120: loss is 0.474, rewards is -23.901
+At the end, own_hp 0: opp_hp 200. you lose.
+At the end, own_hp 300: opp_hp 195. you win.
+At the end, own_hp 170: opp_hp 113. you win.
+-----------------------------------------
+Evaluate for episode 120 total rewards is -1.317
+-----------------------------------------
+At the end, own_hp 0: opp_hp 227. you lose.
+Episode 121: loss is 1.05, rewards is -11.544
+At the end, own_hp 238: opp_hp 85. you win.
+Episode 122: loss is 0.864, rewards is 11.0
+At the end, own_hp 107: opp_hp 12. you win.
+Episode 123: loss is 0.661, rewards is 8.173
+At the end, own_hp 208: opp_hp 131. you win.
+Episode 124: loss is 3.322, rewards is 6.597
+At the end, own_hp 0: opp_hp 121. you lose.
+Episode 125: loss is 1.074, rewards is -11.255
+At the end, own_hp 0: opp_hp 203. you lose.
+Episode 126: loss is 0.391, rewards is -10.358
+At the end, own_hp 0: opp_hp 235. you lose.
+Episode 127: loss is 0.784, rewards is -9.476
+At the end, own_hp 0: opp_hp 190. you lose.
+Episode 128: loss is 0.536, rewards is -8.432
+At the end, own_hp 287: opp_hp 55. you win.
+Episode 129: loss is 1.017, rewards is 19.13
+At the end, own_hp 0: opp_hp 103. you lose.
+Episode 130: loss is 0.459, rewards is -3.45
+At the end, own_hp 0: opp_hp 202. you lose.
+At the end, own_hp 0: opp_hp 99. you lose.
+At the end, own_hp 183: opp_hp 2. you win.
+-----------------------------------------
+Evaluate for episode 130 total rewards is -3.560
+-----------------------------------------
+At the end, own_hp 0: opp_hp 187. you lose.
+Episode 131: loss is 0.815, rewards is -16.049
+At the end, own_hp 0: opp_hp 255. you lose.
+Episode 132: loss is 0.451, rewards is -19.301
+At the end, own_hp 0: opp_hp 202. you lose.
+Episode 133: loss is 0.661, rewards is -13.335
+At the end, own_hp 130: opp_hp 57. you win.
+Episode 134: loss is 0.361, rewards is 5.808
+At the end, own_hp 200: opp_hp 146. you win.
+Episode 135: loss is 1.479, rewards is 3.376
+At the end, own_hp 0: opp_hp 297. you lose.
+Episode 136: loss is 0.421, rewards is -20.817
+At the end, own_hp 162: opp_hp 0. you win.
+Episode 137: loss is 1.064, rewards is 11.64
+At the end, own_hp 280: opp_hp 168. you win.
+Episode 138: loss is 1.139, rewards is 9.76
+At the end, own_hp 0: opp_hp 255. you lose.
+Episode 139: loss is 4.181, rewards is -20.99
+At the end, own_hp 0: opp_hp 115. you lose.
+Episode 140: loss is 1.185, rewards is -11.559
+At the end, own_hp 0: opp_hp 125. you lose.
+At the end, own_hp 158: opp_hp 112. you win.
+At the end, own_hp 26: opp_hp 9. you win.
+-----------------------------------------
+Evaluate for episode 140 total rewards is -2.977
+-----------------------------------------
+At the end, own_hp 185: opp_hp 87. you win.
+Episode 141: loss is 0.939, rewards is 9.168
+At the end, own_hp 224: opp_hp 80. you win.
+Episode 142: loss is 0.579, rewards is 9.138
+At the end, own_hp 271: opp_hp 150. you win.
+Episode 143: loss is 0.859, rewards is 10.499
+At the end, own_hp 0: opp_hp 165. you lose.
+Episode 144: loss is 0.802, rewards is -12.449
+At the end, own_hp 0: opp_hp 123. you lose.
+Episode 145: loss is 1.067, rewards is -5.486
+At the end, own_hp 0: opp_hp 232. you lose.
+Episode 146: loss is 0.953, rewards is -17.929
+At the end, own_hp 0: opp_hp 290. you lose.
+Episode 147: loss is 0.686, rewards is -27.276
+At the end, own_hp 6: opp_hp 157. you lose.
+Episode 148: loss is 0.837, rewards is -14.949
+At the end, own_hp 0: opp_hp 197. you lose.
+Episode 149: loss is 3.188, rewards is -7.007
+At the end, own_hp 77: opp_hp 73. you win.
+Episode 150: loss is 1.433, rewards is 1.189
+At the end, own_hp 0: opp_hp 215. you lose.
+At the end, own_hp 250: opp_hp 132. you win.
+At the end, own_hp 0: opp_hp 130. you lose.
+-----------------------------------------
+Evaluate for episode 150 total rewards is -0.863
+-----------------------------------------
+At the end, own_hp 210: opp_hp 12. you win.
+Episode 151: loss is 0.974, rewards is 18.457
+At the end, own_hp 0: opp_hp 174. you lose.
+Episode 152: loss is 1.719, rewards is -13.964
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 153: loss is 0.727, rewards is -4.776
+At the end, own_hp 225: opp_hp 153. you win.
+Episode 154: loss is 3.0, rewards is 6.538
+At the end, own_hp 255: opp_hp 59. you win.
+Episode 155: loss is 0.582, rewards is 15.541
+At the end, own_hp 269: opp_hp 143. you win.
+Episode 156: loss is 1.299, rewards is 10.653
+At the end, own_hp 0: opp_hp 220. you lose.
+Episode 157: loss is 0.344, rewards is -7.169
+At the end, own_hp 201: opp_hp 155. you win.
+Episode 158: loss is 0.686, rewards is 3.474
+At the end, own_hp 171: opp_hp 36. you win.
+Episode 159: loss is 0.418, rewards is 12.803
+At the end, own_hp 269: opp_hp 115. you win.
+Episode 160: loss is 0.56, rewards is 13.192
+At the end, own_hp 0: opp_hp 145. you lose.
+At the end, own_hp 0: opp_hp 73. you lose.
+At the end, own_hp 179: opp_hp 60. you win.
+-----------------------------------------
+Evaluate for episode 160 total rewards is -1.220
+-----------------------------------------
+At the end, own_hp 83: opp_hp 128. you lose.
+Episode 161: loss is 0.996, rewards is -4.872
+At the end, own_hp 0: opp_hp 28. you lose.
+Episode 162: loss is 1.543, rewards is -2.033
+At the end, own_hp 90: opp_hp 0. you win.
+Episode 163: loss is 1.519, rewards is 7.489
+At the end, own_hp 220: opp_hp 74. you win.
+Episode 164: loss is 3.1, rewards is 11.992
+At the end, own_hp 188: opp_hp 143. you win.
+Episode 165: loss is 0.599, rewards is 2.963
+At the end, own_hp 30: opp_hp 84. you lose.
+Episode 166: loss is 0.829, rewards is -6.309
+At the end, own_hp 0: opp_hp 215. you lose.
+Episode 167: loss is 0.624, rewards is -6.741
+At the end, own_hp 0: opp_hp 164. you lose.
+Episode 168: loss is 0.926, rewards is -12.493
+At the end, own_hp 191: opp_hp 111. you win.
+Episode 169: loss is 2.879, rewards is 7.341
+At the end, own_hp 247: opp_hp 89. you win.
+Episode 170: loss is 0.674, rewards is 11.728
+At the end, own_hp 166: opp_hp 55. you win.
+At the end, own_hp 0: opp_hp 118. you lose.
+At the end, own_hp 0: opp_hp 108. you lose.
+-----------------------------------------
+Evaluate for episode 170 total rewards is -1.603
+-----------------------------------------
+At the end, own_hp 0: opp_hp 228. you lose.
+Episode 171: loss is 0.772, rewards is -17.382
+At the end, own_hp 0: opp_hp 222. you lose.
+Episode 172: loss is 0.532, rewards is -20.611
+At the end, own_hp 0: opp_hp 205. you lose.
+Episode 173: loss is 0.43, rewards is -13.633
+At the end, own_hp 196: opp_hp 86. you win.
+Episode 174: loss is 0.678, rewards is 9.399
+At the end, own_hp 0: opp_hp 207. you lose.
+Episode 175: loss is 0.605, rewards is -14.923
+At the end, own_hp 260: opp_hp 202. you win.
+Episode 176: loss is 0.537, rewards is 5.134
+At the end, own_hp 0: opp_hp 70. you lose.
+Episode 177: loss is 2.491, rewards is -2.158
+At the end, own_hp 264: opp_hp 55. you win.
+Episode 178: loss is 0.645, rewards is 17.809
+At the end, own_hp 109: opp_hp 43. you win.
+Episode 179: loss is 0.521, rewards is 6.241
+At the end, own_hp 195: opp_hp 132. you win.
+Episode 180: loss is 0.742, rewards is 10.762
+At the end, own_hp 0: opp_hp 160. you lose.
+At the end, own_hp 40: opp_hp 194. you lose.
+At the end, own_hp 0: opp_hp 78. you lose.
+-----------------------------------------
+Evaluate for episode 180 total rewards is -12.867
+-----------------------------------------
+At the end, own_hp 0: opp_hp 282. you lose.
+Episode 181: loss is 1.655, rewards is -12.4
+At the end, own_hp 0: opp_hp 335. you lose.
+Episode 182: loss is 2.117, rewards is -27.046
+At the end, own_hp 234: opp_hp 165. you win.
+Episode 183: loss is 0.322, rewards is 4.804
+At the end, own_hp 0: opp_hp 198. you lose.
+Episode 184: loss is 0.736, rewards is -10.624
+At the end, own_hp 0: opp_hp 225. you lose.
+Episode 185: loss is 0.547, rewards is -20.1
+At the end, own_hp 141: opp_hp 132. you win.
+Episode 186: loss is 3.232, rewards is -1.532
+At the end, own_hp 0: opp_hp 58. you lose.
+Episode 187: loss is 2.921, rewards is 0.227
+At the end, own_hp 166: opp_hp 60. you win.
+Episode 188: loss is 2.62, rewards is 8.007
+At the end, own_hp 56: opp_hp 7. you win.
+Episode 189: loss is 1.754, rewards is 2.09
+At the end, own_hp 239: opp_hp 123. you win.
+Episode 190: loss is 0.951, rewards is 9.773
+At the end, own_hp 110: opp_hp 132. you lose.
+At the end, own_hp 0: opp_hp 167. you lose.
+At the end, own_hp 234: opp_hp 58. you win.
+-----------------------------------------
+Evaluate for episode 190 total rewards is -0.413
+-----------------------------------------
+At the end, own_hp 247: opp_hp 105. you win.
+Episode 191: loss is 1.012, rewards is 13.774
+At the end, own_hp 204: opp_hp 128. you win.
+Episode 192: loss is 1.244, rewards is 6.108
+At the end, own_hp 0: opp_hp 137. you lose.
+Episode 193: loss is 0.406, rewards is -10.388
+At the end, own_hp 220: opp_hp 156. you win.
+Episode 194: loss is 0.228, rewards is 5.251
+At the end, own_hp 308: opp_hp 78. you win.
+Episode 195: loss is 1.992, rewards is 19.965
+At the end, own_hp 0: opp_hp 166. you lose.
+Episode 196: loss is 1.732, rewards is -12.706
+At the end, own_hp 185: opp_hp 105. you win.
+Episode 197: loss is 0.398, rewards is 4.975
+At the end, own_hp 239: opp_hp 116. you win.
+Episode 198: loss is 3.066, rewards is 11.962
+At the end, own_hp 1: opp_hp 80. you lose.
+Episode 199: loss is 0.604, rewards is -8.192
+At the end, own_hp 0: opp_hp 192. you lose.
+Episode 200: loss is 0.796, rewards is -17.988
+At the end, own_hp 216: opp_hp 134. you win.
+At the end, own_hp 223: opp_hp 109. you win.
+At the end, own_hp 0: opp_hp 167. you lose.
+-----------------------------------------
+Evaluate for episode 200 total rewards is 4.020
+-----------------------------------------
+At the end, own_hp 336: opp_hp 114. you win.
+Episode 201: loss is 1.009, rewards is 18.895
+At the end, own_hp 0: opp_hp 160. you lose.
+Episode 202: loss is 1.497, rewards is -7.988
+At the end, own_hp 320: opp_hp 143. you win.
+Episode 203: loss is 1.484, rewards is 12.665
+At the end, own_hp 0: opp_hp 129. you lose.
+Episode 204: loss is 0.609, rewards is -14.691
+At the end, own_hp 208: opp_hp 0. you win.
+Episode 205: loss is 1.391, rewards is 15.78
+At the end, own_hp 278: opp_hp 58. you win.
+Episode 206: loss is 2.735, rewards is 14.744
+At the end, own_hp 184: opp_hp 35. you win.
+Episode 207: loss is 1.288, rewards is 15.117
+At the end, own_hp 183: opp_hp 103. you win.
+Episode 208: loss is 0.758, rewards is 7.743
+At the end, own_hp 197: opp_hp 175. you win.
+Episode 209: loss is 3.031, rewards is 1.023
+At the end, own_hp 0: opp_hp 145. you lose.
+Episode 210: loss is 0.592, rewards is -14.659
+At the end, own_hp 0: opp_hp 134. you lose.
+At the end, own_hp 36: opp_hp 32. you win.
+At the end, own_hp 155: opp_hp 60. you win.
+-----------------------------------------
+Evaluate for episode 210 total rewards is -0.333
+-----------------------------------------
+At the end, own_hp 0: opp_hp 206. you lose.
+Episode 211: loss is 0.74, rewards is -11.814
+At the end, own_hp 259: opp_hp 81. you win.
+Episode 212: loss is 0.918, rewards is 14.18
+At the end, own_hp 0: opp_hp 228. you lose.
+Episode 213: loss is 0.401, rewards is -20.792
+At the end, own_hp 0: opp_hp 183. you lose.
+Episode 214: loss is 0.954, rewards is -11.665
+At the end, own_hp 0: opp_hp 189. you lose.
+Episode 215: loss is 0.482, rewards is -13.212
+At the end, own_hp 162: opp_hp 90. you win.
+Episode 216: loss is 0.751, rewards is 4.973
+At the end, own_hp 276: opp_hp 84. you win.
+Episode 217: loss is 0.773, rewards is 15.516
+At the end, own_hp 288: opp_hp 155. you win.
+Episode 218: loss is 1.64, rewards is 11.265
+At the end, own_hp 0: opp_hp 134. you lose.
+Episode 219: loss is 1.972, rewards is 0.071
+At the end, own_hp 0: opp_hp 250. you lose.
+Episode 220: loss is 0.682, rewards is -18.988
+At the end, own_hp 0: opp_hp 185. you lose.
+At the end, own_hp 206: opp_hp 82. you win.
+At the end, own_hp 280: opp_hp 155. you win.
+-----------------------------------------
+Evaluate for episode 220 total rewards is 2.223
+-----------------------------------------
+At the end, own_hp 232: opp_hp 148. you win.
+Episode 221: loss is 0.5, rewards is 7.945
+At the end, own_hp 270: opp_hp 121. you win.
+Episode 222: loss is 0.497, rewards is 13.466
+At the end, own_hp 0: opp_hp 215. you lose.
+Episode 223: loss is 0.699, rewards is -14.885
+At the end, own_hp 0: opp_hp 285. you lose.
+Episode 224: loss is 0.667, rewards is -22.229
+At the end, own_hp 0: opp_hp 215. you lose.
+Episode 225: loss is 0.891, rewards is -14.976
+At the end, own_hp 0: opp_hp 127. you lose.
+Episode 226: loss is 0.865, rewards is -2.701
+At the end, own_hp 215: opp_hp 120. you win.
+Episode 227: loss is 1.082, rewards is 6.275
+At the end, own_hp 0: opp_hp 217. you lose.
+Episode 228: loss is 0.608, rewards is -12.688
+At the end, own_hp 0: opp_hp 312. you lose.
+Episode 229: loss is 0.502, rewards is -26.421
+At the end, own_hp 311: opp_hp 115. you win.
+Episode 230: loss is 1.151, rewards is 17.649
+At the end, own_hp 0: opp_hp 40. you lose.
+At the end, own_hp 222: opp_hp 143. you win.
+At the end, own_hp 0: opp_hp 202. you lose.
+-----------------------------------------
+Evaluate for episode 230 total rewards is -1.627
+-----------------------------------------
+At the end, own_hp 183: opp_hp 92. you win.
+Episode 231: loss is 0.837, rewards is 7.044
+At the end, own_hp 0: opp_hp 190. you lose.
+Episode 232: loss is 0.549, rewards is -15.958
+At the end, own_hp 278: opp_hp 146. you win.
+Episode 233: loss is 0.629, rewards is 9.296
+At the end, own_hp 0: opp_hp 225. you lose.
+Episode 234: loss is 0.486, rewards is -18.401
+At the end, own_hp 27: opp_hp 217. you lose.
+Episode 235: loss is 0.634, rewards is -13.113
+At the end, own_hp 257: opp_hp 132. you win.
+Episode 236: loss is 0.805, rewards is 10.793
+At the end, own_hp 0: opp_hp 207. you lose.
+Episode 237: loss is 0.337, rewards is -18.078
+At the end, own_hp 225: opp_hp 98. you win.
+Episode 238: loss is 1.264, rewards is 12.544
+At the end, own_hp 205: opp_hp 59. you win.
+Episode 239: loss is 0.741, rewards is 13.271
+At the end, own_hp 198: opp_hp 135. you win.
+Episode 240: loss is 4.224, rewards is 4.071
+At the end, own_hp 0: opp_hp 220. you lose.
+At the end, own_hp 195: opp_hp 24. you win.
+At the end, own_hp 235: opp_hp 56. you win.
+-----------------------------------------
+Evaluate for episode 240 total rewards is 5.283
+-----------------------------------------
+At the end, own_hp 0: opp_hp 69. you lose.
+Episode 241: loss is 0.759, rewards is -8.098
+At the end, own_hp 239: opp_hp 151. you win.
+Episode 242: loss is 1.005, rewards is 8.383
+At the end, own_hp 0: opp_hp 21. you lose.
+Episode 243: loss is 0.43, rewards is -0.002
+At the end, own_hp 195: opp_hp 51. you win.
+Episode 244: loss is 1.132, rewards is 11.103
+At the end, own_hp 0: opp_hp 130. you lose.
+Episode 245: loss is 0.362, rewards is -12.239
+At the end, own_hp 55: opp_hp 0. you win.
+Episode 246: loss is 0.858, rewards is 2.105
+At the end, own_hp 0: opp_hp 137. you lose.
+Episode 247: loss is 1.203, rewards is -11.177
+At the end, own_hp 228: opp_hp 113. you win.
+Episode 248: loss is 0.426, rewards is 9.669
+At the end, own_hp 290: opp_hp 170. you win.
+Episode 249: loss is 1.26, rewards is 9.471
+At the end, own_hp 240: opp_hp 98. you win.
+Episode 250: loss is 1.194, rewards is 12.815
+At the end, own_hp 197: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 163. you lose.
+At the end, own_hp 265: opp_hp 228. you win.
+-----------------------------------------
+Evaluate for episode 250 total rewards is 1.307
+-----------------------------------------
+At the end, own_hp 250: opp_hp 136. you win.
+Episode 251: loss is 0.8, rewards is 9.925
+At the end, own_hp 220: opp_hp 158. you win.
+Episode 252: loss is 1.159, rewards is 3.374
+At the end, own_hp 188: opp_hp 0. you win.
+Episode 253: loss is 4.032, rewards is 13.237
+At the end, own_hp 0: opp_hp 270. you lose.
+Episode 254: loss is 0.43, rewards is -20.148
+At the end, own_hp 0: opp_hp 270. you lose.
+Episode 255: loss is 0.425, rewards is -19.074
+At the end, own_hp 165: opp_hp 8. you win.
+Episode 256: loss is 1.006, rewards is 12.893
+At the end, own_hp 0: opp_hp 199. you lose.
+Episode 257: loss is 0.509, rewards is -17.905
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 258: loss is 1.055, rewards is -6.826
+At the end, own_hp 217: opp_hp 2. you win.
+Episode 259: loss is 2.658, rewards is 16.583
+At the end, own_hp 226: opp_hp 176. you win.
+Episode 260: loss is 1.139, rewards is 4.957
+At the end, own_hp 0: opp_hp 200. you lose.
+At the end, own_hp 285: opp_hp 65. you win.
+At the end, own_hp 247: opp_hp 125. you win.
+-----------------------------------------
+Evaluate for episode 260 total rewards is 6.773
+-----------------------------------------
+At the end, own_hp 21: opp_hp 110. you lose.
+Episode 261: loss is 0.555, rewards is -8.518
+At the end, own_hp 0: opp_hp 310. you lose.
+Episode 262: loss is 2.833, rewards is -28.549
+At the end, own_hp 278: opp_hp 54. you win.
+Episode 263: loss is 0.971, rewards is 18.527
+At the end, own_hp 188: opp_hp 130. you win.
+Episode 264: loss is 0.406, rewards is 4.827
+At the end, own_hp 283: opp_hp 74. you win.
+Episode 265: loss is 1.094, rewards is 16.234
+At the end, own_hp 0: opp_hp 125. you lose.
+Episode 266: loss is 2.03, rewards is -10.21
+At the end, own_hp 248: opp_hp 80. you win.
+Episode 267: loss is 0.824, rewards is 13.464
+At the end, own_hp 0: opp_hp 218. you lose.
+Episode 268: loss is 0.637, rewards is -11.039
+At the end, own_hp 230: opp_hp 16. you win.
+Episode 269: loss is 2.937, rewards is 18.024
+At the end, own_hp 278: opp_hp 118. you win.
+Episode 270: loss is 1.233, rewards is 16.215
+At the end, own_hp 233: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 166. you lose.
+At the end, own_hp 298: opp_hp 215. you win.
+-----------------------------------------
+Evaluate for episode 270 total rewards is 5.573
+-----------------------------------------
+At the end, own_hp 0: opp_hp 172. you lose.
+Episode 271: loss is 0.897, rewards is 4.857
+At the end, own_hp 118: opp_hp 23. you win.
+Episode 272: loss is 0.868, rewards is 7.274
+At the end, own_hp 288: opp_hp 96. you win.
+Episode 273: loss is 0.341, rewards is 14.844
+At the end, own_hp 0: opp_hp 280. you lose.
+Episode 274: loss is 0.457, rewards is -25.275
+At the end, own_hp 0: opp_hp 109. you lose.
+Episode 275: loss is 0.638, rewards is -7.32
+At the end, own_hp 0: opp_hp 187. you lose.
+Episode 276: loss is 0.682, rewards is -16.837
+At the end, own_hp 238: opp_hp 31. you win.
+Episode 277: loss is 0.529, rewards is 15.464
+At the end, own_hp 0: opp_hp 54. you lose.
+Episode 278: loss is 3.773, rewards is -4.219
+At the end, own_hp 189: opp_hp 0. you win.
+Episode 279: loss is 3.096, rewards is 15.758
+At the end, own_hp 247: opp_hp 50. you win.
+Episode 280: loss is 1.2, rewards is 18.984
+At the end, own_hp 102: opp_hp 13. you win.
+At the end, own_hp 0: opp_hp 185. you lose.
+At the end, own_hp 0: opp_hp 139. you lose.
+-----------------------------------------
+Evaluate for episode 280 total rewards is -5.837
+-----------------------------------------
+At the end, own_hp 153: opp_hp 109. you win.
+Episode 281: loss is 1.25, rewards is 5.261
+At the end, own_hp 210: opp_hp 24. you win.
+Episode 282: loss is 1.362, rewards is 15.319
+At the end, own_hp 263: opp_hp 53. you win.
+Episode 283: loss is 7.816, rewards is 17.019
+At the end, own_hp 255: opp_hp 132. you win.
+Episode 284: loss is 0.829, rewards is 9.1
+At the end, own_hp 0: opp_hp 165. you lose.
+Episode 285: loss is 0.796, rewards is -14.377
+At the end, own_hp 240: opp_hp 150. you win.
+Episode 286: loss is 0.865, rewards is 7.663
+At the end, own_hp 260: opp_hp 133. you win.
+Episode 287: loss is 0.561, rewards is 9.503
+At the end, own_hp 267: opp_hp 0. you win.
+Episode 288: loss is 0.274, rewards is 22.17
+At the end, own_hp 210: opp_hp 16. you win.
+Episode 289: loss is 0.764, rewards is 15.921
+At the end, own_hp 0: opp_hp 35. you lose.
+Episode 290: loss is 0.791, rewards is 1.744
+At the end, own_hp 0: opp_hp 160. you lose.
+At the end, own_hp 0: opp_hp 175. you lose.
+At the end, own_hp 215: opp_hp 21. you win.
+-----------------------------------------
+Evaluate for episode 290 total rewards is -4.240
+-----------------------------------------
+At the end, own_hp 185: opp_hp 139. you win.
+Episode 291: loss is 0.487, rewards is 2.118
+At the end, own_hp 0: opp_hp 205. you lose.
+Episode 292: loss is 0.777, rewards is -19.058
+At the end, own_hp 318: opp_hp 77. you win.
+Episode 293: loss is 3.59, rewards is 16.755
+At the end, own_hp 162: opp_hp 97. you win.
+Episode 294: loss is 0.778, rewards is 6.042
+At the end, own_hp 0: opp_hp 210. you lose.
+Episode 295: loss is 0.422, rewards is -16.794
+At the end, own_hp 0: opp_hp 150. you lose.
+Episode 296: loss is 0.98, rewards is -11.458
+At the end, own_hp 245: opp_hp 215. you win.
+Episode 297: loss is 0.801, rewards is 2.2
+At the end, own_hp 0: opp_hp 169. you lose.
+Episode 298: loss is 0.257, rewards is -14.704
+At the end, own_hp 281: opp_hp 177. you win.
+Episode 299: loss is 0.831, rewards is 9.049
+At the end, own_hp 295: opp_hp 0. you win.
+Episode 300: loss is 1.297, rewards is 23.61
+At the end, own_hp 165: opp_hp 119. you win.
+At the end, own_hp 215: opp_hp 0. you win.
+At the end, own_hp 269: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 300 total rewards is 16.670
+-----------------------------------------
+At the end, own_hp 0: opp_hp 258. you lose.
+Episode 301: loss is 1.658, rewards is -19.103
+At the end, own_hp 197: opp_hp 35. you win.
+Episode 302: loss is 0.56, rewards is 13.511
+At the end, own_hp 0: opp_hp 222. you lose.
+Episode 303: loss is 0.728, rewards is -15.998
+At the end, own_hp 0: opp_hp 188. you lose.
+Episode 304: loss is 0.509, rewards is -7.11
+At the end, own_hp 128: opp_hp 7. you win.
+Episode 305: loss is 2.383, rewards is 11.955
+At the end, own_hp 0: opp_hp 145. you lose.
+Episode 306: loss is 0.669, rewards is -3.306
+At the end, own_hp 0: opp_hp 170. you lose.
+Episode 307: loss is 0.902, rewards is -12.291
+At the end, own_hp 89: opp_hp 82. you win.
+Episode 308: loss is 0.62, rewards is 10.019
+At the end, own_hp 224: opp_hp 44. you win.
+Episode 309: loss is 2.718, rewards is 13.337
+At the end, own_hp 0: opp_hp 202. you lose.
+Episode 310: loss is 1.409, rewards is -17.384
+At the end, own_hp 0: opp_hp 227. you lose.
+At the end, own_hp 0: opp_hp 244. you lose.
+At the end, own_hp 87: opp_hp 148. you lose.
+-----------------------------------------
+Evaluate for episode 310 total rewards is -17.227
+-----------------------------------------
+At the end, own_hp 220: opp_hp 175. you win.
+Episode 311: loss is 0.513, rewards is 3.205
+At the end, own_hp 0: opp_hp 128. you lose.
+Episode 312: loss is 6.799, rewards is -13.825
+At the end, own_hp 0: opp_hp 270. you lose.
+Episode 313: loss is 4.723, rewards is -19.886
+At the end, own_hp 0: opp_hp 33. you lose.
+Episode 314: loss is 3.958, rewards is -0.875
+At the end, own_hp 247: opp_hp 96. you win.
+Episode 315: loss is 0.905, rewards is 12.902
+At the end, own_hp 0: opp_hp 210. you lose.
+Episode 316: loss is 0.565, rewards is -9.86
+At the end, own_hp 247: opp_hp 98. you win.
+Episode 317: loss is 1.352, rewards is 12.552
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 318: loss is 1.069, rewards is -12.661
+At the end, own_hp 0: opp_hp 209. you lose.
+Episode 319: loss is 5.007, rewards is -19.835
+At the end, own_hp 220: opp_hp 1. you win.
+Episode 320: loss is 0.943, rewards is 16.425
+At the end, own_hp 233: opp_hp 0. you win.
+At the end, own_hp 235: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 163. you lose.
+-----------------------------------------
+Evaluate for episode 320 total rewards is 9.197
+-----------------------------------------
+At the end, own_hp 240: opp_hp 72. you win.
+Episode 321: loss is 0.804, rewards is 14.409
+At the end, own_hp 130: opp_hp 0. you win.
+Episode 322: loss is 0.328, rewards is 7.136
+At the end, own_hp 0: opp_hp 66. you lose.
+Episode 323: loss is 0.167, rewards is -4.015
+At the end, own_hp 0: opp_hp 197. you lose.
+Episode 324: loss is 0.376, rewards is -16.272
+At the end, own_hp 0: opp_hp 209. you lose.
+Episode 325: loss is 0.815, rewards is -15.807
+At the end, own_hp 0: opp_hp 225. you lose.
+Episode 326: loss is 3.291, rewards is -20.187
+At the end, own_hp 260: opp_hp 127. you win.
+Episode 327: loss is 0.557, rewards is 10.938
+At the end, own_hp 208: opp_hp 165. you win.
+Episode 328: loss is 2.177, rewards is 2.257
+At the end, own_hp 61: opp_hp 0. you win.
+Episode 329: loss is 0.494, rewards is 3.794
+At the end, own_hp 253: opp_hp 131. you win.
+Episode 330: loss is 0.739, rewards is 9.318
+At the end, own_hp 0: opp_hp 270. you lose.
+At the end, own_hp 220: opp_hp 0. you win.
+At the end, own_hp 228: opp_hp 128. you win.
+-----------------------------------------
+Evaluate for episode 330 total rewards is 1.563
+-----------------------------------------
+At the end, own_hp 0: opp_hp 129. you lose.
+Episode 331: loss is 0.973, rewards is -10.801
+At the end, own_hp 250: opp_hp 217. you win.
+Episode 332: loss is 2.151, rewards is 1.809
+At the end, own_hp 0: opp_hp 128. you lose.
+Episode 333: loss is 0.715, rewards is -11.58
+At the end, own_hp 205: opp_hp 0. you win.
+Episode 334: loss is 4.281, rewards is 16.077
+At the end, own_hp 0: opp_hp 147. you lose.
+Episode 335: loss is 0.934, rewards is -9.789
+At the end, own_hp 77: opp_hp 92. you lose.
+Episode 336: loss is 1.109, rewards is -0.923
+At the end, own_hp 14: opp_hp 237. you lose.
+Episode 337: loss is 0.534, rewards is -19.955
+At the end, own_hp 0: opp_hp 50. you lose.
+Episode 338: loss is 2.041, rewards is -7.678
+At the end, own_hp 180: opp_hp 83. you win.
+Episode 339: loss is 1.064, rewards is 9.729
+At the end, own_hp 28: opp_hp 108. you lose.
+Episode 340: loss is 0.67, rewards is -7.521
+At the end, own_hp 152: opp_hp 135. you win.
+At the end, own_hp 175: opp_hp 66. you win.
+At the end, own_hp 216: opp_hp 2. you win.
+-----------------------------------------
+Evaluate for episode 340 total rewards is 10.563
+-----------------------------------------
+At the end, own_hp 225: opp_hp 78. you win.
+Episode 341: loss is 0.341, rewards is 10.986
+At the end, own_hp 173: opp_hp 0. you win.
+Episode 342: loss is 0.737, rewards is 14.816
+At the end, own_hp 0: opp_hp 162. you lose.
+Episode 343: loss is 0.594, rewards is -14.291
+At the end, own_hp 215: opp_hp 32. you win.
+Episode 344: loss is 1.954, rewards is 16.57
+At the end, own_hp 165: opp_hp 94. you win.
+Episode 345: loss is 0.851, rewards is 6.427
+At the end, own_hp 104: opp_hp 183. you lose.
+Episode 346: loss is 1.748, rewards is -6.609
+At the end, own_hp 243: opp_hp 117. you win.
+Episode 347: loss is 0.884, rewards is 10.475
+At the end, own_hp 82: opp_hp 66. you win.
+Episode 348: loss is 1.295, rewards is -0.178
+At the end, own_hp 208: opp_hp 125. you win.
+Episode 349: loss is 0.472, rewards is 7.741
+At the end, own_hp 0: opp_hp 285. you lose.
+Episode 350: loss is 1.054, rewards is -22.476
+At the end, own_hp 0: opp_hp 57. you lose.
+At the end, own_hp 256: opp_hp 35. you win.
+At the end, own_hp 226: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 350 total rewards is 12.597
+-----------------------------------------
+At the end, own_hp 197: opp_hp 138. you win.
+Episode 351: loss is 2.19, rewards is 5.548
+At the end, own_hp 329: opp_hp 135. you win.
+Episode 352: loss is 0.994, rewards is 16.805
+At the end, own_hp 203: opp_hp 115. you win.
+Episode 353: loss is 0.539, rewards is 7.441
+At the end, own_hp 243: opp_hp 97. you win.
+Episode 354: loss is 4.666, rewards is 15.301
+At the end, own_hp 234: opp_hp 98. you win.
+Episode 355: loss is 1.519, rewards is 9.984
+At the end, own_hp 225: opp_hp 74. you win.
+Episode 356: loss is 1.572, rewards is 11.531
+At the end, own_hp 0: opp_hp 88. you lose.
+Episode 357: loss is 3.489, rewards is -5.103
+At the end, own_hp 141: opp_hp 0. you win.
+Episode 358: loss is 0.417, rewards is 9.296
+At the end, own_hp 111: opp_hp 120. you lose.
+Episode 359: loss is 0.911, rewards is -0.453
+At the end, own_hp 0: opp_hp 107. you lose.
+Episode 360: loss is 0.441, rewards is -4.592
+At the end, own_hp 0: opp_hp 100. you lose.
+At the end, own_hp 0: opp_hp 189. you lose.
+At the end, own_hp 0: opp_hp 195. you lose.
+-----------------------------------------
+Evaluate for episode 360 total rewards is -12.857
+-----------------------------------------
+At the end, own_hp 257: opp_hp 103. you win.
+Episode 361: loss is 0.766, rewards is 11.454
+At the end, own_hp 54: opp_hp 270. you lose.
+Episode 362: loss is 2.118, rewards is -17.967
+At the end, own_hp 0: opp_hp 142. you lose.
+Episode 363: loss is 0.737, rewards is -12.024
+At the end, own_hp 264: opp_hp 51. you win.
+Episode 364: loss is 0.456, rewards is 16.792
+At the end, own_hp 289: opp_hp 155. you win.
+Episode 365: loss is 1.501, rewards is 11.29
+At the end, own_hp 0: opp_hp 100. you lose.
+Episode 366: loss is 1.574, rewards is -8.36
+At the end, own_hp 251: opp_hp 0. you win.
+Episode 367: loss is 0.684, rewards is 19.813
+At the end, own_hp 0: opp_hp 185. you lose.
+Episode 368: loss is 2.744, rewards is -6.332
+At the end, own_hp 168: opp_hp 32. you win.
+Episode 369: loss is 0.865, rewards is 12.552
+At the end, own_hp 38: opp_hp 14. you win.
+Episode 370: loss is 1.389, rewards is 1.918
+At the end, own_hp 0: opp_hp 120. you lose.
+At the end, own_hp 243: opp_hp 69. you win.
+At the end, own_hp 298: opp_hp 53. you win.
+-----------------------------------------
+Evaluate for episode 370 total rewards is 10.013
+-----------------------------------------
+At the end, own_hp 0: opp_hp 210. you lose.
+Episode 371: loss is 0.246, rewards is -19.528
+At the end, own_hp 255: opp_hp 162. you win.
+Episode 372: loss is 0.606, rewards is 8.909
+At the end, own_hp 289: opp_hp 71. you win.
+Episode 373: loss is 5.969, rewards is 19.108
+At the end, own_hp 250: opp_hp 120. you win.
+Episode 374: loss is 1.057, rewards is 13.41
+At the end, own_hp 0: opp_hp 287. you lose.
+Episode 375: loss is 0.756, rewards is -25.287
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 376: loss is 0.251, rewards is -8.485
+At the end, own_hp 0: opp_hp 187. you lose.
+Episode 377: loss is 1.88, rewards is -16.657
+At the end, own_hp 246: opp_hp 45. you win.
+Episode 378: loss is 0.566, rewards is 16.508
+At the end, own_hp 165: opp_hp 165. you lose.
+Episode 379: loss is 1.024, rewards is -0.713
+At the end, own_hp 17: opp_hp 42. you lose.
+Episode 380: loss is 1.116, rewards is -3.917
+At the end, own_hp 264: opp_hp 73. you win.
+At the end, own_hp 221: opp_hp 21. you win.
+At the end, own_hp 222: opp_hp 92. you win.
+-----------------------------------------
+Evaluate for episode 380 total rewards is 17.817
+-----------------------------------------
+At the end, own_hp 220: opp_hp 0. you win.
+Episode 381: loss is 1.003, rewards is 20.725
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 382: loss is 0.617, rewards is -12.006
+At the end, own_hp 335: opp_hp 108. you win.
+Episode 383: loss is 0.905, rewards is 18.824
+At the end, own_hp 0: opp_hp 193. you lose.
+Episode 384: loss is 2.478, rewards is -15.791
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 385: loss is 0.764, rewards is -13.026
+At the end, own_hp 52: opp_hp 0. you win.
+Episode 386: loss is 0.3, rewards is 5.369
+At the end, own_hp 0: opp_hp 80. you lose.
+Episode 387: loss is 0.717, rewards is -5.852
+At the end, own_hp 0: opp_hp 240. you lose.
+Episode 388: loss is 0.637, rewards is -21.123
+At the end, own_hp 0: opp_hp 123. you lose.
+Episode 389: loss is 0.92, rewards is -11.728
+At the end, own_hp 0: opp_hp 96. you lose.
+Episode 390: loss is 0.568, rewards is -6.859
+At the end, own_hp 222: opp_hp 77. you win.
+At the end, own_hp 60: opp_hp 0. you win.
+At the end, own_hp 187: opp_hp 65. you win.
+-----------------------------------------
+Evaluate for episode 390 total rewards is 10.113
+-----------------------------------------
+At the end, own_hp 243: opp_hp 108. you win.
+Episode 391: loss is 0.48, rewards is 11.601
+At the end, own_hp 0: opp_hp 210. you lose.
+Episode 392: loss is 1.248, rewards is -20.44
+At the end, own_hp 79: opp_hp 0. you win.
+Episode 393: loss is 0.341, rewards is 4.713
+At the end, own_hp 205: opp_hp 45. you win.
+Episode 394: loss is 3.476, rewards is 14.036
+At the end, own_hp 0: opp_hp 131. you lose.
+Episode 395: loss is 0.641, rewards is -10.254
+At the end, own_hp 0: opp_hp 257. you lose.
+Episode 396: loss is 0.962, rewards is -10.175
+At the end, own_hp 292: opp_hp 140. you win.
+Episode 397: loss is 0.475, rewards is 12.793
+At the end, own_hp 93: opp_hp 175. you lose.
+Episode 398: loss is 0.373, rewards is -7.519
+At the end, own_hp 0: opp_hp 222. you lose.
+Episode 399: loss is 0.833, rewards is -17.429
+At the end, own_hp 128: opp_hp 0. you win.
+Episode 400: loss is 0.418, rewards is 10.495
+At the end, own_hp 0: opp_hp 158. you lose.
+At the end, own_hp 260: opp_hp 124. you win.
+At the end, own_hp 220: opp_hp 81. you win.
+-----------------------------------------
+Evaluate for episode 400 total rewards is 4.100
+-----------------------------------------
+At the end, own_hp 245: opp_hp 14. you win.
+Episode 401: loss is 0.543, rewards is 18.591
+At the end, own_hp 0: opp_hp 308. you lose.
+Episode 402: loss is 4.314, rewards is -26.023
+At the end, own_hp 0: opp_hp 133. you lose.
+Episode 403: loss is 1.095, rewards is -11.35
+At the end, own_hp 220: opp_hp 118. you win.
+Episode 404: loss is 1.165, rewards is 9.096
+At the end, own_hp 0: opp_hp 164. you lose.
+Episode 405: loss is 0.95, rewards is -9.491
+At the end, own_hp 155: opp_hp 49. you win.
+Episode 406: loss is 0.317, rewards is 5.644
+At the end, own_hp 148: opp_hp 0. you win.
+Episode 407: loss is 0.702, rewards is 13.075
+At the end, own_hp 0: opp_hp 250. you lose.
+Episode 408: loss is 1.215, rewards is -12.359
+At the end, own_hp 190: opp_hp 0. you win.
+Episode 409: loss is 2.604, rewards is 16.403
+At the end, own_hp 263: opp_hp 0. you win.
+Episode 410: loss is 1.145, rewards is 20.979
+At the end, own_hp 0: opp_hp 180. you lose.
+At the end, own_hp 0: opp_hp 110. you lose.
+At the end, own_hp 200: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 410 total rewards is -2.720
+-----------------------------------------
+At the end, own_hp 41: opp_hp 32. you win.
+Episode 411: loss is 5.428, rewards is 0.475
+At the end, own_hp 0: opp_hp 210. you lose.
+Episode 412: loss is 0.956, rewards is -9.26
+At the end, own_hp 0: opp_hp 182. you lose.
+Episode 413: loss is 0.656, rewards is -8.7
+At the end, own_hp 13: opp_hp 0. you win.
+Episode 414: loss is 0.92, rewards is -1.114
+At the end, own_hp 0: opp_hp 205. you lose.
+Episode 415: loss is 1.199, rewards is -12.18
+At the end, own_hp 231: opp_hp 10. you win.
+Episode 416: loss is 0.991, rewards is 19.815
+At the end, own_hp 0: opp_hp 85. you lose.
+Episode 417: loss is 0.68, rewards is -6.958
+At the end, own_hp 265: opp_hp 67. you win.
+Episode 418: loss is 0.289, rewards is 17.053
+At the end, own_hp 274: opp_hp 0. you win.
+Episode 419: loss is 2.432, rewards is 22.609
+At the end, own_hp 59: opp_hp 0. you win.
+Episode 420: loss is 0.599, rewards is 2.15
+At the end, own_hp 0: opp_hp 102. you lose.
+At the end, own_hp 260: opp_hp 22. you win.
+At the end, own_hp 307: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 420 total rewards is 14.327
+-----------------------------------------
+At the end, own_hp 255: opp_hp 44. you win.
+Episode 421: loss is 0.485, rewards is 17.89
+At the end, own_hp 203: opp_hp 0. you win.
+Episode 422: loss is 1.264, rewards is 16.929
+At the end, own_hp 225: opp_hp 0. you win.
+Episode 423: loss is 0.937, rewards is 18.283
+At the end, own_hp 161: opp_hp 0. you win.
+Episode 424: loss is 1.089, rewards is 14.191
+At the end, own_hp 0: opp_hp 117. you lose.
+Episode 425: loss is 0.733, rewards is -12.052
+At the end, own_hp 0: opp_hp 115. you lose.
+Episode 426: loss is 0.445, rewards is -8.705
+At the end, own_hp 192: opp_hp 118. you win.
+Episode 427: loss is 2.089, rewards is 6.64
+At the end, own_hp 0: opp_hp 63. you lose.
+Episode 428: loss is 1.195, rewards is 1.094
+At the end, own_hp 0: opp_hp 187. you lose.
+Episode 429: loss is 4.522, rewards is -13.047
+At the end, own_hp 271: opp_hp 98. you win.
+Episode 430: loss is 0.955, rewards is 13.76
+At the end, own_hp 245: opp_hp 60. you win.
+At the end, own_hp 0: opp_hp 70. you lose.
+At the end, own_hp 0: opp_hp 190. you lose.
+-----------------------------------------
+Evaluate for episode 430 total rewards is 0.850
+-----------------------------------------
+At the end, own_hp 289: opp_hp 0. you win.
+Episode 431: loss is 6.428, rewards is 24.213
+At the end, own_hp 256: opp_hp 78. you win.
+Episode 432: loss is 1.345, rewards is 14.752
+At the end, own_hp 346: opp_hp 0. you win.
+Episode 433: loss is 0.485, rewards is 29.162
+At the end, own_hp 12: opp_hp 50. you lose.
+Episode 434: loss is 0.534, rewards is -5.433
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 435: loss is 0.418, rewards is -15.563
+At the end, own_hp 81: opp_hp 0. you win.
+Episode 436: loss is 1.008, rewards is 6.622
+At the end, own_hp 47: opp_hp 102. you lose.
+Episode 437: loss is 0.751, rewards is -5.451
+At the end, own_hp 12: opp_hp 32. you lose.
+Episode 438: loss is 3.183, rewards is -0.852
+At the end, own_hp 93: opp_hp 24. you win.
+Episode 439: loss is 1.0, rewards is 5.302
+At the end, own_hp 0: opp_hp 184. you lose.
+Episode 440: loss is 0.346, rewards is -14.26
+At the end, own_hp 0: opp_hp 107. you lose.
+At the end, own_hp 232: opp_hp 19. you win.
+At the end, own_hp 0: opp_hp 260. you lose.
+-----------------------------------------
+Evaluate for episode 440 total rewards is -1.583
+-----------------------------------------
+At the end, own_hp 0: opp_hp 134. you lose.
+Episode 441: loss is 1.834, rewards is -12.622
+At the end, own_hp 198: opp_hp 0. you win.
+Episode 442: loss is 1.161, rewards is 19.141
+At the end, own_hp 0: opp_hp 205. you lose.
+Episode 443: loss is 2.322, rewards is -14.459
+At the end, own_hp 198: opp_hp 166. you win.
+Episode 444: loss is 0.991, rewards is 2.75
+At the end, own_hp 115: opp_hp 0. you win.
+Episode 445: loss is 1.34, rewards is 6.986
+At the end, own_hp 0: opp_hp 312. you lose.
+Episode 446: loss is 1.878, rewards is -24.22
+At the end, own_hp 0: opp_hp 185. you lose.
+Episode 447: loss is 1.392, rewards is -2.831
+At the end, own_hp 38: opp_hp 111. you lose.
+Episode 448: loss is 5.618, rewards is -0.855
+At the end, own_hp 283: opp_hp 66. you win.
+Episode 449: loss is 0.436, rewards is 17.819
+At the end, own_hp 301: opp_hp 41. you win.
+Episode 450: loss is 1.655, rewards is 22.313
+At the end, own_hp 230: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 145. you lose.
+At the end, own_hp 308: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 450 total rewards is 11.747
+-----------------------------------------
+At the end, own_hp 0: opp_hp 210. you lose.
+Episode 451: loss is 2.489, rewards is -9.172
+At the end, own_hp 210: opp_hp 40. you win.
+Episode 452: loss is 1.711, rewards is 15.314
+At the end, own_hp 175: opp_hp 112. you win.
+Episode 453: loss is 0.679, rewards is 7.553
+At the end, own_hp 0: opp_hp 134. you lose.
+Episode 454: loss is 1.102, rewards is -10.432
+At the end, own_hp 0: opp_hp 97. you lose.
+Episode 455: loss is 4.189, rewards is -5.671
+At the end, own_hp 200: opp_hp 171. you win.
+Episode 456: loss is 0.788, rewards is 0.943
+At the end, own_hp 223: opp_hp 0. you win.
+Episode 457: loss is 1.426, rewards is 19.559
+At the end, own_hp 193: opp_hp 0. you win.
+Episode 458: loss is 1.06, rewards is 15.726
+At the end, own_hp 208: opp_hp 0. you win.
+Episode 459: loss is 1.223, rewards is 18.209
+At the end, own_hp 0: opp_hp 141. you lose.
+Episode 460: loss is 0.499, rewards is -11.442
+At the end, own_hp 190: opp_hp 171. you win.
+At the end, own_hp 280: opp_hp 33. you win.
+At the end, own_hp 246: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 460 total rewards is 16.907
+-----------------------------------------
+At the end, own_hp 0: opp_hp 180. you lose.
+Episode 461: loss is 1.121, rewards is -12.903
+At the end, own_hp 184: opp_hp 6. you win.
+Episode 462: loss is 0.785, rewards is 14.947
+At the end, own_hp 223: opp_hp 85. you win.
+Episode 463: loss is 0.903, rewards is 13.419
+At the end, own_hp 238: opp_hp 0. you win.
+Episode 464: loss is 0.826, rewards is 19.271
+At the end, own_hp 233: opp_hp 70. you win.
+Episode 465: loss is 0.602, rewards is 12.291
+At the end, own_hp 247: opp_hp 10. you win.
+Episode 466: loss is 0.575, rewards is 18.161
+At the end, own_hp 10: opp_hp 122. you lose.
+Episode 467: loss is 0.721, rewards is -7.57
+At the end, own_hp 0: opp_hp 137. you lose.
+Episode 468: loss is 0.673, rewards is -8.705
+At the end, own_hp 0: opp_hp 81. you lose.
+Episode 469: loss is 2.809, rewards is -6.775
+At the end, own_hp 173: opp_hp 118. you win.
+Episode 470: loss is 0.659, rewards is 3.381
+At the end, own_hp 0: opp_hp 117. you lose.
+At the end, own_hp 0: opp_hp 4. you lose.
+At the end, own_hp 215: opp_hp 88. you win.
+-----------------------------------------
+Evaluate for episode 470 total rewards is 1.863
+-----------------------------------------
+At the end, own_hp 0: opp_hp 55. you lose.
+Episode 471: loss is 1.562, rewards is -2.2
+At the end, own_hp 27: opp_hp 47. you lose.
+Episode 472: loss is 0.814, rewards is -1.124
+At the end, own_hp 221: opp_hp 0. you win.
+Episode 473: loss is 5.193, rewards is 16.173
+At the end, own_hp 178: opp_hp 0. you win.
+Episode 474: loss is 1.792, rewards is 11.257
+At the end, own_hp 0: opp_hp 160. you lose.
+Episode 475: loss is 0.552, rewards is -11.84
+At the end, own_hp 190: opp_hp 19. you win.
+Episode 476: loss is 0.592, rewards is 12.568
+At the end, own_hp 0: opp_hp 162. you lose.
+Episode 477: loss is 5.161, rewards is -15.365
+At the end, own_hp 0: opp_hp 82. you lose.
+Episode 478: loss is 0.668, rewards is -1.979
+At the end, own_hp 222: opp_hp 0. you win.
+Episode 479: loss is 1.718, rewards is 19.236
+At the end, own_hp 0: opp_hp 220. you lose.
+Episode 480: loss is 0.869, rewards is -10.981
+At the end, own_hp 230: opp_hp 100. you win.
+At the end, own_hp 0: opp_hp 222. you lose.
+At the end, own_hp 284: opp_hp 148. you win.
+-----------------------------------------
+Evaluate for episode 480 total rewards is 3.967
+-----------------------------------------
+At the end, own_hp 0: opp_hp 30. you lose.
+Episode 481: loss is 0.701, rewards is 0.29
+At the end, own_hp 0: opp_hp 137. you lose.
+Episode 482: loss is 2.082, rewards is -12.512
+At the end, own_hp 28: opp_hp 0. you win.
+Episode 483: loss is 0.513, rewards is 0.287
+At the end, own_hp 0: opp_hp 245. you lose.
+Episode 484: loss is 0.887, rewards is -22.052
+At the end, own_hp 154: opp_hp 67. you win.
+Episode 485: loss is 2.562, rewards is 8.998
+At the end, own_hp 0: opp_hp 143. you lose.
+Episode 486: loss is 1.394, rewards is -11.259
+At the end, own_hp 205: opp_hp 84. you win.
+Episode 487: loss is 0.591, rewards is 10.737
+At the end, own_hp 222: opp_hp 100. you win.
+Episode 488: loss is 0.574, rewards is 9.605
+At the end, own_hp 257: opp_hp 38. you win.
+Episode 489: loss is 1.619, rewards is 18.552
+At the end, own_hp 285: opp_hp 0. you win.
+Episode 490: loss is 0.336, rewards is 23.294
+At the end, own_hp 42: opp_hp 0. you win.
+At the end, own_hp 205: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 280. you lose.
+-----------------------------------------
+Evaluate for episode 490 total rewards is -0.977
+-----------------------------------------
+At the end, own_hp 270: opp_hp 0. you win.
+Episode 491: loss is 1.062, rewards is 19.884
+At the end, own_hp 217: opp_hp 0. you win.
+Episode 492: loss is 0.859, rewards is 19.248
+At the end, own_hp 0: opp_hp 162. you lose.
+Episode 493: loss is 3.635, rewards is -13.192
+At the end, own_hp 0: opp_hp 165. you lose.
+Episode 494: loss is 0.98, rewards is -7.603
+At the end, own_hp 0: opp_hp 215. you lose.
+Episode 495: loss is 1.613, rewards is -18.626
+At the end, own_hp 270: opp_hp 116. you win.
+Episode 496: loss is 1.088, rewards is 11.95
+At the end, own_hp 0: opp_hp 228. you lose.
+Episode 497: loss is 1.726, rewards is -15.509
+At the end, own_hp 151: opp_hp 67. you win.
+Episode 498: loss is 4.203, rewards is 10.827
+At the end, own_hp 0: opp_hp 155. you lose.
+Episode 499: loss is 1.113, rewards is -13.339
+At the end, own_hp 227: opp_hp 0. you win.
+Episode 500: loss is 1.029, rewards is 18.91
+At the end, own_hp 300: opp_hp 79. you win.
+At the end, own_hp 48: opp_hp 72. you lose.
+At the end, own_hp 0: opp_hp 144. you lose.
+-----------------------------------------
+Evaluate for episode 500 total rewards is 1.613
+-----------------------------------------
+At the end, own_hp 232: opp_hp 37. you win.
+Episode 501: loss is 0.45, rewards is 15.027
+At the end, own_hp 0: opp_hp 175. you lose.
+Episode 502: loss is 0.729, rewards is -13.751
+At the end, own_hp 0: opp_hp 88. you lose.
+Episode 503: loss is 0.886, rewards is -4.855
+At the end, own_hp 270: opp_hp 150. you win.
+Episode 504: loss is 1.107, rewards is 9.958
+At the end, own_hp 0: opp_hp 40. you lose.
+Episode 505: loss is 4.455, rewards is -2.207
+At the end, own_hp 219: opp_hp 35. you win.
+Episode 506: loss is 1.255, rewards is 14.667
+At the end, own_hp 0: opp_hp 250. you lose.
+Episode 507: loss is 0.721, rewards is -17.671
+At the end, own_hp 274: opp_hp 75. you win.
+Episode 508: loss is 2.476, rewards is 16.024
+At the end, own_hp 172: opp_hp 28. you win.
+Episode 509: loss is 2.228, rewards is 11.466
+At the end, own_hp 272: opp_hp 0. you win.
+Episode 510: loss is 1.318, rewards is 20.576
+At the end, own_hp 52: opp_hp 203. you lose.
+At the end, own_hp 5: opp_hp 54. you lose.
+At the end, own_hp 253: opp_hp 58. you win.
+-----------------------------------------
+Evaluate for episode 510 total rewards is -0.537
+-----------------------------------------
+At the end, own_hp 0: opp_hp 133. you lose.
+Episode 511: loss is 0.572, rewards is -9.799
+At the end, own_hp 286: opp_hp 0. you win.
+Episode 512: loss is 1.811, rewards is 23.682
+At the end, own_hp 0: opp_hp 101. you lose.
+Episode 513: loss is 1.078, rewards is -1.037
+At the end, own_hp 8: opp_hp 180. you lose.
+Episode 514: loss is 0.28, rewards is -16.581
+At the end, own_hp 0: opp_hp 215. you lose.
+Episode 515: loss is 0.44, rewards is -8.634
+At the end, own_hp 254: opp_hp 38. you win.
+Episode 516: loss is 0.643, rewards is 20.754
+At the end, own_hp 175: opp_hp 75. you win.
+Episode 517: loss is 0.735, rewards is 6.308
+At the end, own_hp 13: opp_hp 68. you lose.
+Episode 518: loss is 0.582, rewards is -3.744
+At the end, own_hp 215: opp_hp 41. you win.
+Episode 519: loss is 0.592, rewards is 12.339
+At the end, own_hp 0: opp_hp 75. you lose.
+Episode 520: loss is 1.266, rewards is -7.04
+At the end, own_hp 265: opp_hp 35. you win.
+At the end, own_hp 217: opp_hp 41. you win.
+At the end, own_hp 299: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 520 total rewards is 22.587
+-----------------------------------------
+At the end, own_hp 141: opp_hp 18. you win.
+Episode 521: loss is 5.063, rewards is 11.62
+At the end, own_hp 0: opp_hp 95. you lose.
+Episode 522: loss is 3.791, rewards is -8.072
+At the end, own_hp 193: opp_hp 142. you win.
+Episode 523: loss is 0.51, rewards is 3.557
+At the end, own_hp 0: opp_hp 123. you lose.
+Episode 524: loss is 0.858, rewards is -1.574
+At the end, own_hp 276: opp_hp 78. you win.
+Episode 525: loss is 1.164, rewards is 15.216
+At the end, own_hp 0: opp_hp 180. you lose.
+Episode 526: loss is 2.123, rewards is -17.898
+At the end, own_hp 251: opp_hp 124. you win.
+Episode 527: loss is 0.678, rewards is 9.84
+At the end, own_hp 215: opp_hp 0. you win.
+Episode 528: loss is 1.151, rewards is 15.851
+At the end, own_hp 168: opp_hp 16. you win.
+Episode 529: loss is 1.441, rewards is 11.26
+At the end, own_hp 0: opp_hp 118. you lose.
+Episode 530: loss is 1.19, rewards is -8.198
+At the end, own_hp 37: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 214. you lose.
+At the end, own_hp 177: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 530 total rewards is 2.170
+-----------------------------------------
+At the end, own_hp 0: opp_hp 123. you lose.
+Episode 531: loss is 0.442, rewards is -9.107
+At the end, own_hp 23: opp_hp 95. you lose.
+Episode 532: loss is 0.431, rewards is -7.921
+At the end, own_hp 190: opp_hp 68. you win.
+Episode 533: loss is 0.925, rewards is 9.786
+At the end, own_hp 306: opp_hp 105. you win.
+Episode 534: loss is 1.888, rewards is 16.388
+At the end, own_hp 239: opp_hp 37. you win.
+Episode 535: loss is 2.356, rewards is 19.46
+At the end, own_hp 240: opp_hp 0. you win.
+Episode 536: loss is 0.593, rewards is 18.571
+At the end, own_hp 0: opp_hp 81. you lose.
+Episode 537: loss is 0.529, rewards is -5.273
+At the end, own_hp 0: opp_hp 168. you lose.
+Episode 538: loss is 0.657, rewards is -7.848
+At the end, own_hp 206: opp_hp 0. you win.
+Episode 539: loss is 0.707, rewards is 17.601
+At the end, own_hp 204: opp_hp 0. you win.
+Episode 540: loss is 0.956, rewards is 14.446
+At the end, own_hp 0: opp_hp 79. you lose.
+At the end, own_hp 0: opp_hp 240. you lose.
+At the end, own_hp 268: opp_hp 13. you win.
+-----------------------------------------
+Evaluate for episode 540 total rewards is -0.987
+-----------------------------------------
+At the end, own_hp 0: opp_hp 86. you lose.
+Episode 541: loss is 0.972, rewards is -7.562
+At the end, own_hp 30: opp_hp 0. you win.
+Episode 542: loss is 0.879, rewards is 1.109
+At the end, own_hp 379: opp_hp 0. you win.
+Episode 543: loss is 1.085, rewards is 27.438
+At the end, own_hp 204: opp_hp 42. you win.
+Episode 544: loss is 1.714, rewards is 13.32
+At the end, own_hp 215: opp_hp 1. you win.
+Episode 545: loss is 0.633, rewards is 18.827
+At the end, own_hp 185: opp_hp 57. you win.
+Episode 546: loss is 1.9, rewards is 11.84
+At the end, own_hp 20: opp_hp 7. you win.
+Episode 547: loss is 3.126, rewards is 1.042
+At the end, own_hp 0: opp_hp 215. you lose.
+Episode 548: loss is 0.676, rewards is -13.176
+At the end, own_hp 43: opp_hp 23. you win.
+Episode 549: loss is 1.158, rewards is -3.522
+At the end, own_hp 330: opp_hp 0. you win.
+Episode 550: loss is 2.867, rewards is 27.318
+At the end, own_hp 0: opp_hp 118. you lose.
+At the end, own_hp 0: opp_hp 125. you lose.
+At the end, own_hp 5: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 550 total rewards is -2.840
+-----------------------------------------
+At the end, own_hp 159: opp_hp 0. you win.
+Episode 551: loss is 0.474, rewards is 13.765
+At the end, own_hp 278: opp_hp 77. you win.
+Episode 552: loss is 0.919, rewards is 13.577
+At the end, own_hp 175: opp_hp 30. you win.
+Episode 553: loss is 0.325, rewards is 13.128
+At the end, own_hp 126: opp_hp 30. you win.
+Episode 554: loss is 0.72, rewards is 6.124
+At the end, own_hp 0: opp_hp 67. you lose.
+Episode 555: loss is 0.691, rewards is -4.805
+At the end, own_hp 0: opp_hp 119. you lose.
+Episode 556: loss is 0.537, rewards is -6.225
+At the end, own_hp 80: opp_hp 11. you win.
+Episode 557: loss is 0.8, rewards is 2.491
+At the end, own_hp 0: opp_hp 103. you lose.
+Episode 558: loss is 1.014, rewards is 5.108
+At the end, own_hp 0: opp_hp 153. you lose.
+Episode 559: loss is 4.231, rewards is -1.874
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 560: loss is 1.406, rewards is -8.69
+At the end, own_hp 245: opp_hp 27. you win.
+At the end, own_hp 0: opp_hp 215. you lose.
+At the end, own_hp 200: opp_hp 11. you win.
+-----------------------------------------
+Evaluate for episode 560 total rewards is 6.283
+-----------------------------------------
+At the end, own_hp 208: opp_hp 0. you win.
+Episode 561: loss is 0.313, rewards is 15.445
+At the end, own_hp 0: opp_hp 76. you lose.
+Episode 562: loss is 2.033, rewards is 2.898
+At the end, own_hp 0: opp_hp 218. you lose.
+Episode 563: loss is 0.519, rewards is -18.219
+At the end, own_hp 0: opp_hp 237. you lose.
+Episode 564: loss is 0.428, rewards is -13.041
+At the end, own_hp 210: opp_hp 71. you win.
+Episode 565: loss is 0.884, rewards is 10.88
+At the end, own_hp 198: opp_hp 0. you win.
+Episode 566: loss is 0.594, rewards is 14.488
+At the end, own_hp 0: opp_hp 188. you lose.
+Episode 567: loss is 2.386, rewards is -7.052
+At the end, own_hp 0: opp_hp 240. you lose.
+Episode 568: loss is 0.89, rewards is -18.822
+At the end, own_hp 0: opp_hp 138. you lose.
+Episode 569: loss is 1.173, rewards is -5.119
+At the end, own_hp 223: opp_hp 132. you win.
+Episode 570: loss is 1.041, rewards is 7.732
+At the end, own_hp 0: opp_hp 230. you lose.
+At the end, own_hp 242: opp_hp 63. you win.
+At the end, own_hp 187: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 570 total rewards is 4.140
+-----------------------------------------
+At the end, own_hp 0: opp_hp 185. you lose.
+Episode 571: loss is 1.03, rewards is -15.447
+At the end, own_hp 203: opp_hp 78. you win.
+Episode 572: loss is 0.527, rewards is 8.237
+At the end, own_hp 303: opp_hp 153. you win.
+Episode 573: loss is 1.273, rewards is 11.387
+At the end, own_hp 11: opp_hp 207. you lose.
+Episode 574: loss is 0.636, rewards is -17.41
+At the end, own_hp 0: opp_hp 123. you lose.
+Episode 575: loss is 4.994, rewards is -5.843
+At the end, own_hp 204: opp_hp 32. you win.
+Episode 576: loss is 0.981, rewards is 14.34
+At the end, own_hp 0: opp_hp 200. you lose.
+Episode 577: loss is 0.853, rewards is -13.792
+At the end, own_hp 151: opp_hp 0. you win.
+Episode 578: loss is 0.573, rewards is 10.103
+At the end, own_hp 206: opp_hp 82. you win.
+Episode 579: loss is 3.063, rewards is 13.783
+At the end, own_hp 0: opp_hp 127. you lose.
+Episode 580: loss is 1.556, rewards is -7.551
+At the end, own_hp 311: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 229. you lose.
+At the end, own_hp 0: opp_hp 297. you lose.
+-----------------------------------------
+Evaluate for episode 580 total rewards is -3.430
+-----------------------------------------
+At the end, own_hp 6: opp_hp 130. you lose.
+Episode 581: loss is 1.496, rewards is -9.707
+At the end, own_hp 0: opp_hp 153. you lose.
+Episode 582: loss is 0.92, rewards is -6.231
+At the end, own_hp 162: opp_hp 36. you win.
+Episode 583: loss is 1.055, rewards is 8.807
+At the end, own_hp 0: opp_hp 193. you lose.
+Episode 584: loss is 0.881, rewards is -12.262
+At the end, own_hp 275: opp_hp 0. you win.
+Episode 585: loss is 6.941, rewards is 18.93
+At the end, own_hp 286: opp_hp 0. you win.
+Episode 586: loss is 0.764, rewards is 23.62
+At the end, own_hp 150: opp_hp 0. you win.
+Episode 587: loss is 0.631, rewards is 11.739
+At the end, own_hp 212: opp_hp 0. you win.
+Episode 588: loss is 1.2, rewards is 16.877
+At the end, own_hp 0: opp_hp 85. you lose.
+Episode 589: loss is 1.116, rewards is -8.955
+At the end, own_hp 210: opp_hp 37. you win.
+Episode 590: loss is 1.816, rewards is 14.148
+At the end, own_hp 80: opp_hp 157. you lose.
+At the end, own_hp 225: opp_hp 130. you win.
+At the end, own_hp 0: opp_hp 75. you lose.
+-----------------------------------------
+Evaluate for episode 590 total rewards is -2.153
+-----------------------------------------
+At the end, own_hp 209: opp_hp 77. you win.
+Episode 591: loss is 3.529, rewards is 10.691
+At the end, own_hp 73: opp_hp 0. you win.
+Episode 592: loss is 0.462, rewards is 4.81
+At the end, own_hp 278: opp_hp 62. you win.
+Episode 593: loss is 4.439, rewards is 17.812
+At the end, own_hp 250: opp_hp 170. you win.
+Episode 594: loss is 2.511, rewards is 6.061
+At the end, own_hp 198: opp_hp 61. you win.
+Episode 595: loss is 0.844, rewards is 14.072
+At the end, own_hp 199: opp_hp 0. you win.
+Episode 596: loss is 4.844, rewards is 19.775
+At the end, own_hp 0: opp_hp 150. you lose.
+Episode 597: loss is 1.347, rewards is -12.163
+At the end, own_hp 0: opp_hp 185. you lose.
+Episode 598: loss is 0.961, rewards is -9.628
+At the end, own_hp 235: opp_hp 99. you win.
+Episode 599: loss is 0.763, rewards is 11.607
+At the end, own_hp 168: opp_hp 76. you win.
+Episode 600: loss is 1.059, rewards is 5.682
+At the end, own_hp 205: opp_hp 119. you win.
+At the end, own_hp 286: opp_hp 101. you win.
+At the end, own_hp 238: opp_hp 121. you win.
+-----------------------------------------
+Evaluate for episode 600 total rewards is 12.120
+-----------------------------------------
+At the end, own_hp 0: opp_hp 85. you lose.
+Episode 601: loss is 3.267, rewards is -7.02
+At the end, own_hp 0: opp_hp 257. you lose.
+Episode 602: loss is 1.029, rewards is -20.236
+At the end, own_hp 0: opp_hp 183. you lose.
+Episode 603: loss is 1.445, rewards is -13.342
+At the end, own_hp 0: opp_hp 177. you lose.
+Episode 604: loss is 0.728, rewards is -16.001
+At the end, own_hp 170: opp_hp 0. you win.
+Episode 605: loss is 1.685, rewards is 13.836
+At the end, own_hp 122: opp_hp 0. you win.
+Episode 606: loss is 0.891, rewards is 11.679
+At the end, own_hp 223: opp_hp 0. you win.
+Episode 607: loss is 1.633, rewards is 16.648
+At the end, own_hp 0: opp_hp 130. you lose.
+Episode 608: loss is 0.55, rewards is -12.526
+At the end, own_hp 285: opp_hp 80. you win.
+Episode 609: loss is 7.57, rewards is 16.683
+At the end, own_hp 0: opp_hp 198. you lose.
+Episode 610: loss is 4.324, rewards is -5.549
+At the end, own_hp 0: opp_hp 204. you lose.
+At the end, own_hp 229: opp_hp 94. you win.
+At the end, own_hp 259: opp_hp 48. you win.
+-----------------------------------------
+Evaluate for episode 610 total rewards is 4.313
+-----------------------------------------
+At the end, own_hp 0: opp_hp 149. you lose.
+Episode 611: loss is 1.07, rewards is -14.461
+At the end, own_hp 178: opp_hp 113. you win.
+Episode 612: loss is 0.732, rewards is 1.761
+At the end, own_hp 216: opp_hp 0. you win.
+Episode 613: loss is 0.773, rewards is 18.238
+At the end, own_hp 241: opp_hp 26. you win.
+Episode 614: loss is 1.037, rewards is 18.904
+At the end, own_hp 0: opp_hp 130. you lose.
+Episode 615: loss is 0.692, rewards is -11.909
+At the end, own_hp 175: opp_hp 158. you win.
+Episode 616: loss is 3.815, rewards is 1.692
+At the end, own_hp 0: opp_hp 37. you lose.
+Episode 617: loss is 0.322, rewards is -0.843
+At the end, own_hp 236: opp_hp 14. you win.
+Episode 618: loss is 4.056, rewards is 17.919
+At the end, own_hp 293: opp_hp 80. you win.
+Episode 619: loss is 1.411, rewards is 15.643
+At the end, own_hp 171: opp_hp 0. you win.
+Episode 620: loss is 2.371, rewards is 15.994
+At the end, own_hp 190: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 245. you lose.
+At the end, own_hp 0: opp_hp 235. you lose.
+-----------------------------------------
+Evaluate for episode 620 total rewards is -6.783
+-----------------------------------------
+At the end, own_hp 286: opp_hp 12. you win.
+Episode 621: loss is 0.778, rewards is 23.003
+At the end, own_hp 0: opp_hp 102. you lose.
+Episode 622: loss is 0.583, rewards is -8.839
+At the end, own_hp 190: opp_hp 0. you win.
+Episode 623: loss is 1.068, rewards is 15.661
+At the end, own_hp 0: opp_hp 235. you lose.
+Episode 624: loss is 3.92, rewards is -7.466
+At the end, own_hp 76: opp_hp 44. you win.
+Episode 625: loss is 0.611, rewards is 0.092
+At the end, own_hp 25: opp_hp 0. you win.
+Episode 626: loss is 0.534, rewards is -1.043
+At the end, own_hp 0: opp_hp 141. you lose.
+Episode 627: loss is 1.619, rewards is -7.123
+At the end, own_hp 0: opp_hp 170. you lose.
+Episode 628: loss is 2.142, rewards is -15.634
+At the end, own_hp 0: opp_hp 180. you lose.
+Episode 629: loss is 0.803, rewards is -14.541
+At the end, own_hp 0: opp_hp 75. you lose.
+Episode 630: loss is 1.17, rewards is -0.563
+At the end, own_hp 0: opp_hp 155. you lose.
+At the end, own_hp 232: opp_hp 64. you win.
+At the end, own_hp 162: opp_hp 2. you win.
+-----------------------------------------
+Evaluate for episode 630 total rewards is 5.440
+-----------------------------------------
+At the end, own_hp 0: opp_hp 189. you lose.
+Episode 631: loss is 1.695, rewards is -11.536
+At the end, own_hp 0: opp_hp 70. you lose.
+Episode 632: loss is 0.89, rewards is -3.92
+At the end, own_hp 253: opp_hp 125. you win.
+Episode 633: loss is 0.929, rewards is 11.215
+At the end, own_hp 0: opp_hp 15. you lose.
+Episode 634: loss is 1.882, rewards is -2.613
+At the end, own_hp 125: opp_hp 20. you win.
+Episode 635: loss is 0.942, rewards is 9.25
+At the end, own_hp 240: opp_hp 0. you win.
+Episode 636: loss is 0.986, rewards is 20.493
+At the end, own_hp 0: opp_hp 83. you lose.
+Episode 637: loss is 0.693, rewards is -5.008
+At the end, own_hp 0: opp_hp 77. you lose.
+Episode 638: loss is 2.428, rewards is -3.252
+At the end, own_hp 0: opp_hp 205. you lose.
+Episode 639: loss is 1.229, rewards is -14.543
+At the end, own_hp 0: opp_hp 265. you lose.
+Episode 640: loss is 1.373, rewards is -23.193
+At the end, own_hp 242: opp_hp 0. you win.
+At the end, own_hp 43: opp_hp 14. you win.
+At the end, own_hp 0: opp_hp 145. you lose.
+-----------------------------------------
+Evaluate for episode 640 total rewards is 5.060
+-----------------------------------------
+At the end, own_hp 0: opp_hp 146. you lose.
+Episode 641: loss is 1.752, rewards is -11.556
+At the end, own_hp 0: opp_hp 170. you lose.
+Episode 642: loss is 1.229, rewards is -14.484
+At the end, own_hp 0: opp_hp 62. you lose.
+Episode 643: loss is 2.505, rewards is 6.313
+At the end, own_hp 259: opp_hp 33. you win.
+Episode 644: loss is 0.566, rewards is 19.152
+At the end, own_hp 192: opp_hp 35. you win.
+Episode 645: loss is 2.844, rewards is 14.083
+At the end, own_hp 207: opp_hp 8. you win.
+Episode 646: loss is 0.728, rewards is 16.808
+At the end, own_hp 117: opp_hp 0. you win.
+Episode 647: loss is 1.895, rewards is 11.251
+At the end, own_hp 186: opp_hp 53. you win.
+Episode 648: loss is 0.831, rewards is 10.612
+At the end, own_hp 263: opp_hp 0. you win.
+Episode 649: loss is 0.651, rewards is 21.87
+At the end, own_hp 241: opp_hp 0. you win.
+Episode 650: loss is 4.711, rewards is 17.946
+At the end, own_hp 0: opp_hp 150. you lose.
+At the end, own_hp 0: opp_hp 118. you lose.
+At the end, own_hp 0: opp_hp 113. you lose.
+-----------------------------------------
+Evaluate for episode 650 total rewards is -8.383
+-----------------------------------------
+At the end, own_hp 289: opp_hp 0. you win.
+Episode 651: loss is 0.54, rewards is 23.71
+At the end, own_hp 54: opp_hp 0. you win.
+Episode 652: loss is 1.154, rewards is 4.289
+At the end, own_hp 250: opp_hp 184. you win.
+Episode 653: loss is 2.431, rewards is 6.819
+At the end, own_hp 0: opp_hp 63. you lose.
+Episode 654: loss is 0.58, rewards is -0.606
+At the end, own_hp 0: opp_hp 205. you lose.
+Episode 655: loss is 0.87, rewards is -15.021
+At the end, own_hp 0: opp_hp 155. you lose.
+Episode 656: loss is 0.708, rewards is -14.725
+At the end, own_hp 0: opp_hp 113. you lose.
+Episode 657: loss is 0.353, rewards is -12.298
+At the end, own_hp 0: opp_hp 141. you lose.
+Episode 658: loss is 4.233, rewards is -15.703
+At the end, own_hp 0: opp_hp 146. you lose.
+Episode 659: loss is 1.235, rewards is -13.915
+At the end, own_hp 222: opp_hp 0. you win.
+Episode 660: loss is 0.686, rewards is 17.462
+At the end, own_hp 295: opp_hp 70. you win.
+At the end, own_hp 0: opp_hp 170. you lose.
+At the end, own_hp 131: opp_hp 21. you win.
+-----------------------------------------
+Evaluate for episode 660 total rewards is 7.580
+-----------------------------------------
+At the end, own_hp 301: opp_hp 0. you win.
+Episode 661: loss is 0.977, rewards is 23.915
+At the end, own_hp 0: opp_hp 200. you lose.
+Episode 662: loss is 0.317, rewards is -13.292
+At the end, own_hp 259: opp_hp 45. you win.
+Episode 663: loss is 0.858, rewards is 17.964
+At the end, own_hp 181: opp_hp 0. you win.
+Episode 664: loss is 1.132, rewards is 17.991
+At the end, own_hp 195: opp_hp 59. you win.
+Episode 665: loss is 0.905, rewards is 11.167
+At the end, own_hp 123: opp_hp 0. you win.
+Episode 666: loss is 0.675, rewards is 10.65
+At the end, own_hp 0: opp_hp 120. you lose.
+Episode 667: loss is 0.321, rewards is -10.847
+At the end, own_hp 205: opp_hp 90. you win.
+Episode 668: loss is 2.1, rewards is 8.476
+At the end, own_hp 0: opp_hp 155. you lose.
+Episode 669: loss is 0.401, rewards is -1.746
+At the end, own_hp 0: opp_hp 204. you lose.
+Episode 670: loss is 1.181, rewards is -10.769
+At the end, own_hp 242: opp_hp 0. you win.
+At the end, own_hp 291: opp_hp 122. you win.
+At the end, own_hp 16: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 670 total rewards is 12.883
+-----------------------------------------
+At the end, own_hp 0: opp_hp 95. you lose.
+Episode 671: loss is 2.241, rewards is -5.7
+At the end, own_hp 67: opp_hp 0. you win.
+Episode 672: loss is 0.916, rewards is 3.223
+At the end, own_hp 0: opp_hp 135. you lose.
+Episode 673: loss is 3.219, rewards is -11.842
+At the end, own_hp 248: opp_hp 28. you win.
+Episode 674: loss is 0.503, rewards is 17.724
+At the end, own_hp 0: opp_hp 265. you lose.
+Episode 675: loss is 0.712, rewards is -21.66
+At the end, own_hp 0: opp_hp 105. you lose.
+Episode 676: loss is 0.802, rewards is -13.237
+At the end, own_hp 104: opp_hp 58. you win.
+Episode 677: loss is 10.615, rewards is 2.742
+At the end, own_hp 0: opp_hp 102. you lose.
+Episode 678: loss is 3.223, rewards is -8.807
+At the end, own_hp 293: opp_hp 140. you win.
+Episode 679: loss is 0.793, rewards is 12.132
+At the end, own_hp 0: opp_hp 232. you lose.
+Episode 680: loss is 1.562, rewards is -16.336
+At the end, own_hp 0: opp_hp 62. you lose.
+At the end, own_hp 0: opp_hp 150. you lose.
+At the end, own_hp 0: opp_hp 40. you lose.
+-----------------------------------------
+Evaluate for episode 680 total rewards is -7.047
+-----------------------------------------
+At the end, own_hp 0: opp_hp 78. you lose.
+Episode 681: loss is 7.203, rewards is -6.254
+At the end, own_hp 153: opp_hp 34. you win.
+Episode 682: loss is 0.659, rewards is 13.331
+At the end, own_hp 0: opp_hp 190. you lose.
+Episode 683: loss is 1.11, rewards is -17.742
+At the end, own_hp 225: opp_hp 0. you win.
+Episode 684: loss is 0.65, rewards is 20.008
+At the end, own_hp 0: opp_hp 77. you lose.
+Episode 685: loss is 4.345, rewards is -4.947
+At the end, own_hp 345: opp_hp 0. you win.
+Episode 686: loss is 0.762, rewards is 26.635
+At the end, own_hp 51: opp_hp 0. you win.
+Episode 687: loss is 5.309, rewards is 6.098
+At the end, own_hp 168: opp_hp 0. you win.
+Episode 688: loss is 1.553, rewards is 14.692
+At the end, own_hp 143: opp_hp 77. you win.
+Episode 689: loss is 1.573, rewards is 7.274
+At the end, own_hp 0: opp_hp 87. you lose.
+Episode 690: loss is 0.843, rewards is -7.22
+At the end, own_hp 68: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 52. you lose.
+At the end, own_hp 0: opp_hp 145. you lose.
+-----------------------------------------
+Evaluate for episode 690 total rewards is -4.000
+-----------------------------------------
+At the end, own_hp 275: opp_hp 145. you win.
+Episode 691: loss is 0.395, rewards is 11.178
+At the end, own_hp 0: opp_hp 180. you lose.
+Episode 692: loss is 4.003, rewards is -5.893
+At the end, own_hp 235: opp_hp 45. you win.
+Episode 693: loss is 0.48, rewards is 15.817
+At the end, own_hp 277: opp_hp 0. you win.
+Episode 694: loss is 3.145, rewards is 24.353
+At the end, own_hp 0: opp_hp 192. you lose.
+Episode 695: loss is 0.543, rewards is -5.441
+At the end, own_hp 0: opp_hp 208. you lose.
+Episode 696: loss is 1.317, rewards is -15.79
+At the end, own_hp 11: opp_hp 100. you lose.
+Episode 697: loss is 0.981, rewards is -8.118
+At the end, own_hp 0: opp_hp 202. you lose.
+Episode 698: loss is 0.453, rewards is -14.877
+At the end, own_hp 0: opp_hp 39. you lose.
+Episode 699: loss is 0.379, rewards is -1.877
+At the end, own_hp 308: opp_hp 68. you win.
+Episode 700: loss is 0.803, rewards is 21.745
+At the end, own_hp 0: opp_hp 32. you lose.
+At the end, own_hp 165: opp_hp 0. you win.
+At the end, own_hp 236: opp_hp 54. you win.
+-----------------------------------------
+Evaluate for episode 700 total rewards is 9.040
+-----------------------------------------
+At the end, own_hp 0: opp_hp 148. you lose.
+Episode 701: loss is 1.836, rewards is -13.455
+At the end, own_hp 0: opp_hp 157. you lose.
+Episode 702: loss is 0.643, rewards is -5.738
+At the end, own_hp 145: opp_hp 44. you win.
+Episode 703: loss is 0.921, rewards is 7.95
+At the end, own_hp 187: opp_hp 158. you win.
+Episode 704: loss is 3.306, rewards is 2.623
+At the end, own_hp 0: opp_hp 112. you lose.
+Episode 705: loss is 0.7, rewards is -9.938
+At the end, own_hp 283: opp_hp 0. you win.
+Episode 706: loss is 0.437, rewards is 22.833
+At the end, own_hp 0: opp_hp 115. you lose.
+Episode 707: loss is 2.574, rewards is -9.672
+At the end, own_hp 185: opp_hp 0. you win.
+Episode 708: loss is 2.604, rewards is 11.707
+At the end, own_hp 276: opp_hp 7. you win.
+Episode 709: loss is 0.622, rewards is 24.191
+At the end, own_hp 172: opp_hp 0. you win.
+Episode 710: loss is 2.239, rewards is 15.01
+At the end, own_hp 251: opp_hp 65. you win.
+At the end, own_hp 286: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 185. you lose.
+-----------------------------------------
+Evaluate for episode 710 total rewards is 10.953
+-----------------------------------------
+At the end, own_hp 0: opp_hp 70. you lose.
+Episode 711: loss is 1.367, rewards is -5.398
+At the end, own_hp 158: opp_hp 0. you win.
+Episode 712: loss is 1.599, rewards is 10.984
+At the end, own_hp 0: opp_hp 62. you lose.
+Episode 713: loss is 0.656, rewards is -0.96
+At the end, own_hp 0: opp_hp 290. you lose.
+Episode 714: loss is 0.343, rewards is -21.525
+At the end, own_hp 0: opp_hp 83. you lose.
+Episode 715: loss is 3.982, rewards is -5.789
+At the end, own_hp 0: opp_hp 71. you lose.
+Episode 716: loss is 1.112, rewards is 3.06
+At the end, own_hp 0: opp_hp 73. you lose.
+Episode 717: loss is 0.447, rewards is -4.493
+At the end, own_hp 0: opp_hp 135. you lose.
+Episode 718: loss is 3.199, rewards is -14.065
+At the end, own_hp 118: opp_hp 56. you win.
+Episode 719: loss is 0.442, rewards is 7.27
+At the end, own_hp 222: opp_hp 82. you win.
+Episode 720: loss is 0.782, rewards is 14.885
+At the end, own_hp 0: opp_hp 53. you lose.
+At the end, own_hp 0: opp_hp 302. you lose.
+At the end, own_hp 0: opp_hp 74. you lose.
+-----------------------------------------
+Evaluate for episode 720 total rewards is -11.433
+-----------------------------------------
+At the end, own_hp 0: opp_hp 45. you lose.
+Episode 721: loss is 0.991, rewards is 1.641
+At the end, own_hp 207: opp_hp 0. you win.
+Episode 722: loss is 0.458, rewards is 16.702
+At the end, own_hp 128: opp_hp 54. you win.
+Episode 723: loss is 0.878, rewards is 5.412
+At the end, own_hp 132: opp_hp 0. you win.
+Episode 724: loss is 0.572, rewards is 9.53
+At the end, own_hp 0: opp_hp 130. you lose.
+Episode 725: loss is 0.509, rewards is -6.267
+At the end, own_hp 0: opp_hp 309. you lose.
+Episode 726: loss is 0.927, rewards is -25.372
+At the end, own_hp 13: opp_hp 0. you win.
+Episode 727: loss is 0.977, rewards is -0.75
+At the end, own_hp 0: opp_hp 28. you lose.
+Episode 728: loss is 0.991, rewards is 4.428
+At the end, own_hp 0: opp_hp 27. you lose.
+Episode 729: loss is 1.287, rewards is 2.718
+At the end, own_hp 0: opp_hp 225. you lose.
+Episode 730: loss is 0.709, rewards is -11.861
+At the end, own_hp 0: opp_hp 195. you lose.
+At the end, own_hp 331: opp_hp 0. you win.
+At the end, own_hp 209: opp_hp 5. you win.
+-----------------------------------------
+Evaluate for episode 730 total rewards is 10.547
+-----------------------------------------
+At the end, own_hp 0: opp_hp 106. you lose.
+Episode 731: loss is 1.753, rewards is -9.29
+At the end, own_hp 152: opp_hp 113. you win.
+Episode 732: loss is 0.432, rewards is 3.047
+At the end, own_hp 241: opp_hp 0. you win.
+Episode 733: loss is 0.733, rewards is 18.476
+At the end, own_hp 0: opp_hp 155. you lose.
+Episode 734: loss is 1.13, rewards is -0.695
+At the end, own_hp 178: opp_hp 66. you win.
+Episode 735: loss is 1.097, rewards is 9.367
+At the end, own_hp 0: opp_hp 47. you lose.
+Episode 736: loss is 0.629, rewards is -6.161
+At the end, own_hp 190: opp_hp 89. you win.
+Episode 737: loss is 0.959, rewards is 7.126
+At the end, own_hp 0: opp_hp 162. you lose.
+Episode 738: loss is 0.22, rewards is -12.213
+At the end, own_hp 210: opp_hp 0. you win.
+Episode 739: loss is 1.045, rewards is 18.355
+At the end, own_hp 140: opp_hp 24. you win.
+Episode 740: loss is 3.213, rewards is 11.673
+At the end, own_hp 262: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 192. you lose.
+At the end, own_hp 0: opp_hp 127. you lose.
+-----------------------------------------
+Evaluate for episode 740 total rewards is -1.020
+-----------------------------------------
+At the end, own_hp 187: opp_hp 0. you win.
+Episode 741: loss is 0.986, rewards is 15.467
+At the end, own_hp 0: opp_hp 185. you lose.
+Episode 742: loss is 1.223, rewards is -11.333
+At the end, own_hp 182: opp_hp 67. you win.
+Episode 743: loss is 0.927, rewards is 9.021
+At the end, own_hp 203: opp_hp 133. you win.
+Episode 744: loss is 2.079, rewards is 6.319
+At the end, own_hp 0: opp_hp 152. you lose.
+Episode 745: loss is 0.545, rewards is -2.244
+At the end, own_hp 220: opp_hp 0. you win.
+Episode 746: loss is 1.001, rewards is 17.177
+At the end, own_hp 300: opp_hp 0. you win.
+Episode 747: loss is 0.617, rewards is 22.363
+At the end, own_hp 0: opp_hp 68. you lose.
+Episode 748: loss is 0.76, rewards is 1.518
+At the end, own_hp 3: opp_hp 0. you win.
+Episode 749: loss is 0.99, rewards is 2.362
+At the end, own_hp 65: opp_hp 0. you win.
+Episode 750: loss is 2.363, rewards is 6.871
+At the end, own_hp 0: opp_hp 43. you lose.
+At the end, own_hp 8: opp_hp 157. you lose.
+At the end, own_hp 161: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 750 total rewards is -2.550
+-----------------------------------------
+At the end, own_hp 325: opp_hp 0. you win.
+Episode 751: loss is 1.131, rewards is 25.886
+At the end, own_hp 249: opp_hp 0. you win.
+Episode 752: loss is 1.07, rewards is 18.837
+At the end, own_hp 0: opp_hp 80. you lose.
+Episode 753: loss is 0.642, rewards is -3.555
+At the end, own_hp 0: opp_hp 325. you lose.
+Episode 754: loss is 4.221, rewards is -26.49
+At the end, own_hp 194: opp_hp 37. you win.
+Episode 755: loss is 3.017, rewards is 13.375
+At the end, own_hp 290: opp_hp 69. you win.
+Episode 756: loss is 2.502, rewards is 18.328
+At the end, own_hp 255: opp_hp 23. you win.
+Episode 757: loss is 2.631, rewards is 20.144
+At the end, own_hp 0: opp_hp 29. you lose.
+Episode 758: loss is 1.039, rewards is -1.169
+At the end, own_hp 0: opp_hp 174. you lose.
+Episode 759: loss is 0.687, rewards is -11.527
+At the end, own_hp 0: opp_hp 84. you lose.
+Episode 760: loss is 1.446, rewards is 1.852
+At the end, own_hp 235: opp_hp 38. you win.
+At the end, own_hp 315: opp_hp 42. you win.
+At the end, own_hp 184: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 760 total rewards is 21.713
+-----------------------------------------
+At the end, own_hp 200: opp_hp 52. you win.
+Episode 761: loss is 0.86, rewards is 11.007
+At the end, own_hp 0: opp_hp 132. you lose.
+Episode 762: loss is 0.998, rewards is -13.324
+At the end, own_hp 0: opp_hp 28. you lose.
+Episode 763: loss is 0.587, rewards is -1.578
+At the end, own_hp 0: opp_hp 200. you lose.
+Episode 764: loss is 0.624, rewards is -19.238
+At the end, own_hp 310: opp_hp 29. you win.
+Episode 765: loss is 1.752, rewards is 18.807
+At the end, own_hp 309: opp_hp 53. you win.
+Episode 766: loss is 1.116, rewards is 21.185
+At the end, own_hp 140: opp_hp 0. you win.
+Episode 767: loss is 0.734, rewards is 10.016
+At the end, own_hp 170: opp_hp 0. you win.
+Episode 768: loss is 0.757, rewards is 12.795
+At the end, own_hp 0: opp_hp 153. you lose.
+Episode 769: loss is 2.85, rewards is -12.985
+At the end, own_hp 29: opp_hp 0. you win.
+Episode 770: loss is 0.672, rewards is 1.833
+At the end, own_hp 270: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 47. you lose.
+At the end, own_hp 0: opp_hp 203. you lose.
+-----------------------------------------
+Evaluate for episode 770 total rewards is 6.990
+-----------------------------------------
+At the end, own_hp 268: opp_hp 61. you win.
+Episode 771: loss is 0.833, rewards is 19.28
+At the end, own_hp 0: opp_hp 64. you lose.
+Episode 772: loss is 0.955, rewards is 2.615
+At the end, own_hp 0: opp_hp 65. you lose.
+Episode 773: loss is 1.533, rewards is -2.899
+At the end, own_hp 259: opp_hp 32. you win.
+Episode 774: loss is 2.766, rewards is 19.214
+At the end, own_hp 0: opp_hp 115. you lose.
+Episode 775: loss is 3.692, rewards is -7.533
+At the end, own_hp 149: opp_hp 0. you win.
+Episode 776: loss is 4.694, rewards is 11.955
+At the end, own_hp 26: opp_hp 0. you win.
+Episode 777: loss is 0.519, rewards is -1.353
+At the end, own_hp 0: opp_hp 244. you lose.
+Episode 778: loss is 0.97, rewards is -20.919
+At the end, own_hp 201: opp_hp 61. you win.
+Episode 779: loss is 0.827, rewards is 11.249
+At the end, own_hp 0: opp_hp 246. you lose.
+Episode 780: loss is 0.826, rewards is -21.581
+At the end, own_hp 0: opp_hp 112. you lose.
+At the end, own_hp 280: opp_hp 149. you win.
+At the end, own_hp 0: opp_hp 121. you lose.
+-----------------------------------------
+Evaluate for episode 780 total rewards is -0.883
+-----------------------------------------
+At the end, own_hp 0: opp_hp 75. you lose.
+Episode 781: loss is 2.262, rewards is -0.313
+At the end, own_hp 205: opp_hp 0. you win.
+Episode 782: loss is 0.552, rewards is 14.627
+At the end, own_hp 229: opp_hp 40. you win.
+Episode 783: loss is 2.706, rewards is 16.773
+At the end, own_hp 237: opp_hp 0. you win.
+Episode 784: loss is 0.569, rewards is 20.621
+At the end, own_hp 214: opp_hp 0. you win.
+Episode 785: loss is 0.669, rewards is 18.685
+At the end, own_hp 223: opp_hp 0. you win.
+Episode 786: loss is 0.88, rewards is 17.844
+At the end, own_hp 140: opp_hp 0. you win.
+Episode 787: loss is 0.531, rewards is 13.857
+At the end, own_hp 0: opp_hp 188. you lose.
+Episode 788: loss is 0.959, rewards is -6.485
+At the end, own_hp 6: opp_hp 0. you win.
+Episode 789: loss is 6.308, rewards is 0.221
+At the end, own_hp 195: opp_hp 0. you win.
+Episode 790: loss is 0.494, rewards is 12.756
+At the end, own_hp 150: opp_hp 10. you win.
+At the end, own_hp 236: opp_hp 90. you win.
+At the end, own_hp 14: opp_hp 127. you lose.
+-----------------------------------------
+Evaluate for episode 790 total rewards is 5.323
+-----------------------------------------
+At the end, own_hp 0: opp_hp 125. you lose.
+Episode 791: loss is 1.757, rewards is -9.495
+At the end, own_hp 0: opp_hp 197. you lose.
+Episode 792: loss is 0.383, rewards is -16.421
+At the end, own_hp 283: opp_hp 55. you win.
+Episode 793: loss is 0.904, rewards is 18.385
+At the end, own_hp 0: opp_hp 3. you lose.
+Episode 794: loss is 1.019, rewards is 2.484
+At the end, own_hp 270: opp_hp 3. you win.
+Episode 795: loss is 0.328, rewards is 23.926
+At the end, own_hp 238: opp_hp 0. you win.
+Episode 796: loss is 1.038, rewards is 21.061
+At the end, own_hp 249: opp_hp 0. you win.
+Episode 797: loss is 4.083, rewards is 18.154
+At the end, own_hp 260: opp_hp 0. you win.
+Episode 798: loss is 0.946, rewards is 21.095
+At the end, own_hp 48: opp_hp 0. you win.
+Episode 799: loss is 0.599, rewards is 2.247
+At the end, own_hp 0: opp_hp 218. you lose.
+Episode 800: loss is 1.315, rewards is -12.516
+At the end, own_hp 0: opp_hp 157. you lose.
+At the end, own_hp 268: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 28. you lose.
+-----------------------------------------
+Evaluate for episode 800 total rewards is 5.217
+-----------------------------------------
+At the end, own_hp 218: opp_hp 46. you win.
+Episode 801: loss is 0.946, rewards is 13.875
+At the end, own_hp 0: opp_hp 98. you lose.
+Episode 802: loss is 1.473, rewards is -5.07
+At the end, own_hp 0: opp_hp 65. you lose.
+Episode 803: loss is 0.89, rewards is -2.745
+At the end, own_hp 297: opp_hp 0. you win.
+Episode 804: loss is 0.873, rewards is 23.8
+At the end, own_hp 0: opp_hp 57. you lose.
+Episode 805: loss is 0.456, rewards is -7.725
+At the end, own_hp 182: opp_hp 12. you win.
+Episode 806: loss is 1.431, rewards is 14.321
+At the end, own_hp 177: opp_hp 0. you win.
+Episode 807: loss is 1.574, rewards is 10.32
+At the end, own_hp 0: opp_hp 263. you lose.
+Episode 808: loss is 0.881, rewards is -12.833
+At the end, own_hp 298: opp_hp 13. you win.
+Episode 809: loss is 0.915, rewards is 22.78
+At the end, own_hp 210: opp_hp 0. you win.
+Episode 810: loss is 0.848, rewards is 16.127
+At the end, own_hp 270: opp_hp 0. you win.
+At the end, own_hp 204: opp_hp 0. you win.
+At the end, own_hp 206: opp_hp 45. you win.
+-----------------------------------------
+Evaluate for episode 810 total rewards is 20.763
+-----------------------------------------
+At the end, own_hp 0: opp_hp 217. you lose.
+Episode 811: loss is 0.63, rewards is -13.458
+At the end, own_hp 0: opp_hp 167. you lose.
+Episode 812: loss is 1.68, rewards is -2.631
+At the end, own_hp 180: opp_hp 0. you win.
+Episode 813: loss is 0.904, rewards is 15.941
+At the end, own_hp 0: opp_hp 242. you lose.
+Episode 814: loss is 1.287, rewards is -19.846
+At the end, own_hp 0: opp_hp 125. you lose.
+Episode 815: loss is 1.032, rewards is -0.355
+At the end, own_hp 250: opp_hp 51. you win.
+Episode 816: loss is 1.232, rewards is 16.133
+At the end, own_hp 0: opp_hp 230. you lose.
+Episode 817: loss is 2.63, rewards is -19.698
+At the end, own_hp 208: opp_hp 0. you win.
+Episode 818: loss is 3.653, rewards is 14.564
+At the end, own_hp 0: opp_hp 101. you lose.
+Episode 819: loss is 0.652, rewards is -9.593
+At the end, own_hp 270: opp_hp 129. you win.
+Episode 820: loss is 0.994, rewards is 11.589
+At the end, own_hp 233: opp_hp 0. you win.
+At the end, own_hp 298: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 116. you lose.
+-----------------------------------------
+Evaluate for episode 820 total rewards is 13.973
+-----------------------------------------
+At the end, own_hp 160: opp_hp 0. you win.
+Episode 821: loss is 6.421, rewards is 14.547
+At the end, own_hp 200: opp_hp 77. you win.
+Episode 822: loss is 0.841, rewards is 10.467
+At the end, own_hp 0: opp_hp 70. you lose.
+Episode 823: loss is 1.279, rewards is 4.611
+At the end, own_hp 0: opp_hp 121. you lose.
+Episode 824: loss is 0.546, rewards is -10.115
+At the end, own_hp 126: opp_hp 0. you win.
+Episode 825: loss is 1.274, rewards is 7.033
+At the end, own_hp 0: opp_hp 72. you lose.
+Episode 826: loss is 0.613, rewards is -5.058
+At the end, own_hp 6: opp_hp 0. you win.
+Episode 827: loss is 0.429, rewards is -2.536
+At the end, own_hp 0: opp_hp 73. you lose.
+Episode 828: loss is 0.858, rewards is -5.065
+At the end, own_hp 200: opp_hp 51. you win.
+Episode 829: loss is 0.8, rewards is 12.022
+At the end, own_hp 182: opp_hp 45. you win.
+Episode 830: loss is 1.43, rewards is 12.3
+At the end, own_hp 61: opp_hp 91. you lose.
+At the end, own_hp 268: opp_hp 145. you win.
+At the end, own_hp 70: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 830 total rewards is 4.030
+-----------------------------------------
+At the end, own_hp 0: opp_hp 230. you lose.
+Episode 831: loss is 1.177, rewards is -17.335
+At the end, own_hp 202: opp_hp 52. you win.
+Episode 832: loss is 1.335, rewards is 13.592
+At the end, own_hp 0: opp_hp 90. you lose.
+Episode 833: loss is 1.236, rewards is -8.352
+At the end, own_hp 60: opp_hp 0. you win.
+Episode 834: loss is 0.792, rewards is 3.026
+At the end, own_hp 21: opp_hp 119. you lose.
+Episode 835: loss is 2.944, rewards is -7.017
+At the end, own_hp 254: opp_hp 7. you win.
+Episode 836: loss is 1.029, rewards is 21.118
+At the end, own_hp 0: opp_hp 285. you lose.
+Episode 837: loss is 0.974, rewards is -17.189
+At the end, own_hp 83: opp_hp 0. you win.
+Episode 838: loss is 1.026, rewards is 7.491
+At the end, own_hp 170: opp_hp 35. you win.
+Episode 839: loss is 0.682, rewards is 11.315
+At the end, own_hp 153: opp_hp 0. you win.
+Episode 840: loss is 2.272, rewards is 10.046
+At the end, own_hp 0: opp_hp 46. you lose.
+At the end, own_hp 0: opp_hp 211. you lose.
+At the end, own_hp 0: opp_hp 34. you lose.
+-----------------------------------------
+Evaluate for episode 840 total rewards is -7.363
+-----------------------------------------
+At the end, own_hp 0: opp_hp 255. you lose.
+Episode 841: loss is 1.349, rewards is -18.44
+At the end, own_hp 107: opp_hp 0. you win.
+Episode 842: loss is 2.616, rewards is 7.099
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 843: loss is 0.765, rewards is -6.54
+At the end, own_hp 235: opp_hp 0. you win.
+Episode 844: loss is 0.871, rewards is 16.962
+At the end, own_hp 0: opp_hp 147. you lose.
+Episode 845: loss is 1.691, rewards is -9.039
+At the end, own_hp 0: opp_hp 100. you lose.
+Episode 846: loss is 0.525, rewards is -10.179
+At the end, own_hp 288: opp_hp 0. you win.
+Episode 847: loss is 0.811, rewards is 24.45
+At the end, own_hp 0: opp_hp 121. you lose.
+Episode 848: loss is 0.903, rewards is -4.849
+At the end, own_hp 0: opp_hp 190. you lose.
+Episode 849: loss is 1.978, rewards is -8.294
+At the end, own_hp 296: opp_hp 43. you win.
+Episode 850: loss is 0.89, rewards is 21.923
+At the end, own_hp 0: opp_hp 160. you lose.
+At the end, own_hp 0: opp_hp 103. you lose.
+At the end, own_hp 174: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 850 total rewards is -1.543
+-----------------------------------------
+At the end, own_hp 125: opp_hp 9. you win.
+Episode 851: loss is 1.6, rewards is 11.708
+At the end, own_hp 101: opp_hp 0. you win.
+Episode 852: loss is 2.82, rewards is 6.86
+At the end, own_hp 215: opp_hp 0. you win.
+Episode 853: loss is 0.593, rewards is 19.342
+At the end, own_hp 203: opp_hp 52. you win.
+Episode 854: loss is 1.105, rewards is 13.317
+At the end, own_hp 0: opp_hp 202. you lose.
+Episode 855: loss is 1.374, rewards is -13.477
+At the end, own_hp 62: opp_hp 52. you win.
+Episode 856: loss is 1.257, rewards is 0.844
+At the end, own_hp 187: opp_hp 13. you win.
+Episode 857: loss is 3.253, rewards is 14.895
+At the end, own_hp 305: opp_hp 0. you win.
+Episode 858: loss is 2.466, rewards is 25.453
+At the end, own_hp 53: opp_hp 33. you win.
+Episode 859: loss is 0.525, rewards is -0.426
+At the end, own_hp 51: opp_hp 60. you lose.
+Episode 860: loss is 0.579, rewards is -4.276
+At the end, own_hp 286: opp_hp 21. you win.
+At the end, own_hp 0: opp_hp 150. you lose.
+At the end, own_hp 0: opp_hp 103. you lose.
+-----------------------------------------
+Evaluate for episode 860 total rewards is 4.100
+-----------------------------------------
+At the end, own_hp 0: opp_hp 170. you lose.
+Episode 861: loss is 1.172, rewards is -12.226
+At the end, own_hp 0: opp_hp 255. you lose.
+Episode 862: loss is 1.173, rewards is -16.15
+At the end, own_hp 281: opp_hp 24. you win.
+Episode 863: loss is 0.961, rewards is 20.517
+At the end, own_hp 227: opp_hp 49. you win.
+Episode 864: loss is 1.069, rewards is 14.992
+At the end, own_hp 0: opp_hp 139. you lose.
+Episode 865: loss is 1.001, rewards is -6.553
+At the end, own_hp 0: opp_hp 222. you lose.
+Episode 866: loss is 1.355, rewards is -21.627
+At the end, own_hp 63: opp_hp 92. you lose.
+Episode 867: loss is 0.666, rewards is -2.2
+At the end, own_hp 314: opp_hp 59. you win.
+Episode 868: loss is 8.624, rewards is 22.365
+At the end, own_hp 158: opp_hp 11. you win.
+Episode 869: loss is 0.419, rewards is 12.726
+At the end, own_hp 0: opp_hp 208. you lose.
+Episode 870: loss is 1.164, rewards is -11.025
+At the end, own_hp 113: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 160. you lose.
+At the end, own_hp 0: opp_hp 281. you lose.
+-----------------------------------------
+Evaluate for episode 870 total rewards is -8.440
+-----------------------------------------
+At the end, own_hp 0: opp_hp 165. you lose.
+Episode 871: loss is 1.337, rewards is -14.967
+At the end, own_hp 190: opp_hp 58. you win.
+Episode 872: loss is 1.082, rewards is 11.762
+At the end, own_hp 192: opp_hp 41. you win.
+Episode 873: loss is 1.243, rewards is 11.9
+At the end, own_hp 195: opp_hp 0. you win.
+Episode 874: loss is 1.073, rewards is 13.98
+At the end, own_hp 201: opp_hp 0. you win.
+Episode 875: loss is 2.767, rewards is 15.602
+At the end, own_hp 0: opp_hp 135. you lose.
+Episode 876: loss is 1.486, rewards is -11.468
+At the end, own_hp 35: opp_hp 49. you lose.
+Episode 877: loss is 2.034, rewards is -0.322
+At the end, own_hp 190: opp_hp 61. you win.
+Episode 878: loss is 0.74, rewards is 13.267
+At the end, own_hp 178: opp_hp 142. you win.
+Episode 879: loss is 0.339, rewards is 6.411
+At the end, own_hp 191: opp_hp 65. you win.
+Episode 880: loss is 0.817, rewards is 13.999
+At the end, own_hp 262: opp_hp 56. you win.
+At the end, own_hp 315: opp_hp 8. you win.
+At the end, own_hp 0: opp_hp 90. you lose.
+-----------------------------------------
+Evaluate for episode 880 total rewards is 15.060
+-----------------------------------------
+At the end, own_hp 28: opp_hp 0. you win.
+Episode 881: loss is 0.952, rewards is 0.967
+At the end, own_hp 153: opp_hp 0. you win.
+Episode 882: loss is 1.198, rewards is 8.246
+At the end, own_hp 237: opp_hp 0. you win.
+Episode 883: loss is 0.655, rewards is 20.162
+At the end, own_hp 313: opp_hp 82. you win.
+Episode 884: loss is 1.827, rewards is 16.96
+At the end, own_hp 0: opp_hp 55. you lose.
+Episode 885: loss is 1.067, rewards is 0.663
+At the end, own_hp 0: opp_hp 170. you lose.
+Episode 886: loss is 1.972, rewards is -17.514
+At the end, own_hp 29: opp_hp 5. you win.
+Episode 887: loss is 3.177, rewards is -0.812
+At the end, own_hp 0: opp_hp 69. you lose.
+Episode 888: loss is 1.176, rewards is -7.112
+At the end, own_hp 284: opp_hp 17. you win.
+Episode 889: loss is 0.999, rewards is 24.457
+At the end, own_hp 234: opp_hp 21. you win.
+Episode 890: loss is 0.85, rewards is 17.234
+At the end, own_hp 230: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 68. you lose.
+At the end, own_hp 0: opp_hp 250. you lose.
+-----------------------------------------
+Evaluate for episode 890 total rewards is -2.070
+-----------------------------------------
+At the end, own_hp 0: opp_hp 110. you lose.
+Episode 891: loss is 0.868, rewards is -1.022
+At the end, own_hp 290: opp_hp 18. you win.
+Episode 892: loss is 3.139, rewards is 21.825
+At the end, own_hp 0: opp_hp 109. you lose.
+Episode 893: loss is 1.864, rewards is -10.191
+At the end, own_hp 0: opp_hp 233. you lose.
+Episode 894: loss is 5.838, rewards is -12.31
+At the end, own_hp 74: opp_hp 0. you win.
+Episode 895: loss is 0.839, rewards is 5.257
+At the end, own_hp 53: opp_hp 121. you lose.
+Episode 896: loss is 3.399, rewards is -5.143
+At the end, own_hp 240: opp_hp 0. you win.
+Episode 897: loss is 1.575, rewards is 20.254
+At the end, own_hp 0: opp_hp 93. you lose.
+Episode 898: loss is 0.334, rewards is -4.907
+At the end, own_hp 235: opp_hp 0. you win.
+Episode 899: loss is 2.616, rewards is 19.842
+At the end, own_hp 0: opp_hp 173. you lose.
+Episode 900: loss is 0.68, rewards is -11.358
+At the end, own_hp 207: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 217. you lose.
+At the end, own_hp 0: opp_hp 61. you lose.
+-----------------------------------------
+Evaluate for episode 900 total rewards is 3.550
+-----------------------------------------
+At the end, own_hp 212: opp_hp 50. you win.
+Episode 901: loss is 2.43, rewards is 13.718
+At the end, own_hp 253: opp_hp 0. you win.
+Episode 902: loss is 0.789, rewards is 20.657
+At the end, own_hp 199: opp_hp 30. you win.
+Episode 903: loss is 1.97, rewards is 14.147
+At the end, own_hp 242: opp_hp 0. you win.
+Episode 904: loss is 1.113, rewards is 21.103
+At the end, own_hp 0: opp_hp 76. you lose.
+Episode 905: loss is 1.763, rewards is -2.033
+At the end, own_hp 183: opp_hp 46. you win.
+Episode 906: loss is 6.426, rewards is 12.237
+At the end, own_hp 199: opp_hp 57. you win.
+Episode 907: loss is 0.538, rewards is 13.405
+At the end, own_hp 214: opp_hp 0. you win.
+Episode 908: loss is 1.394, rewards is 19.667
+At the end, own_hp 0: opp_hp 195. you lose.
+Episode 909: loss is 0.929, rewards is -9.807
+At the end, own_hp 0: opp_hp 270. you lose.
+Episode 910: loss is 2.79, rewards is -25.183
+At the end, own_hp 0: opp_hp 188. you lose.
+At the end, own_hp 290: opp_hp 0. you win.
+At the end, own_hp 150: opp_hp 7. you win.
+-----------------------------------------
+Evaluate for episode 910 total rewards is 8.240
+-----------------------------------------
+At the end, own_hp 278: opp_hp 48. you win.
+Episode 911: loss is 4.275, rewards is 19.019
+At the end, own_hp 242: opp_hp 0. you win.
+Episode 912: loss is 1.123, rewards is 18.379
+At the end, own_hp 189: opp_hp 10. you win.
+Episode 913: loss is 3.908, rewards is 12.939
+At the end, own_hp 270: opp_hp 0. you win.
+Episode 914: loss is 3.499, rewards is 22.907
+At the end, own_hp 0: opp_hp 163. you lose.
+Episode 915: loss is 0.948, rewards is -10.168
+At the end, own_hp 7: opp_hp 0. you win.
+Episode 916: loss is 2.268, rewards is 2.176
+At the end, own_hp 0: opp_hp 233. you lose.
+Episode 917: loss is 1.295, rewards is -16.889
+At the end, own_hp 233: opp_hp 0. you win.
+Episode 918: loss is 2.401, rewards is 20.446
+At the end, own_hp 0: opp_hp 150. you lose.
+Episode 919: loss is 1.633, rewards is -10.506
+At the end, own_hp 267: opp_hp 83. you win.
+Episode 920: loss is 0.679, rewards is 15.908
+At the end, own_hp 87: opp_hp 0. you win.
+At the end, own_hp 4: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 133. you lose.
+-----------------------------------------
+Evaluate for episode 920 total rewards is -1.393
+-----------------------------------------
+At the end, own_hp 185: opp_hp 0. you win.
+Episode 921: loss is 1.95, rewards is 13.8
+At the end, own_hp 0: opp_hp 202. you lose.
+Episode 922: loss is 2.026, rewards is -13.051
+At the end, own_hp 284: opp_hp 0. you win.
+Episode 923: loss is 1.837, rewards is 26.147
+At the end, own_hp 205: opp_hp 72. you win.
+Episode 924: loss is 1.836, rewards is 11.08
+At the end, own_hp 0: opp_hp 190. you lose.
+Episode 925: loss is 1.069, rewards is -16.935
+At the end, own_hp 268: opp_hp 0. you win.
+Episode 926: loss is 1.173, rewards is 21.145
+At the end, own_hp 0: opp_hp 140. you lose.
+Episode 927: loss is 1.233, rewards is -7.815
+At the end, own_hp 268: opp_hp 44. you win.
+Episode 928: loss is 1.745, rewards is 19.028
+At the end, own_hp 155: opp_hp 0. you win.
+Episode 929: loss is 1.177, rewards is 12.831
+At the end, own_hp 253: opp_hp 47. you win.
+Episode 930: loss is 2.125, rewards is 16.006
+At the end, own_hp 116: opp_hp 2. you win.
+At the end, own_hp 295: opp_hp 0. you win.
+At the end, own_hp 200: opp_hp 69. you win.
+-----------------------------------------
+Evaluate for episode 930 total rewards is 17.740
+-----------------------------------------
+At the end, own_hp 315: opp_hp 0. you win.
+Episode 931: loss is 2.983, rewards is 24.771
+At the end, own_hp 0: opp_hp 103. you lose.
+Episode 932: loss is 2.248, rewards is -14.524
+At the end, own_hp 0: opp_hp 188. you lose.
+Episode 933: loss is 0.978, rewards is -15.375
+At the end, own_hp 242: opp_hp 2. you win.
+Episode 934: loss is 1.44, rewards is 19.351
+At the end, own_hp 0: opp_hp 155. you lose.
+Episode 935: loss is 1.017, rewards is -10.619
+At the end, own_hp 0: opp_hp 133. you lose.
+Episode 936: loss is 0.853, rewards is -7.047
+At the end, own_hp 270: opp_hp 73. you win.
+Episode 937: loss is 1.67, rewards is 17.332
+At the end, own_hp 0: opp_hp 30. you lose.
+Episode 938: loss is 0.915, rewards is -4.356
+At the end, own_hp 0: opp_hp 153. you lose.
+Episode 939: loss is 2.128, rewards is -12.492
+At the end, own_hp 217: opp_hp 42. you win.
+Episode 940: loss is 2.592, rewards is 14.421
+At the end, own_hp 0: opp_hp 69. you lose.
+At the end, own_hp 0: opp_hp 200. you lose.
+At the end, own_hp 243: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 940 total rewards is -1.183
+-----------------------------------------
+At the end, own_hp 283: opp_hp 0. you win.
+Episode 941: loss is 3.565, rewards is 23.004
+At the end, own_hp 108: opp_hp 0. you win.
+Episode 942: loss is 0.504, rewards is 9.568
+At the end, own_hp 0: opp_hp 91. you lose.
+Episode 943: loss is 1.437, rewards is -7.528
+At the end, own_hp 0: opp_hp 168. you lose.
+Episode 944: loss is 3.204, rewards is -16.21
+At the end, own_hp 49: opp_hp 0. you win.
+Episode 945: loss is 0.994, rewards is 0.037
+At the end, own_hp 191: opp_hp 0. you win.
+Episode 946: loss is 1.061, rewards is 14.942
+At the end, own_hp 146: opp_hp 59. you win.
+Episode 947: loss is 0.582, rewards is 7.491
+At the end, own_hp 0: opp_hp 105. you lose.
+Episode 948: loss is 1.159, rewards is -9.672
+At the end, own_hp 0: opp_hp 112. you lose.
+Episode 949: loss is 2.103, rewards is -11.077
+At the end, own_hp 0: opp_hp 7. you lose.
+Episode 950: loss is 0.939, rewards is 1.853
+At the end, own_hp 261: opp_hp 0. you win.
+At the end, own_hp 259: opp_hp 0. you win.
+At the end, own_hp 204: opp_hp 43. you win.
+-----------------------------------------
+Evaluate for episode 950 total rewards is 21.453
+-----------------------------------------
+At the end, own_hp 0: opp_hp 41. you lose.
+Episode 951: loss is 2.998, rewards is 4.469
+At the end, own_hp 307: opp_hp 32. you win.
+Episode 952: loss is 0.411, rewards is 23.456
+At the end, own_hp 0: opp_hp 49. you lose.
+Episode 953: loss is 2.645, rewards is -2.026
+At the end, own_hp 0: opp_hp 128. you lose.
+Episode 954: loss is 0.665, rewards is -13.521
+At the end, own_hp 200: opp_hp 76. you win.
+Episode 955: loss is 0.81, rewards is 9.62
+At the end, own_hp 131: opp_hp 0. you win.
+Episode 956: loss is 1.325, rewards is 9.572
+At the end, own_hp 352: opp_hp 0. you win.
+Episode 957: loss is 1.004, rewards is 28.951
+At the end, own_hp 0: opp_hp 84. you lose.
+Episode 958: loss is 0.906, rewards is -0.451
+At the end, own_hp 239: opp_hp 22. you win.
+Episode 959: loss is 1.901, rewards is 18.703
+At the end, own_hp 123: opp_hp 13. you win.
+Episode 960: loss is 3.72, rewards is 8.083
+At the end, own_hp 246: opp_hp 0. you win.
+At the end, own_hp 188: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 48. you lose.
+-----------------------------------------
+Evaluate for episode 960 total rewards is 13.370
+-----------------------------------------
+At the end, own_hp 198: opp_hp 145. you win.
+Episode 961: loss is 0.651, rewards is 4.332
+At the end, own_hp 0: opp_hp 177. you lose.
+Episode 962: loss is 1.79, rewards is -11.949
+At the end, own_hp 250: opp_hp 21. you win.
+Episode 963: loss is 2.709, rewards is 21.431
+At the end, own_hp 210: opp_hp 0. you win.
+Episode 964: loss is 1.633, rewards is 17.864
+At the end, own_hp 0: opp_hp 129. you lose.
+Episode 965: loss is 0.367, rewards is -8.968
+At the end, own_hp 210: opp_hp 0. you win.
+Episode 966: loss is 1.074, rewards is 15.772
+At the end, own_hp 0: opp_hp 204. you lose.
+Episode 967: loss is 0.654, rewards is -7.498
+At the end, own_hp 211: opp_hp 25. you win.
+Episode 968: loss is 1.82, rewards is 16.359
+At the end, own_hp 0: opp_hp 230. you lose.
+Episode 969: loss is 5.508, rewards is -13.671
+At the end, own_hp 213: opp_hp 11. you win.
+Episode 970: loss is 1.182, rewards is 16.548
+At the end, own_hp 228: opp_hp 0. you win.
+At the end, own_hp 13: opp_hp 0. you win.
+At the end, own_hp 205: opp_hp 0. you win.
+-----------------------------------------
+Evaluate for episode 970 total rewards is 13.923
+-----------------------------------------
+At the end, own_hp 8: opp_hp 0. you win.
+Episode 971: loss is 0.928, rewards is -1.782
+At the end, own_hp 0: opp_hp 78. you lose.
+Episode 972: loss is 0.956, rewards is -8.377
+At the end, own_hp 0: opp_hp 63. you lose.
+Episode 973: loss is 2.906, rewards is -4.536
+At the end, own_hp 167: opp_hp 0. you win.
+Episode 974: loss is 0.213, rewards is 15.6
+At the end, own_hp 234: opp_hp 0. you win.
+Episode 975: loss is 1.761, rewards is 21.82
+At the end, own_hp 0: opp_hp 216. you lose.
+Episode 976: loss is 2.231, rewards is -17.988
+At the end, own_hp 197: opp_hp 0. you win.
+Episode 977: loss is 0.664, rewards is 12.501
+At the end, own_hp 162: opp_hp 0. you win.
+Episode 978: loss is 0.711, rewards is 14.638
+At the end, own_hp 230: opp_hp 0. you win.
+Episode 979: loss is 3.676, rewards is 20.389
+At the end, own_hp 318: opp_hp 0. you win.
+Episode 980: loss is 5.202, rewards is 26.552
+At the end, own_hp 326: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 240. you lose.
+At the end, own_hp 0: opp_hp 180. you lose.
+-----------------------------------------
+Evaluate for episode 980 total rewards is 3.700
+-----------------------------------------
+At the end, own_hp 173: opp_hp 86. you win.
+Episode 981: loss is 0.637, rewards is 6.692
+At the end, own_hp 260: opp_hp 0. you win.
+Episode 982: loss is 1.311, rewards is 20.534
+At the end, own_hp 241: opp_hp 0. you win.
+Episode 983: loss is 1.582, rewards is 19.179
+At the end, own_hp 0: opp_hp 58. you lose.
+Episode 984: loss is 4.505, rewards is -4.201
+At the end, own_hp 0: opp_hp 152. you lose.
+Episode 985: loss is 1.523, rewards is -9.459
+At the end, own_hp 131: opp_hp 0. you win.
+Episode 986: loss is 2.279, rewards is 8.748
+At the end, own_hp 0: opp_hp 32. you lose.
+Episode 987: loss is 0.703, rewards is -4.983
+At the end, own_hp 260: opp_hp 2. you win.
+Episode 988: loss is 0.834, rewards is 22.064
+At the end, own_hp 230: opp_hp 120. you win.
+Episode 989: loss is 1.574, rewards is 10.059
+At the end, own_hp 0: opp_hp 85. you lose.
+Episode 990: loss is 1.118, rewards is -7.732
+At the end, own_hp 0: opp_hp 3. you lose.
+At the end, own_hp 0: opp_hp 213. you lose.
+At the end, own_hp 0: opp_hp 85. you lose.
+-----------------------------------------
+Evaluate for episode 990 total rewards is -9.193
+-----------------------------------------
+At the end, own_hp 0: opp_hp 28. you lose.
+Episode 991: loss is 0.849, rewards is -4.891
+At the end, own_hp 0: opp_hp 110. you lose.
+Episode 992: loss is 0.912, rewards is -9.392
+At the end, own_hp 99: opp_hp 0. you win.
+Episode 993: loss is 2.036, rewards is 9.47
+At the end, own_hp 221: opp_hp 0. you win.
+Episode 994: loss is 0.933, rewards is 17.637
+At the end, own_hp 0: opp_hp 8. you lose.
+Episode 995: loss is 3.468, rewards is 7.796
+At the end, own_hp 0: opp_hp 140. you lose.
+Episode 996: loss is 0.992, rewards is -7.069
+At the end, own_hp 0: opp_hp 98. you lose.
+Episode 997: loss is 0.453, rewards is 1.721
+At the end, own_hp 323: opp_hp 93. you win.
+Episode 998: loss is 0.982, rewards is 18.521
+At the end, own_hp 290: opp_hp 0. you win.
+Episode 999: loss is 1.201, rewards is 21.808
+training end

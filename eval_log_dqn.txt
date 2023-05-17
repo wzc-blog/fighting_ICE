@@ -1,0 +1,105 @@
+Load file  ./ckpt/policy_net_backup/policy_net_1000.ckpt
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 0: opp_hp 68. you lose.
+At the end, own_hp 0: opp_hp 8. you lose.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 188: opp_hp 0. you win.
+At the end, own_hp 366: opp_hp 0. you win.
+At the end, own_hp 288: opp_hp 0. you win.
+At the end, own_hp 223: opp_hp 0. you win.
+At the end, own_hp 93: opp_hp 0. you win.
+At the end, own_hp 243: opp_hp 0. you win.
+At the end, own_hp 24: opp_hp 0. you win.
+At the end, own_hp 51: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 86. you lose.
+At the end, own_hp 320: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 275: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 10. you lose.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 0: opp_hp 47. you lose.
+At the end, own_hp 127: opp_hp 0. you win.
+At the end, own_hp 14: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 164: opp_hp 0. you win.
+At the end, own_hp 305: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 9. you lose.
+At the end, own_hp 100: opp_hp 0. you win.
+At the end, own_hp 277: opp_hp 0. you win.
+At the end, own_hp 178: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 0: opp_hp 132. you lose.
+At the end, own_hp 120: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 36: opp_hp 0. you win.
+At the end, own_hp 285: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 365: opp_hp 0. you win.
+At the end, own_hp 211: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 228: opp_hp 1. you win.
+At the end, own_hp 249: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 307: opp_hp 0. you win.
+At the end, own_hp 13: opp_hp 0. you win.
+At the end, own_hp 283: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 152. you lose.
+At the end, own_hp 283: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 128: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 35: opp_hp 0. you win.
+At the end, own_hp 260: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 32: opp_hp 0. you win.
+At the end, own_hp 47: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 157. you lose.
+At the end, own_hp 327: opp_hp 0. you win.
+At the end, own_hp 300: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 321: opp_hp 0. you win.
+At the end, own_hp 117: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 189: opp_hp 0. you win.
+At the end, own_hp 236: opp_hp 0. you win.
+At the end, own_hp 302: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 21. you lose.
+At the end, own_hp 170: opp_hp 0. you win.
+At the end, own_hp 72: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+can't receive signals within 60 seconds. let's terminate gym env.
+-----------------------------------------
+Evaluate result is 8.085, checkpoint file in ./ckpt/policy_net_backup/policy_net_1000.ckpt
+-----------------------------------------
+eval end

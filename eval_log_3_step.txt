@@ -1,0 +1,105 @@
+Load file  ./ckpt/policy_net/policy_net_1000.ckpt
+At the end, own_hp 250: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 0: opp_hp 80. you lose.
+At the end, own_hp 50: opp_hp 24. you win.
+At the end, own_hp 0: opp_hp 82. you lose.
+At the end, own_hp 298: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 60. you lose.
+At the end, own_hp 63: opp_hp 0. you win.
+At the end, own_hp 230: opp_hp 0. you win.
+At the end, own_hp 200: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 130. you lose.
+At the end, own_hp 0: opp_hp 130. you lose.
+At the end, own_hp 207: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 235. you lose.
+At the end, own_hp 207: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 127. you lose.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 285: opp_hp 35. you win.
+At the end, own_hp 325: opp_hp 0. you win.
+At the end, own_hp 317: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 157. you lose.
+At the end, own_hp 350: opp_hp 0. you win.
+At the end, own_hp 130: opp_hp 0. you win.
+At the end, own_hp 250: opp_hp 0. you win.
+At the end, own_hp 303: opp_hp 0. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 268: opp_hp 0. you win.
+At the end, own_hp 305: opp_hp 0. you win.
+At the end, own_hp 312: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 42. you lose.
+At the end, own_hp 0: opp_hp 145. you lose.
+At the end, own_hp 0: opp_hp 25. you lose.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 375: opp_hp 0. you win.
+At the end, own_hp 270: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 225. you lose.
+At the end, own_hp 0: opp_hp 125. you lose.
+At the end, own_hp 37: opp_hp 0. you win.
+At the end, own_hp 242: opp_hp 0. you win.
+At the end, own_hp 113: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 72. you lose.
+At the end, own_hp 0: opp_hp 110. you lose.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 315: opp_hp 0. you win.
+At the end, own_hp 305: opp_hp 0. you win.
+At the end, own_hp 35: opp_hp 7. you win.
+At the end, own_hp 230: opp_hp 64. you win.
+At the end, own_hp 335: opp_hp 0. you win.
+At the end, own_hp 207: opp_hp 0. you win.
+At the end, own_hp 370: opp_hp 0. you win.
+At the end, own_hp 52: opp_hp 0. you win.
+At the end, own_hp 355: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 157. you lose.
+At the end, own_hp 0: opp_hp 122. you lose.
+At the end, own_hp 198: opp_hp 0. you win.
+At the end, own_hp 275: opp_hp 0. you win.
+At the end, own_hp 305: opp_hp 0. you win.
+At the end, own_hp 61: opp_hp 137. you lose.
+At the end, own_hp 178: opp_hp 30. you win.
+At the end, own_hp 109: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 245. you lose.
+At the end, own_hp 305: opp_hp 130. you win.
+can't receive signals within 60 seconds. let's terminate gym env.
+At the end, own_hp 0: opp_hp 132. you lose.
+At the end, own_hp 390: opp_hp 0. you win.
+At the end, own_hp 268: opp_hp 0. you win.
+At the end, own_hp 270: opp_hp 0. you win.
+At the end, own_hp 365: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 245. you lose.
+At the end, own_hp 270: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 122. you lose.
+At the end, own_hp 310: opp_hp 0. you win.
+At the end, own_hp 235: opp_hp 0. you win.
+At the end, own_hp 308: opp_hp 0. you win.
+At the end, own_hp 253: opp_hp 0. you win.
+At the end, own_hp 270: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 80. you lose.
+At the end, own_hp 81: opp_hp 0. you win.
+At the end, own_hp 329: opp_hp 0. you win.
+At the end, own_hp 280: opp_hp 47. you win.
+At the end, own_hp 325: opp_hp 0. you win.
+At the end, own_hp 200: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 160. you lose.
+At the end, own_hp 88: opp_hp 90. you lose.
+At the end, own_hp 240: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 137. you lose.
+At the end, own_hp 0: opp_hp 205. you lose.
+At the end, own_hp 64: opp_hp 0. you win.
+At the end, own_hp 333: opp_hp 0. you win.
+At the end, own_hp 263: opp_hp 0. you win.
+At the end, own_hp 17: opp_hp 0. you win.
+At the end, own_hp 19: opp_hp 0. you win.
+At the end, own_hp 158: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 222. you lose.
+At the end, own_hp 0: opp_hp 165. you lose.
+At the end, own_hp 185: opp_hp 0. you win.
+At the end, own_hp 157: opp_hp 0. you win.
+At the end, own_hp 0: opp_hp 34. you lose.
+At the end, own_hp 0: opp_hp 170. you lose.
+At the end, own_hp 0: opp_hp 215. you lose.
+-----------------------------------------
+Evaluate result is 10.350, checkpoint file in ./ckpt/policy_net/policy_net_1000.ckpt
+-----------------------------------------
+eval end

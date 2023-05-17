@@ -1,0 +1,9 @@
+gym==0.21.0
+matplotlib==3.6.2
+mindspore==1.8.0
+mindspore_rl==0.5.0
+numpy==1.19.5
+port_for==0.6.3
+py4j==0.10.9.5
+setuptools==65.5.1
+setuptools==45.2.0
